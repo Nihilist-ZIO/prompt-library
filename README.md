@@ -22,7 +22,7 @@
 克隆下来，三种用法，按需要挑一种。
 
 ```bash
-git clone <本仓库地址>
+git clone https://github.com/Nihilist-ZIO/prompt-library.git
 cd prompt-library
 ```
 
