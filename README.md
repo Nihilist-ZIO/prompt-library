@@ -1,5 +1,9 @@
 # 提示词库 · Prompt Library
 
+![prompts](https://img.shields.io/badge/prompts-95-orange)
+![content](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey)
+![code](https://img.shields.io/badge/code-MIT-blue)
+
 一套 AI 图像 / 视频生成提示词的开源集合。按 **人物 / 场景 / 构图 / 特效 / 周边 / 艺术** 六大类组织，正文原样保留，不翻译、不总结、不改写。
 
 **共 95 条。**
