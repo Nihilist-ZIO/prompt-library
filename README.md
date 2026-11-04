@@ -110,7 +110,8 @@ python -X utf8 build_xlsx.py
 | 提示词内容 | `*.md`、`*.xlsx` | **CC BY 4.0** | 随便用、随便改、可以商用，**署名即可** |
 | 代码 | `*.py` | **MIT** | 随便用，保留版权声明即可 |
 
-- 完整法律文本：[`LICENSE-CONTENT`](LICENSE-CONTENT)（CC BY 4.0）、[`LICENSE`](LICENSE)（MIT）
+- 完整法律文本：[`LICENSE-CONTENT`](LICENSE-CONTENT)（CC BY 4.0，适用于 `*.md` / `*.xlsx`）、[`LICENSE`](LICENSE)（MIT，**仅**适用于 `build_xlsx.py` 与 `archive_batch.py`）
+- 注：`LICENSE` 保持 MIT 标准原文未加任何附注，以便 GitHub 正确识别协议；适用范围以上表为准。
 - 署名方式：注明「作者：阿金（Nihilist-ZIO）」，并附上本仓库链接即可，不必另行申请授权。
 - 说明：单条提示词的可版权性本身存在争议（过短或纯功能性的描述可能不构成作品）。这里的协议主要作用是**表明意图、约束搬运、让使用者敢用**，不是一纸能打赢官司的武器。
 
