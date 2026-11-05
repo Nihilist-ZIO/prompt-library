@@ -56,7 +56,6 @@ prompt-library/
 ├── cat_艺术.md            42 条
 ├── 配色库.md              跨项目配色参考
 ├── 技能联动组合技.md       组合用法示例
-├── API接入配置卡.md        API 接入记录
 ├── 归档日志.md            增改记录与维护纪律
 ├── build_xlsx.py          从总表锚点重建 Excel
 ├── archive_batch.py       批量入库脚本（含查重）
