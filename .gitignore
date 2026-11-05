@@ -3,3 +3,12 @@ __pycache__/
 .DS_Store
 Thumbs.db
 ~$*
+
+# ---- 凭据类文件一律不进仓库 ----
+.env
+.env.*
+*.key
+*.pem
+secrets*
+*_secret*
+local_config*
