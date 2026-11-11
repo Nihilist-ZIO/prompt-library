@@ -12,3 +12,7 @@ Thumbs.db
 secrets*
 *_secret*
 local_config*
+
+# ---- 归档批次源文件不进仓库（见 归档日志.md 五、同步到 GitHub）----
+_batches/
+_new_*.py
