@@ -1,0 +1,42 @@
+2024: A Year of Breakthroughs
+This year marked an explosion of innovation in AI. From language and imagery to video and audio, new technologies emerged and thrived in open-source communities. TensorArt stood at the forefront, evolving alongside our creators to witness the rise of AI artistry.
+Prompt of the Year: Hair
+Surprisingly, " Hair " became the most-used prompt of 2024, with 260 million uses. On reflection, it makes sense—hair is essential in capturing the intricacies of portraiture. Other frequently used words included eyes ( 142M ), body ( 130M ), face ( 105M ), and skin ( 79M ).
+Niche terms favored by experienced users—like detailed ( 132M ), score_8_up ( 45M ), and 8k ( 25M )—also dominated this year, but saw a decline in usage by mid-year. With the advent of foundational models like Flux , SD3.5 , and HunYuanDit , natural language prompts became intuitive and multilingual, removing the need for complex or negative prompts and lowering the barriers to entry for creators worldwide.
+Community Achievements
+Every day, hundreds of new models are uploaded to TensorArt, fueling creativity among tensorians. This year alone:
+Over 400,000 models are now available.
+300,000 images generated daily, with 35,000 shared via posts, reaching 1 million viewers and earning 15,000 likes and shares.
+This year, we introduced AI Tool and ComfyFlow , welcoming a new wave of creators. AI Tool simplified workflows for beginners and enabled integration into industry applications, with usage distributed across diverse fields.
+In November, TensorArt celebrated its 3 millionth user , solidifying its position as one of the most active platforms in the AI space after just 18 months. Among our loyal community are members like Goofy, MazVer, AstroBruh and Nuke , whose dedication spans back to our earliest days.
+A Global Creative Exchange
+AI knows no borders. Creators from around the world use TensorArt to share and connect through art. From the icy landscapes of Finland ( 1.6% ) to the sunny shores of Australia ( 8.7% ), from Pakistan ( 0.075% ) to Cuba ( 0.003% ), tensorians transcend language and geography.
+Generationally, 75% of our users are Gen Z or Alpha , with the remaining 9% belonging to Gen X and Baby Boomers . “It’s never too late to learn” is a motto they live by.
+Gender representation also continues to evolve, with women now accounting for 20% of user base.
+TensorArt is breaking barriers—technical, social, and economic. With no need for costly GPUs or advanced knowledge of parameters, tools like Remix make creating stunning artwork as simple as a click.
+The Way Tensorians Create
+Most active hours: Weeknights, 7 PM–12 AM, when TensorArt serves as the perfect way to unwind.
+Platform preferences: 70% of users favor the web version, but we’ve prioritized app updates for Q1 2025 to close this gap.
+Image ratios: Female characters outnumber male ones 9:1 .
+67% are realistic, 28% are anime, and 3% are furry.
+Favorite colors order: Black , white , blue , red , green , yellow , and gray .
+A Growing Creator Economy
+In 2024, Creator Studio empowered users to monitor their model earnings. Membership in TenStar Fund tripled , and average creator income grew by 1.5x compared to last year.
+In 2025, TensorArt will continue to prioritize the balance between the creator economy and market development. TA will place greater emphasis on encouraging creators of AI tools and workflows to provide more efficient and convenient practical tools for various specific application scenarios. To this end, TA will be launching the Pro Segment to further reward creators, offering them higher revenue coefficients and profit sharing from Pro user subscriptions.
+2024 Milestones
+This year, TensorArt hosted:
+26 site events and 78 social media campaigns.
+First AI Tool partnership with Snapchat , pioneering AI-driven filters, which were featured as a case study by Snapchat.
+Launch of “ Realtime Generate ” and “ Talk to Model, ” revolutionizing how creators interact with AI.
+Collaboration with Austrian tattoo artist Fani to host a tattoo design contest , where winners received free tattoos based on their designs.
+TensorArt is committed to advancing the open-source ecosystem and has made significant strides in multiple areas:
+For newly released base models, TA ensures same-day online running and next-day support for online training . To allow Tensorians to experience the latest models, limited-time discounts are offered.
+To boost creative engagement with new base models, TA hosts high-reward events for each open-source base model, incentivizing Tensorians across various dimensions such as Models, AI tools, and Posts.
+Beyond image generation, TA actively supports the open-source video model ecosystem , enabling rapid integration of CogVideo, Mochi, and HunYuanVideo into ComfyFlow and Creation. In 2025, TA plans to expand online video functionality further.
+Moving from " observer " to " participant ," TA has launched TensorArt Studios , with the release of the SD3.5M distilled version, Turbo . In 2025, Studios will unveil TensorArt’s self-developed base model.
+TensorArt continuously funds talented creators and labs, providing financial and computational resources to support model innovation. In 2025, Illustrious will exclusively collaborate with TensorArt to release its latest version .
+Looking Forward
+From ChatGPT’s debut in 2022 to Sora’s groundbreaking in 2024, AI continues to redefine innovation across industries. But progress isn’t driven by one company—it thrives in the collective power of open-source ecosystems, inspiring collaboration and creativity.
+AI is a fertile ground, filled with the dreams and ambitions of visionaries worldwide. On this soil, we’ve planted the seed of TensorArt. Together, we will nurture it and watch it grow.
+2024 Annual Rankings
+Each month of 2024 brought unforgettable moments to TensorArt. Based on events, likes, runs and monthly trends, we’ve curated the 2024 Annual Rankings. Click to explore !

@@ -1,0 +1,39 @@
+Camera Shot Techniques
+Camera Shot Techniques are essential methods for conveying mood, information, and emotion in images by adjusting the distance and angle between the camera and the subject. For effective AI image generation, it is important to place these techniques at the beginning of your prompts.
+Here is a comprehensive guide to major shot techniques, organized by distance and angle.
+1. Distance Shots: Classification by Distance from Subject
+Extreme Wide Shot
+Shows a very wide view of the background with the subject placed small in the frame, creating a grand and luxurious atmosphere.
+Wide Shot / Full Shot
+A composition where the subject's full body and background are balanced. Commonly used in fashion editorials and product advertisements.
+Medium Shot
+Shows the subject from the knees up. This is the most natural and comfortable framing, effectively capturing the subject's posture and attire.
+Close-up
+Fills the frame with the subject's face to clearly convey emotions and expressions. Ideal for YouTube thumbnails and profile photos.
+Extreme Close-up
+Focuses entirely on specific features such as eyes or skin texture. Used to emphasize intense emotional impact or fine details.
+2. Angle Shots: Classification by Viewing Angle
+High Angle
+Looking down from above. Makes the subject appear smaller, conveying a cute, vulnerable, or innocent impression.
+Low Angle
+Looking up from below. Makes the subject appear larger, creating a sense of powerful charisma and strength.
+Bird's Eye View
+A vertical overhead view as if seen by a bird from the sky. Useful for showing overall layout and composition.
+Worm's Eye View
+An extremely low angle looking up from ground level. Maximizes an overwhelming and grand impression.
+Dutch Angle
+A tilted camera composition. Effective for creating feelings of instability, dynamism, tension, or an artistic atmosphere.
+POV Shot (Point of View Shot)
+A first-person perspective where the subject looks directly at the camera. Maximizes viewer engagement and immersion.
+3. Application Tips and Combination Examples
+The key to achieving desired results is combining distance shots with angle shots.
+Combination Examples
++-------------------------------------------------------------|--------------------------------------------------+
+| Combination | Effect
+| Low Angle + Medium Shot | Charismatic CEO vibe
+| High Angle + Close-up | Cute and lovable feeling
+| Wide Shot + Eye Level | Natural and comfortable scene
++-------------------------------------------------------------|--------------------------------------------------+
+Key Principle
+Remember that as the subject moves farther away, the observational feel strengthens, while getting closer emphasizes emotions and details.
+These shot techniques are like a photographer changing lenses to view their subject. Depending on which lens (shot) you choose, the same subject can tell entirely different stories and convey completely different emotions.

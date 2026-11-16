@@ -1,0 +1,26 @@
+I realized that Qwen Edit acts upon the latent instead of the image which is awesum for lora training. If you have a cool image at some weird resolution like 673x512 then you can rescale it as a 1024x1024 frame at full resolution
+Like tron sirens for example from youtube
+Frames are pretty bad for lora ut the VAE can convert it to a latent and it cares very little with regards to resolution or background contrast
+Do frame extract , and caption each image and run the latent thru Qwen edit
+Raw result:
+The image turn to latent by the VAE seems to inherit some of the youtube blur. Lets see how things work is we just screenshot the yt video itself on phone , going from 600x500 size to 1024x2000 size (but same blur)
+Screenshot a segment of the youtube video as patterns for latent encoding are always relative to image dimensions. So projecting rectangle => square image via VAE is tricky , better try to use aquare ish shapes as reference
+Screenshot and recreated 1024x1024 below
+Benefits: more color contrast , less artifacting , and you can crop out desirable patterns for training into a collage as desired.
+Post: https://tensor.art/images/946858389655272002?post_id=946858359590500831
+When using multiple images as reference it helps to know that the prompt has location in image
+So if you have two images , if you want the output to focus on a specific image , describe the backround or objects around it
+Unlike text to image , Qwen Edit uses an existing image , so you need not describe anything at all , just where in the image it exists
+e.g ``` the girl is underwater at the bottom. the water is blue. the top is a building. blue ceramic tiles are at the bottom. she has light hair and she holds her hands at either side , the left side is a green forest ```
+So its all the stuff you want in the final image , but you always specify a location
+Its useful to use reference photos for Qwen Edit with colored backgrounds , that way you can just say 'the background is green' in the prompt to specify which image you want to focus on
+Use case examples for Qwen edit https://huggingface.co/blog/MonsterMMORPG/qwen-image-edit-full-tutorial-26-different-demo
+For outfits I can highly reconmend using some 3DCG artist paired up with a real photo
+Image 1
+Image 2
+So if I want a photoreal image of the girl holding the weapon ``` give her a black dress with bare shoulders , her face is from the side , she has blonde hair on her left side , her skin should be like her bare arms and legs , she is holding a rifle with a scope , the floor on the right has a black and white square pattern , the rifle has an american flag on it , the floor has grated holes , the red carpet on both the left and the right side , she is leaning against a marble pillar , the top left has people in the background , the top right is a car and a cityscape ```
+As long as enuff stuff matches the photoreal image , that will be the reference used. I don't have to describe the character at all , just the environment
+The 'left and right' wordings works thanks to the attention stuff
+Taking the best parts of image 1 and image 2 (your choice what to choose ofc)
+Post : https://tensor.art/images/950083206793658962?post_id=950083189613789685
+Cheers!

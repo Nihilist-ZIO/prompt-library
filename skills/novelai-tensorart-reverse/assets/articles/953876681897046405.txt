@@ -1,0 +1,172 @@
+Hello everyone, in this guide I will give a brief explanation of how to use LoRA, especially in terms of the sequence/order of placement.
+Question: I want to generate a text2image image. In addition to using the Base Model, I will also use several LoRAs. The question is, will the order of the LoRAs affect the image? For example: the first LoRA is Extra Detailer, the second LoRA is Enhanced Lightning, and the third LoRA is Realistic Skin.
+The short answer : yes, the order of LoRA can have an effect, but it's not always dramatic. Think of LoRA as a transparent layer layered on top of a base painting. The order determines who gets the last word in the overlapping areas. 🎨
+Let's analyze it carefully.
+1️⃣ How LoRA works (brief but precise)
+Most LoRA models work by adding biases or weight modifications to the base model on the same layer.
+If two LoRA models touch the same area (e.g., facial details, lighting, or skin texture), then:
+LoRAs loaded later tend to be more dominant
+Especially if the weight is similar or quite high
+If LoRA touches different areas, the sequence is barely noticeable.
+2️⃣ Analyze the LoRA example you are asking about
+Order:
+Extra Detailer
+Enhanced Lightning
+Realistic Skin
+What happened?
+Extra Detailer
+Adding micro-details, textures, and sharpness. This is global in nature.
+Enhanced Lightning
+Change contrast, highlights, shadows, sometimes color tones.
+Realistic Skin (last)
+Usually focuses on the face and skin: pores, softness, color blending.
+📌 Since Realistic Skin was loaded last:
+He can override the rough detail effects of Extra Detailer.
+The skin becomes more natural, not too "crispy"
+Lighting is still felt, but adjusted to the skin
+➡️ This is a pretty reasonable order for realistic results.
+3️⃣ Example if the order is reversed
+For example:
+Realistic Skin
+Extra Detailer
+Enhanced Lightning
+The results can be:
+The skin is initially realistic
+Then “sharpened again” by Extra Detailer → pores can be too strong
+The final lighting can make the skin look plastic or over-contrast.
+It's not wrong, but the characters are different .
+4️⃣ Rules of thumb (that practitioners actually use)
+Use this principle:
+Global LoRA first → specific LoRA later
+Ideal order:
+🔹 Style / Detail / Texture LoRA
+🔹 Lighting / Mood / Color LoRA
+🔹 Anatomy / Face / Skin / Character LoRA
+In other words:
+The ones you most want to “maintain” the effect of, put last.
+5️⃣ Important notes that are often forgotten
+Weight is more influential than order
+LoRA weight 1.2 at the beginning can still override LoRA weight 0.6 at the end
+Clip vs UNet
+If LoRA targets are different (e.g. one is dominant in CLIP, one in UNet), the order becomes less significant.
+Sampler & CFG
+High CFG can make LoRA conflicts more visible
+Conclusion 🎯
+✔️ The LoRA order does matter , especially if:
+The effects overlap each other
+Similar weight
+Touching the face / lighting / details together
+Question: If I use the following LoRA settings globally: Face, Detailer, Lighting, Realistic, Correction (hand/finger), Background Detail. And all the weights are the same, say they all use 0.8 (the default weight). What would be a good LoRA order?
+Answer: Imagine you're putting together a movie scene on a mini-stage. There's a set crew, a lighting designer, a makeup artist, and a final editor. They all have the same volume (weight 0.8), so whoever comes in last will have the most say in the final touches. 🎬
+Assuming all weights are the same (0.8) and that LoRAs potentially touch overlapping areas, this is the most stable and “sane” sequence globally:
+🔑 Main principles (in summary)
+General → specific → corrective → finishing touches
+Those who shape the world are done first, those who correct mistakes come later.
+✅ Recommended LoRA order
+1️⃣ Background details
+Reason:
+Most global and insensitive
+Determine the texture of the environment, architecture, foliage, etc.
+Hardly any conflict with the face or anatomy
+It's like building a stage set first.
+2️⃣ Lighting
+Reason:
+Lighting affects the perception of all objects
+It is better to be “accepted” by the face and skin, not to be inflicted on it.
+The lights are installed before the actor is made up.
+3️⃣ Detailer
+Reason:
+Increasing global sharpness
+If placed too late, it can damage the skin or hands.
+This is basic sharpening before the touch of realism.
+4️⃣ Realistic
+Reason:
+Adjusting natural texture: skin blending, tone, micro-imperfection
+Taming the effects of previous over-detailing
+Make-up stage so it doesn't look digital.
+5️⃣ Face
+Reason:
+Very sensitive
+Often adjust the proportions, eyes, nose, expression
+Must come after lighting & realism for consistency
+The main actors are made up after the stage and lights are ready.
+6️⃣ Correction (hand/finger)
+Reason:
+Corrective in nature
+Often “override” other LoRAs
+The safest place is at the end .
+The editor comes last, correcting anything strange.
+🧾 Final order (summarized)
+Background Detail
+→ Lighting
+→ Detailer
+→ Realistic
+→ Face
+→ Hand/Finger Correction
+⚠️ Important note (small but valuable gold)
+With the same weight (0.8), this sequence really feels the effect.
+If the hands still don't fit:
+hand correction can be increased to 0.9–1.0 without messing up the face
+If the face becomes too “cartoonish”:
+lower the face LoRA to 0.7, don't change the order yet
+🎯 Conclusion
+✔️ The LoRA order is not about right or wrong, but who has the final say .
+Question: I use Flux and SDXL
+Answer: For Flux and SDXL, the rules are philosophically similar, but the sense of influence of the LoRA order is different. Think of Flux as fast-flowing, adaptive water, while SDXL is like thick oil paint that leaves brush marks. Therefore, the order needs to be adjusted slightly. 🎨
+Below I give a separate optimal sequence , assuming:
+All LoRA weight = 0.8
+LoRA Types: Face, Detailer, Lighting, Realistic, Hand/finger correction, Background details
+Target: realistic and stable
+🔷 FLUX (all variants)
+Flux is more “context-respecting,” so LoRA coming in last is less brutal, but still impactful.
+✅ Best order for FLUX
+Background Detail
+→ Lighting
+→ Detailer
+→ Face
+→ Realistic
+→ Hand/Finger Correction
+Why is it different?
+Realistic behind the face
+Flux blends more smoothly, so realism can “reset” the face without destroying identity.
+Detailing should not be too final
+If it's too far back, Flux tends to make the skin too rough.
+📌 Flux Notes:
+Hand correction in the last position is almost always the safest.
+Flux is relatively tolerant, so this sequence is stable even for full body
+🔷 SDXL
+SDXL is much more sensitive to the “last word.” The LoRA sequence in SDXL has a more pronounced effect.
+✅Best order for SDXL
+Background Detail
+→ Lighting
+→ Detailer
+→ Realistic
+→ Face
+→ Hand/Finger Correction
+Why is the face later?
+LoRA faces in SDXL often:
+change the structure
+expression
+eye & nose shape
+If placed before realism, the result can feel “polished” and lose character.
+📌 SDXL Notes:
+Realistic functions as a balance of detail
+The face should “lock identity” at almost the end
+🧠 Quick summary
+Model Key sequence
+Flux: background → lighting → detailer → face → realistic → correction
+SDXL: background → lighting → detailer → realistic → face → correction
+⚠️ Hassle-free tuning tips
+Broken hand?
+👉 increase LoRA correction to 0.9–1.0
+Skin too sharp?
+👉 lower Detailer to 0.6–0.7
+Does face feel “less alive”?
+👉 increase the face LoRA 0.85 without changing the order
+🎯 Conclusion
+✔️ LoRA order still matters in Flux and SDXL, but:
+Flux = more flexible
+SDXL = more sensitive
+✔️ Weight overrides all sequences/orders 👉 Higher weight beats smaller weight for similar or identical LoRA
+That's all, folks. I created this guide based on my experience in generating text into images. Since I mostly use the Flux and SDXL/Pony Base Models, I think it won't be much different for other Base Models, so feel free to try it yourself.
+Final Note: This is just a guide, so it's not absolute; it all comes down to your creativity and imagination.

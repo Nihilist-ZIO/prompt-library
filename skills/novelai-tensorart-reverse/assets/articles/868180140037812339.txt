@@ -1,0 +1,64 @@
+This experiment was based on the Danbooru posture tag page.
+1.Basic positions
+1.Kneeling / 2.On one knee / 3.Lying / 4.Crossed legs / 5.Fetal position
+6.On back / 7.On side / 8.On stomach / 9.Sitting / 10.Butterfly sitting
+11.Crossed legs / 12.Figure four sitting / 13.Indian style / 14.Lotus position / 15.Hugging own legs
+16.Reclining / 17.Seiza / 18.Sitting on person / 19.Sitting on head / 20.Sitting on lap
+21.Shoulder_carry / 22.Human chair / 23.Straddling / 24.Thigh straddling / 25.Upright straddle
+26.Wariza / 27.Yokozuwari / 28.Standing / 29.Balancing / 30.Crossed legs
+31.Legs apart / 32.Standing on one leg
+2.Movement of the body
+1.Balancing / 2.Crawling / 3.Idle animation / 4.Midair / 5.Falling
+6.Floating / 7.Flying / 8.Jumping / 9.Hopping / 10.Pouncing
+11.Running / 12.Walking / 13.Walk cycle / 14.Wallwalking
+3.Other postures potentially involving the whole body
+1.All fours / 2.Top-down bottom-up / 3.Prostration / 4.Bear position / 5.Bowlegged pose
+6.Chest stand / 7.Chest stand handstand / 8.Triplefold / 9.Ruppelbend / 10.Quadfold / 11.Cowering / 12.Crucifixion / 13.Faceplant / 14.Full scorpion / 15.Fighting stance / 16.Battoujutsu stance * / 17.Spread eagle position / 18.Squatting
+*prompt of 16.Battoujutsu stance
+katana, (battoujutsu_stance:1.4), (casual clothes:1.4), hand on hilt, ready to draw, pastel blue kimono, wide sleeves, japanese clothes , outdoors, east asian architecture, full_body,
+19.Stretching / 20.Superhero landing / 21.Upside-down / 22.Handstand / 23.Headstand
+24.Yoga / 25.Scorpion pose
+no image
+4.Other rest points of the body
+1.Arm support / 2.Head rest
+5.Posture of the head
+1.Head down / 2.Head tilt / 3.Head back
+6.Torso inclination
+1.Arched back / 2.Bent back / 3.Bent over / 4.Leaning back / 5.Leaning forward
+6.Slouching / 7.Sway back / 8.Twisted torso
+7.Arms
+1.Arms behind back / 2.Arm up / 3.Arm behind head / 4.Victory pose / 5.Arms up
+6.\o/ / 7.Arms behind head / 8.Outstretched arms / 9.Spread arms / 10.Arms at sides
+11.Airplane arms / 12.Crossed arms / 13.Flexing / 14.Praise the sun / 15.Reaching
+16.Shrugging / 17.T-pose / 18.A-pose / 19.V arms / 20.W arms
+21.Stroking own chin / 22.Outstretched hand / 23.V / 24.Interlocked fingers / 25.Own hands clasped
+26.Own hands together / 27.Star hands
+8.Hips
+1.Contrapposto / 2.Sway back
+9.Legs
+1.Crossed ankles / 2.Folded / 3.Leg up / 4.Legs up / 5.Knees to chest
+6.Legs over head / 7.Leg lift / 8.Outstretched leg / 9.Split / 10.Pigeon pose / 11.Standing split
+12.Spread legs / 13.Watson cross / 14.Captain morgan pose / 15.Knees apart feet together / 16.Knees together feet apart / 17.Knee up
+18.Knees up / 19.Dorsiflexion / 20.Pigeon-toed / 21.Plantar flexion / 22.Tiptoes
+23.Tiptoe kiss
+10.Posture of at least two characters
+1.Ass-to-ass / 2.Back-to-back / 3.Belly-to-belly / 4.Cheek-to-breast / 5.Cheek-to-cheek
+6.Eye contact / 7.Face-to-face / 8.Forehead-to-forehead / 9.Head on chest / 10.Heads together
+11.Holding hands / 12.Leg lock / 13.Locked arms / 14.Over the knee / 15.Nipple-to-nipple / 16.Noses touching
+17.Shoulder-to-shoulder / 18.Tail lock
+11.Posture of at least three characters
+1.Circle formation / 2.Group hug
+12.Hugging
+1.Hug / 2.Hugging own legs / 3.Hugging object / 4.Hugging tail / 5.Wing hug
+6.Arm hug / 7.Hug from behind / 8.Waist hug
+13.Carrying someone
+1.Baby carry / 2.Carried breast rest / 3.Carrying over shoulder / 4.Carrying under arm / 5.Child carry
+6.Fireman's carry / 7.Piggyback / 8.Princess carry / 9.Shoulder carry / 10.Sitting on shoulder / 11.Standing on shoulder
+14.Poses
+1.Rabbit pose / 2.Horns pose / 3.Paw pose / 4.Claw pose / 5.Archer pose / 6.Bras d'honneur / 7.Body bridge
+8.Contrapposto / 9.Dojikko pose / 10.Ghost pose / 11.Inugami-ke no Ichizoku pose / 12.Letter pose / 13.Ojou-sama pose / 14.Saboten pose / 15.Symmetrical hand pose
+16.Victory pose / 17.Villain pose / 18.Zombie pose / 19.Gendou pose / 20.JoJo pose / 21.Dio Brando's pose / 22.Giorno Giovanna's pose / 23.Jonathan Joestar's pose / 24.Kujo Jotaro's pose / 25.Kongou pose / 26.Kujou Karen pose
+15.Hair
+1.brushing own hair / 2.hand in own hair / 3.playing with own hair / 4.twirling hair / 5.tucking hair
+6.floating hair / 7.hair floating upwards / 8.hair spread out / 9.messy hair
+Thank you for taking a look!

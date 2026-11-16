@@ -1,0 +1,8 @@
+PROMPT GUIDE
+Quality & dataset bias | source & style declaration | content rating & restrictions
+Subject definition | Physical attributes | Details & Enhancements
+Clothing | Pose | Expression
+example:
+score_9, score_8_up, score_7_up, score_6_up | source_anime | rating_explicit
+1girl, solo | long hair, straight hair, gradient hair, black hair with red tips, bangs, golden eyes, fair skin, slim body | detailed eyes, clean lineart, soft lighting, high detail, cinematic shading
+school uniform, white blouse, red ribbon, short skirt, thigh-high stockings | standing, slight lean, one hand on hip, facing viewer | soft smile, confident gaze, slight blush

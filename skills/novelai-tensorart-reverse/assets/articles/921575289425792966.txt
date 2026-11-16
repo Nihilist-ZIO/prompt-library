@@ -1,0 +1,68 @@
+Hello! Today we're looking into how to prompt hair styles. Let's go~
+Summary:
+Danbooru Reference
+Model + Quality prompts
+Considerations
+Mixing and matching
+Length and volume
+Very short hair
+Short hair
+Medium hair
+Long hair
+Tied hair
+Tall hair
+Hair texture
+Front of the head
+Top of the head
+Back of the head
+Hair over the body
+Misc
+Danbooru Reference
+For some reason, Tensor is not letting me post a link of danbooru. But if you go to their site, just append this to the url: wiki_pages/tag_group%3Ahair_styles.
+Model + Quality Prompts
+Using Diviling-Illustrious Anime: https://tensor.art/models/897826979653397911
+Positive prompt : (masterpiece, best quality, absurdres, highres), amazing quality, very aesthetic, (volumetric lighting), digital art style, drawn aesthetic, concept painting, ultrahigh definition,
+Negative prompt : worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly
+Example prompt :
+Female: 1girl, half updo, black hair, red eyes, smile, white shirt, straight on, looking away, medium shot, from side, simple pink background
+Male: 1boy, adult, mature male, muscular, masculine features, tan skin, black hair, yellow eyes, smile, white shirt, looking at viewer, medium shot, from side, simple soft blue background,
+Considerations
+Why some won't work?
+There's a few reasons:
+I'm working with a illustrious-based model. Illustrious was trained with danbooru tags from 2023's database. It's possible some of these hairstyles are not easily generated because in 2023 they didn't have a lot of reference for female or male. Some say anything below 500 references won't work, but from my experience if it's below 1k won't work. It can vary. Anything too complex and unique is more difficult.
+Some hair styles will work for female, others for male, it's all because maybe one or the other didn't have enough reference images.
+If you're using loras, it might affect, just make sure you're not overdoing with multiple loras.
+Mixing and matching
+The images in this articles are blunt representation of each hair style tag. Keep in mind that depending on the hair style, you can change it to suit your taste. For example: if you don't specify that the character has bangs or not when prompting for a "bob cut" it will default to bangs. A side cut can look different if prompted with short or medium hair. Mix and match!
+Hairstyles change your character face details
+Not all of them, but some will make your female character more masculine and vice versa. If that happens, you'll have to tweak your positive and negative prompts to even it out. For example, with the model I used to make this article, the male character was very feminine, so I had to add "masculine features" in the positive prompt and "feminine features" in the negatives.
+Length and volume
+Note : Volume makes the hair bigger, puffier.
+Very short hair
+Short hair
+Medium hair
+Long hair
+Tied hair
+nihongami = some old japanese hairstyle, seems to be random. (for some reason, this hairstyle was generating random japanese animals lol)
+Tall hair
+quiff = works best with shorter hair.
+Hair texture
+Note : Some of the texture will differ based on the length of the hair. You might need to remove the length prompt at time so the texture can work (for example, drill hair on male).
+drill hair / twin drills = same thing.
+Front of the head
+Note : Some of the bangs will differ based on the length of the hair.
+hair between eyes / long bangs = very similar for male, the length might make them different.
+parted bangs / curtained bangs = very similar for male, the length might make them different.
+colored bangs = works better if you separate the color from tag, like "green bangs, colored bangs".
+fanged bangs = it adds a slightly longer and curved side bangs on both sides of the cheek. but AI might also add an actual vampire fang too lol
+Top of the head
+Back of the head
+Hair over the body
+Note :
+hair over breasts : Same as "hair censor".
+hair over one breast : Same as "hair censor" but with one breast visible.
+Misc
+Note :
+alternate hairstyle : It will give you a different hairstyle. I'm not sure how much it randomizes.
+hair up : It's just how the name says, it will avoid hairstyles where the hair is down. Not too useful imo, just use an actual hairstyle name.
+hair down : It's just how the name says, it will avoid hairstyles where the hair is up. Not too useful imo, just use an actual hairstyle name.

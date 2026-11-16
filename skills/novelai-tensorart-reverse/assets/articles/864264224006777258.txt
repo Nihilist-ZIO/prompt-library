@@ -1,0 +1,21 @@
+This article introduces the QR Code ControlNet adapter. If you’re not yet familiar with the general idea behind ControlNet, I suggest reading this article first.
+The QR Code adapter is named after the QR code . To steal a bit from Ars Technica :
+QR codes, short for Quick Response codes, are two-dimensional barcodes initially designed for the automotive industry in Japan. These codes have since found wide-ranging applications in various fields including advertising, product tracking, and digital payments, thanks to their ability to store a substantial amount of data. When scanned using a smartphone or a dedicated QR code scanner, the encoded information (which can be text, a website URL, or other data) is quickly accessed and displayed.
+If you use a QR code as the control file for the QR Code adapter, the resulting picture will contain the recognizable pattern of the QR code — while still trying to represent your prompt:
+The QR code is usually distorted to some extent, but it mostly works thanks to the error correction built into the QR code system. QR codes don’t expect every scan to be perfectly aligned and clean.
+A much more interesting use is unrelated to QR codes. Any arbitrary pattern can be presented to this adapter, which leads to some fascinating effects:
+This picture is from another Ars Technica article about this adapter.
+People have gotten very creative with this:
+The author of this image even made a guide based on it.
+Here’s the pattern he used:
+I used the QR Code adapter for a few images here. I make the control file black and white and match its size to the intended picture size, although both of these steps seem to be optional. I use a weight in the 0.9 to 1.5 range.
+You should give a prompt that allows some freedom for the AI to fit into your pattern. Irregular, natural objects seem to work best — think clouds, fog, smoke, rocks, waves, flames, sand, or shadows. But there are really no wrong prompts. Just try and see.
+An easy way to convert an image with a prominent foreground object into a QR Code control file is to make a depth map for it and then edit it.
+And that's really all there is to it. This is a very simple adapter. Unlike Canny, Depth, and OpenPose, it doesn't even have a preprocessor; the only input is the pattern file.
+Here are five images I posted here that were made with QR Code adapter:
+And here are the patterns I used:
+Other articles about ControlNet:
+Introduction to ControlNet
+ControlNet: Canny adapter
+ControlNet: Depth adapter
+ControlNet: Openpose adapter

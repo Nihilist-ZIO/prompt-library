@@ -1,0 +1,68 @@
+Hey all! This prompting article was a request and as always, I'm very happy to help! These are the Models I used to generate the images, since a lot of you ask about them:
+🧓 DIFFERENT AGES
+👦 Young (child to teen)
+child, boy, young boy, pre-teen, tween
+baby face, round cheeks, wide eyes, innocent expression, small nose, slim neck, high-pitched face
+Use soft lighting, pastel backgrounds, youthful clothes
+Examples :
+boy, child, short brown messy hair, round cheeks, big brown eyes, freckled nose, smiling shyly, blue hoodie, denim shorts, sneakers, sitting on a park bench, sunny afternoon, soft lighting, innocent expression, happy face
+young girl, child, blonde twin braids, short bangs, light blue eyes, toothy grin, pink polka dot dress, white tights, playful posture, standing near swing set, playground background, bright colors, soft sunlight
+👨 Young Adult (18–30)
+young adult, teenager, college age, fresh-faced, masculine, boyish charm
+defined jawline, slim build, clear skin, expressive eyes
+Great for attractive and "baddie" types
+Examples :
+young adult male, short black undercut, sharp jawline, pale skin, grey eyes, faint smile, black oversized hoodie, silver chain, city street night, neon lights background, hands in pockets, relaxed posture
+young woman, shoulder length auburn wavy hair, curtain bangs, green eyes, winged eyeliner, crop top, ripped jeans, standing in front of graffiti wall, city street dusk, confident smirk, hand on hip
+🧔 Adult (30–50)
+adult man, mature face, tired eyes, slightly wrinkled, grizzled, beard stubble
+broad shoulders, masculine frame, realistic body
+Examples :
+adult male, dark brown medium-length hair slicked back, beard stubble, tired blue eyes, frown lines, muscular build, grey henley shirt, black jeans, urban alley at night, moody lighting, serious expression
+mature woman, black curly hair in low bun, tired eyes, amber eyes, light makeup, navy blouse, silver earrings, reading glasses in hand, sitting at wooden desk, bookshelves behind, focused face
+👴 Older Adult / Elderly (50+)
+older man, old man, elderly, wrinkled, graying hair, receding hairline
+deep-set wrinkles, drooping eyelids, sunken cheeks, weathered skin, age spots
+Consider using: cane, balding, glasses, slouched posture
+Examples :
+old man, balding grey hair, long bushy eyebrows, wrinkled skin, crooked nose, sunspots, wearing wool cardigan, brown slacks, cane leaning beside him, sitting on park bench under a tree, autumn leaves falling, distant gaze
+elderly woman, white hair in tight bun, small round glasses, lined face, wrinkled skin, soft smile, floral dress, knitted shawl, holding a cup of tea, seated in rocking chair, cozy living room background, fireplace glow
+🤓 "UGLY" OR UNCONVENTIONAL FACES
+🧬 Facial Structure
+asymmetrical face, crooked nose, protruding jaw, overbite, underbite
+wide nose, very small eyes, bug eyes, bulging eyes, drooping eyes, unibrow
+😬 Skin & Texture
+acne, wrinkles, freckles, warts, moles, blemishes, patchy beard, pockmarked skin, oily skin, scars, burn marks
+😑 Expression & Emotion
+resting scowl, sneering, sullen, grimace, awkward smile, deadpan stare
+🦷 Teeth & Mouth
+missing teeth, crooked teeth, yellowed teeth, overgrown teeth, gummy smile
+🧏 Stylistic / Other Descriptors
+unkept, dirty, greasy hair, balding, unkempt beard, clashing colors, odd proportions
+Examples :
+male, long face, large hooked nose, protruding ears, heavy brow, deep acne scars, yellowed crooked teeth, thin patchy beard, greasy long black hair, stained shirt, sitting on bus stop bench, urban background, neutral expression
+female, asymmetrical face, (crooked nose, bulging eyes, unkempt greasy red hair:1.3), oversized coat, standing in a dim alley, arms crossed, skeptical expression, city night
+🍑 BODY TYPES
+Underweight / Very Slim
+Examples:
+underweight male, tall and lanky, sharp collarbones, bony wrists, sunken face, bony cheeks, very thin body frame, pale skin, short black choppy hair, grey tank top, black skinny jeans, leaning against wall in empty bookstore, dim warm lighting, serious tired eyes, hands in pockets
+slim female, visible collarbones, thin arms, flat chest, narrow hips, shoulder-length platinum blonde hair, side-swept bangs, sunken eyes, navy crop top, high-waisted skirt, sitting cross-legged in vintage café, looking down at cup, neutral face, natural light from window
+Average / Athletic
+Examples:
+fit male, toned body, arm muscles, broad shoulders, tan skin, short wavy brown hair, hazel eyes, light stubble, white tee, navy joggers, standing in gym room, arms crossed, confident smirk, morning light
+average build female, soft curves, light muscle tone, light skin, long dark red braid, freckles, tight black sports bra, leggings, resting on yoga mat, rooftop gym setting, calm gaze, warm sunset light
+Chubby / Soft Build
+Examples:
+chubby male, thick neck, slight belly, short dark brown hair, chubby cheeks, deep dimples, dark green tank top, jeans, holding iced coffee, standing outside food truck, smiling warmly, golden hour light
+chubby woman, soft round arms and thighs, chubby cheeks, rosy skin tone, long black ponytail, big brown eyes, white off-shoulder blouse, high-waisted jeans, sitting at park table with sketchbook, gentle smile, soft breeze, late spring setting
+Overweight / Plus-Size
+Examples:
+plus-size man, overweight, protruding belly, chubby cheeks, fat arms, broad chest, full beard, buzzed hair, tanned skin, checkered button-up shirt, cargo pants, leaning on wooden fence in backyard barbecue setting, holding soda can, cheerful face, dusk lighting
+plus-size chubby woman, full figure, thick thighs, wide hips, plump cheeks, long curly auburn hair, cat-eye makeup, pink dress, gold bangles, standing confidently in city street, glowing neon signs, bold expression, wind in hair
+Extremely Muscular / Bodybuilder
+Examples:
+bodybuilder male, hyper-muscular build, defined veins, six-pack abs, deep tan, black short hair, goatee, black tank top, compression shorts, standing mid-pose in front of mirror in gym, flexing bicep, intense expression, harsh overhead lighting
+muscular female, bulky shoulders, cut abs, thick biceps, mohawk hairstyle, scar over eyebrow, black sports bra, red workout shorts, kneeling mid-squat at outdoor fitness park, gripping kettlebell, fierce focused look, gritty urban background
+💡 Tips for More Control
+With prompt weighting , you can amplify traits like this:
+(asymmetrical face:1.3), (wrinkles:1.5), (oily skin:1.2)

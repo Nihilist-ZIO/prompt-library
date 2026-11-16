@@ -1,0 +1,97 @@
+Beginning
+Hairstyles are so diverse and ever-changing. Here are 100+ Effective HairStyle Prompts for you!
+The tested Model is ✨WAI-NSFW-illustrious-SDXL✨ , these prompts perform also well on most models.
+If you want to watch Video Tutorial (which is more efficient and intuitive), you can visit 👉 https://www.instagram.com/p/DH59PgJS-5A/
+M ore prompt sharing will be released. Stay tuned! And welcome to follow TensorArt Official Instagram 💗👉 https://www.instagram.com/tensor.art/
+This is where you can be the first to receive our shared videos.😉
+Prompts
+Loose Hair
+wavy hair , ウェーブヘア｜波浪卷 卷发
+curly hair , 巻き毛｜小卷 卷发
+messy hair , メッシーヘア｜乱乱的头发
+straight hair , ストレートヘア｜直发
+single sidelock , シングルサイドロック｜单边发放下
+asymmetrical sidelocks , アシンメトリーサイドロック｜ 不对称鬓角
+single hair intake , シングルヘアインテーク｜ 单发发旋
+hair intakes , ヘアインテーク｜ 发旋
+bob cut , ボブカット｜波波头
+inverted bob , 逆ボブ｜反向翻转波波头
+flipped hair , フリップヘア｜头发下侧翘起来
+wolf cut , ウルフカット｜狼尾
+hime cut , 姫カット｜公主姬
+mullet , マレット｜ 鲻鱼头
+half updo , ハーフアップ｜ 半扎发
+Tails
+ponytail , ポニーテール｜马尾
+side ponytail , サイドポニーテール｜侧马尾
+high ponytail , ハイポニーテール｜高马尾
+folded ponytail , 折り返しポニーテール｜ 折叠马尾
+short ponytail , ショートポニーテール｜短马尾
+two side up , ツーサイドアップ｜双侧扎发
+one side up , ワンサイドアップ｜单侧扎发
+uneven twintails , 不揃いなツインテール｜不齐双马尾
+twintails , ツインテール｜双马尾
+low twintails , ローツインテール｜低双马尾
+short twintails , ショートツインテール｜短双马尾
+low-tied sidelocks , ロータイサイドロック｜低扎鬓角
+multi-tied hair , マルチタイドヘア｜多重扎发
+Braid
+Crown braid , クラウンブレード｜皇冠麻花辫
+Folded braid , 折り込みブレード｜折叠麻花辫
+French braided ponytail , フレンチブレードポニーテール｜法式辫马尾
+French braided twintails , フレンチブレードツインテール｜法式辫双马尾
+Half up braid , ハーフアップブレード｜半扎麻花辫
+Low-braided long hair , ローブレードロングヘア｜低麻花辫长发
+Side braid , サイドブレード｜侧麻花辫
+Single braid , シングルブレード｜单麻花辫
+Twin braids , ツイン編み込み｜双麻花辫
+Bun & Drills
+Bun with braided base , 編み込みベースお団子｜麻花辫编成底部丸子头
+double bun , ダブルおだんご｜双丸子头
+cone hair bun , コーンおだんご｜锥形丸子头
+donut hair bun , ドーナツお​​だんご｜甜甜圈丸子头
+bow-shaped hair , ボウシェイプヘア｜蝴蝶结形发型
+drill hair , ドリルヘア｜钻头卷发
+twin drills , ツインドリル｜双钻头卷发
+ringlets , リングレット｜卷环发
+drill sidelocks , ドリルサイドロック｜钻头卷鬓角
+hair rings , ヘアリング｜发环
+single hair ring , 一重ヘアリング｜单层发环
+Bangs
+bangs , 前髪｜刘海
+bangs pinned back , ピンで留めた前髪｜用发夹固定的刘海
+blunt bangs , 鈍い前髪｜齐刘海
+Braided bangs , 編み込み前髪｜编辫刘海
+crossed bangs , クロス前髪｜交叉刘海
+choppy bangs , 不揃い前髪｜参差刘海
+diagonal bangs , 斜め前髪｜斜刘海
+hair over eyes , 目にかかる髪｜遮眼发
+hair over one eye , 片目にかかる髪｜遮一只眼发
+hair between eyes , 目の間の髪｜眼间发
+parted bangs , 分け目のある前髪｜分缝刘海
+curtained hair , カーテンヘア｜帘式刘海
+wispy bangs , 薄い前髪｜稀疏刘海
+short bangs , 短い前髪｜短刘海
+swept bangs , 流した前髪｜侧扫刘海
+Ahoge
+ahoge , アホ毛｜呆毛
+heart ahoge , ハートアホ毛｜心形呆毛
+huge ahoge , 巨大アホ毛｜巨大呆毛
+antenna hair , アンテナヘア｜天线发
+heart antenna hair , ハートアンテナヘア｜心形天线发
+Others
+nihongami , 日本髪｜日本髮型
+pointy hair , 尖った髪｜尖发
+spiked hair , スパイクヘア｜刺猬头
+buzz cut , バズカット｜平头
+crew cut , クルーカット｜短平头
+flattop , フラットトップ｜平顶头
+undercut , アンダーカット｜剃鬓侧削发
+cornrows , コーンロウ｜玉米鬃辫
+dreadlocks , ドレッドヘア｜脏辫
+pompadour , ポンパドール｜蓬巴杜发型
+hair slicked back , 髪を後ろになでつける｜油头
+pixie cut , ピクシーカット｜精灵短发
+Special Thanks
+Some prompts shared this time are sourced from @hypersankaku2. Follow him/her on Twitter to support!
+https://x.com/hypersankaku2

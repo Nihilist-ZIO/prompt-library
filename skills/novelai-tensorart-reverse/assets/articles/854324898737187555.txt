@@ -1,0 +1,15 @@
+Greetings! Today, I'd like to present a short guide on what angles and perspectives I use for generating images.
+Bird's eye view: A shot taken from above, showing a scene from above.
+Worm's eye view: A photo taken from below, looking up from the ground, works the same as a low angle.
+Close up: A shot showing details of a subject, such as a face, in close focus.
+Extreme close up: A very close shot that captures a specific detail, such as an eye, in focus.
+Upper body / Cowboy Shot: A shot from the waist up of the subject.
+Dutch angle: An angle shot that creates a dynamic, distorted perspective.
+High angle: A shot that looks at the subject from above.
+Low angle: A shot that looks at the subject from below.
+Frontal view: The subject is looking at the camera
+Back view / Rear view: The subject has their back to the camera
+Side view: The subject is shot from the side
+You can also add the following to the prompt to get a random angle:
+Random angle, dynamic angle
+Have fun creating!

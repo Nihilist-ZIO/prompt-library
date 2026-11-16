@@ -1,0 +1,147 @@
+在开始绘图前，请先明确你的构图场景、风格方向，以及希望传达的细节关键词。本期是一章辅助提示词分享，排版由AI帮我完成，我比较懒的排版
+常用提示词参考（双重曝光风格）
+以下是我经常使用的 Prompt 示例，适用于“双重曝光”风格。不同模型表现略有差异，仅供参考，如有问题欢迎指正：
+silhouette, within, blending, blended, merged, filled with / into, Jeddbleil, double exposure
+手部动作（Hand Gestures）
+互动与招呼类
+waving：挥手（角色打招呼、道别）【社交、迎接、离别】
+saluting：行军礼（正式致意）【军事、正式场合】
+high-five：击掌（庆祝、友好）【伙伴间庆祝、友谊】
+clapping：鼓掌（赞美、认可）【庆祝、演出】
+pointing：指向（强调方向或目标）【讲解、示意、互动】
+表达与情感类
+thumbs-up：竖起大拇指（赞同、鼓励）【积极反馈、喜好】
+thumbs-down：竖起大拇指向下（否定、不满意）【否定、表达失望】
+fist-clenching：握拳（愤怒、紧张、决心）【战斗前、内心斗争】
+open-palm：张开手掌（欢迎、防御、祈祷）【招呼、接纳、请求】
+finger-snapping：打响指（节奏感、魔法瞬间）【表演、变化】
+思考与姿态类
+hand-on-chin：手托下巴（沉思、困惑）【思考、犹豫】
+hand-on-hip：手叉腰（自信、不满）【质问、姿态感】
+hand-on-face：手捂脸（震惊、羞涩、失落）【反应瞬间、内向情绪】
+hand-on-heart：手放胸口（真诚、感动、发誓）【感情表达、承诺】
+表现与动态类
+grabbing：握住（紧张、抓住机会）【紧张时、紧急动作】
+fingertips-touching：手指尖接触（细心、低调、计划）【思考、低调交流】
+pinching：捏住（小心、关心、纠结）【检查、轻轻触碰】
+flipping：翻动（无聊、愤怒）【翻书、翻桌】
+palms-together：双掌合十（祈愿、感激、求助）【请求、祈祷】
+picking-up：捡起（专注、小心）【细致操作、动作】
+难度 / 节奏类
+spreading-fingers：张开手指（强烈、压力）【紧张、惊讶】
+gripping：紧握（控制、专注）【抓住、攻击】
+tapping-fingers：轻敲手指（焦虑、不耐）【等待、急切】
+其他细节表现类
+shaking-hand：握手（交流、协议）【社交、合作】
+twisting-wrist：转动手腕（疲劳、无聊）【细节动作】
+flexing-fingers：弯曲手指（放松、恢复、体操）【手部活动】
+resting-hand：手轻放（放松、休息）【情感松弛】
+clapping-back：背后鼓掌（偷偷支持）【暗中支持】
+腿部动作（Leg Gestures）
+姿势类
+standing-with-legs-apart：双腿分开站立（稳重、自信）【战斗准备、威严展示】
+standing-with-legs-crossed：双腿交叉站立（休闲、放松）【等待、聊天场景】
+sitting-cross-legged：盘腿坐（随意、放松、冥想）【居家、教室、自然场景】
+sitting-with-legs-stretched：双腿伸直坐（疲惫、放松）【旅行、休息】
+sitting-with-legs-bent：双腿弯曲坐（含蓄、少女感）【害羞、情绪细腻场景】
+walking-with-long-strides：大步走（自信、紧迫）【赶路、任务场景】
+walking-with-short-steps：小步走（谨慎、优雅）【紧张、礼仪场景】
+kneeling：跪姿（恳求、忠诚、礼拜）【宗教、情感高潮】
+squatting：蹲下（观察、调皮、准备动作）【低视角互动、行动开始】
+脚部动作类
+tip-toeing：脚尖站立（轻盈、偷偷、谨慎）【悄悄行动、偷袭】
+pointing-toe：指向脚尖（展现优雅、舞蹈动作）【舞蹈、优雅动作】
+flexing-ankles：弯曲脚踝（疲劳、恢复、舒展）【休息、放松】
+bouncing-on-toes：踮脚跳跃（活力、期待）【紧张、急切等】
+foot-tapping：脚尖敲击地面（焦虑、不耐）【等待、急切】
+crossing-ankles：交叉脚踝（优雅、放松）【放松、优雅的坐姿】
+rocking-back-and-forth：前后摇摆（焦虑、不安）【焦虑、等待】
+raising-heel：提起脚跟（不安、注意力集中）【紧张、预备动作】
+kicking：踢（愤怒、冲动）【防御、发泄愤怒】
+stepping-forward：向前迈步（进取、自信）【进攻、走向目标】
+stepping-backward：向后退步（后退、避免）【防守、撤退】
+twisting-feet：脚部旋转（困惑、不安）【不耐烦、焦虑】
+脚趾动作类
+wiggling-toes：脚趾扭动（放松、舒适）【休息、放松】
+curling-toes：脚趾蜷曲（紧张、不安）【紧张状态】
+pointing-toe：脚趾指向（优雅、舞蹈）【舞蹈、表现】
+scrunching-toes：脚趾收缩（不适、困扰）【疲惫、不适】
+tapping-toes：脚趾轻敲（不耐烦、急切）【等待、焦虑】
+spreading-toes：脚趾张开（放松、舒展）【恢复、轻松】
+pressing-toes：脚趾用力（紧张、力量）【控制、发力】
+手指动作（Finger Gestures）
+指令与强调类
+pointing-with-index-finger：用食指指向（下指令、强调）【命令、讲课、展示物品】
+making-a-fist：握拳（愤怒、斗志）【决斗、激动、煽动情绪】
+making-a-peace-sign：竖两指（胜利、和平、自拍）【合影、流行文化】
+making-a-come-here-gesture：招手让人过来（暗示、引导）【角色互动、引导】
+making-a-stop-gesture：手掌前伸（制止、警告）【争执、警觉】
+making-a-call-me-gesture：拇指和小指张开（联系、社交）【俏皮、暗示沟通】
+making-a-thumbs-up-gesture：举拇指（称赞、肯定）【胜利、认可】
+making-a-thumbs-down-gesture：拇指向下（反对、否定）【拒绝、嘲讽】
+手指与手掌互动类（Finger and Palm Interaction）
+pointing-with-multiple-fingers：多指指向（指示、强调方向）【指引、指向】
+touching-fingers：手指互相触碰（思考、犹豫、细致）【思考、谨慎】
+holding-a-finger-to-lips：食指放在嘴唇上（示意安静、谨慎）【安静、隐秘】
+index-finger-and-thumb-pinch：食指和拇指捏住（轻触、审视）【检查、敏感操作】
+手腕动作类（Wrist Gestures）
+wrist-twist：转动手腕（放松、无聊）【疲劳、细节动作】
+flexing-wrist：弯曲手腕（用力、强迫）【力量、控制】
+shaking-wrist：摇晃手腕（不耐烦、失望）【焦虑、反应】
+flicking-wrist：振动手腕（生气、激动）【快速反应、警告】
+手臂动作类（Arm Gestures）
+raising-arm：举臂（求救、问询）【寻求帮助、庆祝】
+lowering-arm：放下手臂（放松、平静）【失望、退却】
+crossing-arms：双臂交叉（防御、不信任）【拒绝、冷漠】
+stretching-arm：伸展手臂（放松、舒展）【恢复、疲劳后的动作】
+elbow-pointing：弯曲肘部指向（暗示、挑衅）【无声交流、态度表现】
+pushing-with-arm：用手臂推（推动、抵抗）【防守、推动】
+pulling-with-arm：用手臂拉（拉住、吸引）【控制、反向动作】
+其他手部细节动作（Other Hand Details）
+finger-waving：手指晃动（不满、警告）【反对、威胁】
+clenching-fingers：紧握手指（专注、愤怒）【紧张、决心】
+stretching-fingers：伸展手指（放松、恢复）【恢复、放松】
+thumb-over-finger：大拇指压住食指（决策、犹豫）【考虑、思考】
+头部动作（Head Gestures）
+同意与否定类
+nodding：点头（同意、认可）【正常对话、肯定答复】
+shaking-head：摇头（否定、不信）【拒绝、怀疑】
+思考与疑惑类
+tilting-head：侧头（疑惑、卖萌）【思考、好奇、撒娇】
+looking-up：向上看（幻想、灵感、请求）【祈祷、星空、想象力】
+looking-down：低头（思考、内敛、羞涩）【伤感、失落、沉思】
+情感与表达类
+bowing-head：低头（羞愧、礼貌、悲伤）【认错、反省、正式场合】
+raising-eyebrows：挑眉（惊讶、调情）【表情丰富、反应场景】
+furrowing-brows：皱眉（担心、生气）【冲突、压力场景】
+winking：眨眼（打趣、默契）【俏皮、暗号】
+blinking：眨眼（自然动作、困倦）【情绪缓冲、转场】
+面部与头部动作组合（Head + Facial Combos）
+head-tilt-with-smile：侧头微笑（撒娇、魅力、亲和力）【亲近、温柔】
+head-tilt-with-frown：侧头皱眉（疑惑、不解）【好奇、质疑】
+face-palming：捂脸（震惊、羞愧、失望）【意外、尴尬】
+looking-away：偏头看向远方（思考、逃避）【沉思、逃避目光】
+raising-chin：抬起下巴（自信、挑战）【坚定、不屈】
+颈部动作（Neck Gestures）
+neck-tilting：颈部倾斜（思考、质疑）【疑问、好奇】
+neck-craning：颈部伸展（好奇、注视远方）【寻找、观察】
+neck-rotation：旋转脖子（放松、缓解压力）【舒展、放松】
+neck-stretch：伸展脖部（疲劳、放松）【解除紧张、活动】
+面部组合动作（Facial Combos）
+smiling-with-raised-eyebrows：微笑配挑眉（高兴、调皮）【友好、轻松】
+frowning-with-raised-eyebrows：皱眉配挑眉（怀疑、惊讶）【困惑、质疑】
+smiling-with-winking：微笑配眨眼（调皮、暗示）【俏皮、暗号】
+frowning-with-winking：皱眉配眨眼（困惑、调皮）【打趣、示意】
+眼睛与头部动作组合（Eye + Head Gestures）
+eyes-widening：眼睛睁大（惊讶、震惊）【意外、吃惊】
+narrowing-eyes：眼睛眯起（怀疑、警觉）【质疑、警惕】
+rolling-eyes：眼睛翻白（不耐烦、嫌弃）【厌烦、失望】
+eye-contact：目光接触（专注、信任）【交流、示意】
+looking-over：眼睛扫视（挑衅、评估）【观察、对比】
+looking-around：眼睛环视（好奇、警觉）【寻找、四处观察】
+面部细节与组合动作（Facial Detail & Combinations）
+smiling-with-closed-eyes：微笑配闭眼（幸福、喜悦）【愉悦、感动】
+squinting：眯眼（困惑、仔细看）【难以看清、集中注意】
+grinning-with-closed-eyes：咧嘴微笑配闭眼（极度高兴、得意）【喜悦、开心】
+smiling-with-one-eye-closed：微笑配一只眼闭（狡猾、戏谑）【暗示、轻松】
+以上是我个人长时间整理累积，等待下一章的更新...

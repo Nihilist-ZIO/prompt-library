@@ -1,0 +1,73 @@
+Prompt weighting in Stable Diffusion allows you to emphasize or de-emphasize specific parts of your text prompt, giving you more control over the generated image. Different types of brackets are used to adjust the weights of keywords, which can significantly affect the resulting image. In this tutorial, we will explore how to use parentheses (), square brackets [], and curly braces {} to control keyword weights in your prompts.
+Basics of Prompt Weighting
+By default, each word or phrase in your prompt has a weight of 1. You can increase or decrease this weight to control how much influence a particular word or phrase has on the generated image. Here’s a quick guide to the different types of brackets:
+1. Parentheses () : Increase the weight of the enclosed word or phrase.
+2. Square Brackets [] : Decrease the weight of the enclosed word or phrase.
+3. Curly Braces {} : In some implementations, they behave similarly to parentheses but with slightly different multipliers.
+Using Parentheses to Increase Weight
+Parentheses () are used to increase the weight of the enclosed keywords. This means the AI model will give more importance to these words when generating the image.
+• Single Parentheses : Increase the weight by 1.1 times.
+• Example: (girl) increases the weight of “girl” to 1.1.
+• Nested Parentheses : Increase the weight further.
+• Example: ((girl)) increases the weight of “girl” to 1.21 (1.1 * 1.1).
+You can also specify a custom weight:
+• Custom Weight : Specify the exact multiplier.
+• Example: (girl:1.5) increases the weight of “girl” to 1.5.
+Example Prompts:
+(masterpiece, best quality), (beautiful girl:1.5), highres, looking at viewer, smile
+Using Square Brackets to Decrease Weight
+Square brackets [] are used to decrease the weight of the enclosed keywords. This means the AI model will give less importance to these words when generating the image.
+• Single Square Brackets : Decrease the weight by 0.9 times.
+• Example: [background] decreases the weight of “background” to 0.9.
+• Nested Square Brackets : Decrease the weight further.
+• Example: [[background]] decreases the weight of “background” to 0.81 (0.9 * 0.9).
+Example Prompts:
+(masterpiece, best quality), (beautiful girl:1.5), highres, looking at viewer, smile, [background:0.8]
+Using Curly Braces
+Curly braces {} are less commonly used but in some implementations (e.g., NovelAI), they serve a similar purpose to parentheses with different default multipliers. For instance, {word} might be equivalent to (word:1.05).
+Example Prompts:
+(masterpiece, best quality), {beautiful girl:1.3}, highres, looking at viewer, smile
+Combining Weights
+You can combine different types of brackets to fine-tune the prompt further:
+• Example: ((beautiful girl):1.2), [[background]:0.7]
+Example Prompts:
+(masterpiece, best quality), ((beautiful girl):1.2), highres, looking at viewer, smile, [[background]:0.7]
+Practical Examples
+Increasing Emphasis:
+To generate an image where the focus is heavily on the “girl”:
+(masterpiece, best quality), (beautiful girl:1.5), highres, looking at viewer, smile, [background:0.8]
+Decreasing Emphasis:
+To generate an image where the “background” is less emphasized:
+(masterpiece, best quality), beautiful girl, highres, looking at viewer, smile, [background:0.5]
+Conclusion
+By using parentheses, square brackets, and curly braces effectively, you can guide Stable Diffusion to prioritize or de-prioritize certain elements in your prompt, resulting in images that better match your vision. Practice using these weighting techniques to see how they affect your generated images, and adjust accordingly to achieve the best results.
+〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓 ★★★ FuturEvoLab ★★★ 〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓
+Welcome to FuturEvoLab! We greatly appreciate your continuous support. Our mission is to delve deep into the world of AI-generated content (AIGC), bringing you the latest innovations and techniques. Through this platform, we hope to learn and exchange ideas with you, pushing the boundaries of what's possible in AIGC. Thank you for your support, and we look forward to learning and collaborating with all of you.
+In our exploration, we recommend several powerful models:
+Pony XL (Realistic)
+[Pony XL]Aurora Realism - FuturEvoLab
+[Pony XL]Lifelike Doll Romance - FuturEvoLab
+Pony XL (Anime)
+[Pony XL]Cyber Futuristic Maidens - FuturEvoLab
+[Pony XL]Cyberworld Anime - FuturEvoLab
+Dream Brush SDXL - FuturEvoLab
+SDXL 1.0 (Realistic)
+[SDXL]Lover's Light - FuturEvoLab
+[SDXL]Real style fantasy - FuturEvoLab
+[SDXL]Soulful Particle Genesis - FuturEvoLab
+SDXL 1.0 (Anime)
+[SDXL]Lovepunk Synth - FuturEvoLab
+FutureDreamWorks-SDXL-FuturEvoLab
+DreamEvolution-SDXL-FuturEvoLab
+Stable Diffusion 1.5 (Realistic)
+[SD1.5]Genesis Realistic - FuturEvoLab
+Temptation Core - FuturEvoLab
+[SD1.5]Meris Realistic - FuturEvoLab
+[SD1.5]Fantasy Epic - FuturEvoLab
+[SD1.5]Fantasy - FuturEvoLab
+Stable Diffusion 1.5 (Anime)
+[SD1.5]LoveNourish EX Anime - FuturEvoLab
+[SD1.5]LoveNourish Anime - FuturEvoLab
+[SD1.5]Temptation Heart【2.5D style】- FuturEvoLab
+By leveraging these models, creators can generate images that range from hyper-realistic to vividly imaginative, catering to various artistic and practical applications.
+〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓 ★★★ FuturEvoLab ★★★ 〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓

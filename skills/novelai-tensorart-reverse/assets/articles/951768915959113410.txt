@@ -1,0 +1,1 @@
+z-image... man, : this model is consistent; you just need to prompt for variation. . You can use it as an example or add to it to get even more variation of races You just need to add the style elements to the base prompt, as this can be used for whatever you want.

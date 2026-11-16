@@ -1,0 +1,21 @@
+After experimenting for a while with Qwen-Image training, I've found a good mix of settings which work really well in my opinion. So here it is !
+1. The dataset
+For flexibility, prompt adherence and style likeness, I feel like around 30 images is always a good spot (like it is for Flux1.dev). But for example, this lora was trained on 58 images and turned out really good, because the dataset was really good and diverse, so it's not like a strict rule. I've tried with way bigger dataset a bit, but never get results good enough for me.
+When preparing a dataset for a style lora, the diversity is the most important point : do not have the same character too many times (or every person you generate will have their face). And it really depends of what you are training for, but when possible I try to have a wide range of images : people, landscapes, food, animals, indoors, outdoors, by day, by night etc... I try to show most of different situations possible to the model.
+For aspect ratio, I always try to have different aspect ratio : 1/1, 3/2, 16/9, 4/3, 5/4 (both landscape & portrait) so you can later generate in any size.
+The captioning :
+Everyone have a different opinion on it. Some people don't caption at all, some only trigger words, some with detailed description etc...
+I've tried a lot of different things and I prefer a detailed description over no caption (give a better flexibility and prompt adherence in my opinion), and I prefer to use a trigger word that already exists ('ghibli style') over a random word ('triggerWordXYZ'), because i've noticed it sometimes add text to your image with your trigger words when it is a created one.
+For captioning tools, these days I use either Gemini-Flash 2.5 or Qwen3-VL-4B (because I can run it localy). Here is an example of a simple prompt I use to get the caption :
+" Give a one paragraph detailed description of this image. Do not describe the style nor the atmosphere. Start the caption with 'a ghibli style image of'."
+The software of the screenshot is my own tool , but I would not really recommend it because I made it for myself and I'm always kind of tweaking it while I use it.
+TLDR : Around 30 images // Detailed captions with an existing trigger word
+2. The settings
+First, I use the full BF16 Qwen-Image model for training (and for inference). Until now, it doesnt cost more credits to do that so why not?
+20 repeats // 3 or 4 epochs
+Clip skip : 1 for realism // 2 for anime, cartoon etc...
+0.0006 LR (yeah it is high, but try it with these exact settings, it gives really good results)
+Cosine (or Cosine with restarts, I have not really noticed differences between these 2)
+Warmup steps : around 5% of total steps (but no higher than 125 most of the time)
+Network Dim : 16 // Network Alpha 8
+Conv Dim : 4 // Conv Alpha : 1

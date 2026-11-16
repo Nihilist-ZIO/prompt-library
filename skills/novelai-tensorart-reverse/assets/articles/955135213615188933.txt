@@ -1,0 +1,57 @@
+Enjoy Your Imagination Tool is a lightweight image and video editing tool built on Qwen-Image-Edit, designed around a simple core idea: the freedom to unleash imagination.
+This tool is provided as a general-purpose AI content generation and research utility , intended to support experimentation, testing, and creative exploration.
+Please use this tool responsibly and in compliance with applicable laws and regulations. Do not use it to generate or distribute content that is illegal, harmful, or infringes upon the rights of others.
+Users are responsible for their inputs and for how generated content is applied or shared.
+I have implemented measures to ensure safe and responsible use , and may adjust, restrict, or discontinue features if misuse or risk is identified.
+Due to the open-ended nature of AI, outputs may occasionally be incomplete, inaccurate, or inappropriate.
+By continuing, you acknowledge the experimental nature of this tool and agree to use it responsibly.
+享受你的想象力工具 是一个基于 Qwen-Image-Edit 的轻量级图像与视频编辑工具，核心理念是：释放你的创意与想象力。
+本工具为 通用型 AI 内容生成与研究工具 ，用于支持创作实验、测试与探索。
+请在合法合规的前提下使用本工具，勿用于生成或传播任何违法、有害或侵害他人权益的内容。
+用户需对自身输入及生成内容的使用负责。
+我已采取措施确保工具安全和合规使用 ，若发现滥用或风险行为，我可能会调整、限制或下线相关功能。
+由于 AI 系统具有开放性，生成内容可能存在不完整、不准确或不适宜的情况。
+继续使用即表示您认可工具的实验性质，并同意负责任地使用它。
+Version History & Key Features
+Image Series :
+v1 (Test Version, Removed)
+An experimental release used to validate the overall editing workflow and the feasibility of integrating Qwen-Image-Edit.
+v2/Preview (Fixed Aspect Ratio Version)
+Introduced a fixed output ratio, significantly improving character and subject consistency across multiple edits. Ideal for character-focused and continuous creation scenarios.
+v3 (Flexible Aspect Ratio Version)
+Added free adjustment of output image aspect ratios , further enhancing overall image quality and visual detail while maintaining structural stability.
+v4 (Enhanced Prompt Understanding Version)
+Strengthened prompt parsing and semantic alignment, enabling more accurate interpretation of complex descriptions and abstract creative intentions.
+v5 (Multi-Image & Multi-Angle Version)
+Introduced multi-image editing and Multi-Angles LoRA support.
+This version further improves prompt comprehension and editing consistency under complex conditions such as multiple reference images, varying viewpoints, and advanced prompt structures, making it well suited for high-freedom and sophisticated creative works.
+v1 (Test Version, Removed / 测试版，已下线)
+初步实验版本，用于验证整体编辑工作流和 Qwen-Image-Edit 集成可行性。
+v2 / Preview (Fixed Aspect Ratio / 固定比例预览版)
+引入固定输出比例，提高人物和主体一致性，适合角色创作与连续创作场景。
+v3 (Flexible Aspect Ratio / 灵活比例版)
+支持自由调整输出图像比例，提高整体图像质量和视觉细节，同时保持结构稳定性。
+v4 (Enhanced Prompt Understanding / 提示词理解增强版)
+加强提示词解析和语义对齐，更准确理解复杂描述与抽象创意意图。
+v5 (Multi-Image & Multi-Angle / 多图多角度版)
+支持多图编辑与 Multi-Angles LoRA，增强复杂条件下的编辑一致性，适合高自由度创作与精细创作工作。
+Brief Guide
+Use natural language prompts ( English & Chinese Available)
+Use brief sentences to describe instead of put all the words in one sentence.
+For precise editing you can apply mask (Use " Inpaint " to add mask , can be found in upload box）
+Try random seed for more various result.
+使用自然语言提示（支持中文与英文）。
+简短清晰描述，不要堆砌长句。
+精准编辑可使用遮罩（上传框内“修补/Inpaint”功能）。
+可尝试随机种子以获得多样化结果。
+About Price
+I know how users feel when find tools with annoying blue $ .However since I'm struggling to make ends meet irl , I have no choice but to set some of my tools paid :( Hope you can understand it.
+Image:
+v2 / Preview version remains free.
+v3 & v4 are free for 3 trials, then Pro / 1$ unlock.
+v5 free until a usage threshold, then may switch to Pro / 1$.
+v2 / 预览版保持免费。
+v3 & v4 提供 3 次试用，之后 Pro / 1$ 解锁。
+v5 在使用量达到阈值前免费，之后可能切换为 Pro / 1$。
+If you have any reasonable questions , please comment below.
+heart

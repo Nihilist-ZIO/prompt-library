@@ -1,0 +1,4 @@
+Hello all! Today I bring you the most requested article for male hairstyles! As always, keep in mind that results may vary depending on the models you use.
+This is the prompt I've used to generate these images, the only difference is that I added the hairstyles to the prompt:
+"1boy, upper body, looking at viewer, neutral expression, soft lighting, shallow depth of field, clean background, natural pose, high quality, detailed face"
+As always, my settings for generating these images:

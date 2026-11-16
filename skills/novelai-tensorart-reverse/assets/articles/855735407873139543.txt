@@ -1,0 +1,4 @@
+Hey all! Just a brief article for today, but I think it's a very important one! Today we're going to talk about the focus and the importance of it.
+When you're prompting for image generation, you can guide the model's attention to focus on specific parts of the image. This is called focal emphasis.
+Prompting focus tells the AI which part of the image should be emphasized or featured most prominently in the composition. It affects framing, detail level, and where the viewer's eye is drawn.
+Here are some examples of the ones I use (Keep in mind that these might not work perfect depending on the models you use!):

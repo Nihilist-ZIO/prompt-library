@@ -1,0 +1,111 @@
+Hey all! So I know a lot of you struggle when prompting for backgrounds, and I'd like to give you a few tips to help you achieve what you're looking for!
+Template Formula
+We're going to use this template to make it easier when prompting for backgrounds, of course, you don't have to fill in all of these, it's just an idea to get you going!
+[indoor/outdoor], [theme/style], [key background location], [important objects or structures], [time of day], [weather], [lighting/mood adjectives], [small background details]
+Examples
+1. 📍 INDOORS
+Modern Indoors
+Apartment interior — minimalist furniture, exposed brick wall, soft warm lighting, windows
+Corporate office — glass walls, desks with chairs and computer, a plant, filing cabinets, folders, cityscape visible outside, fluorescent lights
+Café — rustic tables, warm lights, crowded shelves, coffee machine
+Fantasy Indoors
+Ancient library — towering bookshelves, candles, massive dusty tomes, wooden rustic tables
+Mage’s tower room — arcane symbols on walls, glowing crystals, ancient scrolls and books piled on table, wooden desk, magic clutter
+Castle Hall — stone walls, banners, chandeliers, long tables, warm light
+Sci-Fi Indoors
+Spaceship cockpit — holographic displays, metal walls, blinking control panels
+Cyberpunk hacker den — glowing monitors, tangled wires, dark metal desk, neon graffiti walls
+Alien temple — bioluminescent carvings, strange pulsating walls, hovering energy artifacts
+Historical Indoors
+Medieval tavern — wooden beams, crowded tables, candlelight flickering, tankards of ale
+Victorian parlor — velvet chairs, ornate rugs, grand fireplace, oil paintings on walls
+Roman villa atrium — marble columns, mosaic floors, small fountain, lush plants
+2. 🌲 OUTDOORS
+Modern Outdoors
+Urban city street — skyscrapers, busy traffic, flashing billboards, nighttime rain reflections
+Suburban park — morning, trimmed green lawns, tree-lined walking path, bench
+Abandoned warehouse yard — cracked pavement, broken fences, overgrown weeds, graffiti murals
+Fantasy Outdoors
+Enchanted forest — glowing mushrooms, ancient twisted trees, magical fog creeping at feet
+Dragon graveyard — giant skeletal remains, charred black ground, perpetual red sunset
+Mountain castle — green mountain cliffs, big stone castle trees
+Sci-Fi Outdoors
+Alien desert planet — red sun, red cracked earth, distant colossal ruins, swirling sandstorms
+Mega-city skyline — impossibly tall towers, neon holograms, hovercars zipping past, misty lower levels
+Asteroid mining station exterior — rocky surface, space shuttles parked, distant planets visible in black sky
+Historical Outdoors
+Medieval battlefield — muddy trenches, shattered banners, smoke rising from distant fires
+Viking fjord village — wooden longhouses, smoky chimneys, mountains meeting icy waters
+Feudal Japan village — thatched roofs, winding stone paths, cherry blossom trees in bloom
+🧠 Bonus Tips for Background Prompting
+Mention time of day : morning, dusk, night, midnight, dawn.
+Weather adds mood: rainy, snowy, foggy, stormy, sunny, dusty.
+Use adjectives to strengthen the scene: "ruined", "elegant", "oppressive", "overgrown", "desolate", "bustling".
+Think of lighting : neon lights, candlelight, moonlight, glowing fog, flickering torches, cyber glow.
+Use 2-3 small details to make scenes vivid without overloading.
+🖊Quick Ideas
+1. Indoor or Outdoor?
+indoor
+outdoor
+2. Theme or Style?
+modern
+fantasy
+sci-fi
+historical
+cyberpunk
+steampunk
+dark horror
+medieval
+post-apocalyptic
+3. Location Examples?
+apartment interior
+castle throne room
+neon city street
+floating island
+viking village
+abandoned lab
+hacker den
+secret garden
+spaceship bridge
+4. Objects/Structures?
+glowing runes
+steel beams
+grand chandeliers
+ruined statues
+market stalls
+old books
+overgrown vines
+shattered glass
+ritual circles
+5. Time of Day?
+morning
+afternoon
+sunset
+dusk
+night
+midnight
+dawn
+6. Weather?
+clear sky
+raining
+snowing
+foggy
+stormy
+windy
+dusty
+7. Lighting or Mood Adjectives?
+soft candlelight
+harsh neon glow
+eerie blue light
+golden sunset glow
+dim flickering light
+bioluminescent mist
+crackling fires
+8. Small Details?
+footsteps in dust
+abandoned backpacks
+bloodstains on floor
+flying paper scraps
+vines creeping up walls
+holographic ads
+ancient symbols carved on walls

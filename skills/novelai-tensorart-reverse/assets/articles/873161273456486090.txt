@@ -1,0 +1,5 @@
+Hello! Today's article focuses on Fashion Styles , keep in mind that the ouput you get might be different than mine if you use different models.
+This is the prompt I used for all the images, as you can see, it's a very simple one, I haven't added any appearance and clothes descriptors since the fashion style tags change them and I want you guys to see how they work properly.
+"1girl, cowboy shot, looking at viewer, neutral expression, soft lighting, shallow depth of field, clean background, natural pose, high quality, detailed face, colored clothes, random accessories"
+The only difference in all these images is the word I add next, which is the title on top of every image:
+As always, my settings for generating these images:

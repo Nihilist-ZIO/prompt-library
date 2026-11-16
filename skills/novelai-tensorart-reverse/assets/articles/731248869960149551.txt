@@ -1,0 +1,28 @@
+Hello. I usually use "lighting/lighting effects" when generating images.
+I will introduce some of the "words" I use when I want to add something.
+Please note that these words alone do not provide 100% effectiveness, and the base model
+The effect you get will differ depending on the LoRA sampling method and where you place it in the prompt.
+Words related to "lighting effects"
+・ Backlight : Light from behind the subject
+・ Colorful lighting : The impression itself is not colored, but the color changes depending on the light.
+・ moody lighting : natural lighting, not direct artificial light
+・ studio lighting : A term used to describe the artificial lighting of a photography studio.
+・ Directional Light : directional light source is a light source that shines parallel rays in a selected direction.
+・ Dramatic lighting : Lighting techniques in the field of photography
+・ Spot lighting : A lighting technique that uses artificial light in a small area.
+・ Cinematic lighting : A single word that describes several lighting techniques used in movies.
+・ Bounce Lighting : Light reflected by a reflex plate, etc.
+・ Practical Lighting : Photographs and videos that depict the light source itself in the composition
+・ Volumetric lighting : A word derived from 3DCG. It tends to be a picture with a divine golden light source.
+・ Dynamic lighting : I don't really understand what it means, but it tends to create high-contrast images.
+・ Warm lighting : Creates a warm picture illuminated with warm colors
+・ Cold lighting : Lights with a cold light source.
+・ High-key lighting : Soft light, minimal shadows, low contrast, resulting in bright frames
+・ Low-key lighting : It provides high contrast, but the impression is a little weak.
+・ Hard light : Strong light. Highlights appear strong.
+・ soft light : A word that refers to faint light.
+・ strobe lighting : strong artificial light (stroboscopic lighting)
+・ Ambient light : An English word that refers to ambient lighting/indoor lighting.
+・ flash lighting : For some reason, the characters themselves tend to emit light, and there are often flashes of light.
+(flash lighting photography)
+・ Natural lighting : This tends to create a natural-looking picture that feels contrasting with artificial light.

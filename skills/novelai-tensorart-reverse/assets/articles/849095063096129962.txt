@@ -1,0 +1,27 @@
+How to create Lora (Basic version)
+I believe that when creating an image you like, you may sometimes feel that some element is missing, and you may try to search for the relevant lora, but still cannot find it.
+At this time, you may think, should I make a lora myself? In this way, in my future works, maybe I can highlight more of the elements I like! I can also share it with my creative partners.
+Let’s get started!
+First, you need to collect more pictures of similar elements (about 12 pictures) , and the picture resolution should be higher , so that when you use it with other LoRa in the future, the pictures will be clearer, unless the element you want is a hazy feeling.
+Next, it’s time to start training!
+First, open the user interface and there is a model I trained . Then click the online training in the upper left corner to enter the training interface. Add the prepared image in the lower left corner. Select the basic model type you often use in the upper right corner, such as: sd1.5, sd3.5, pony, flux, Hunyuan, etc.
+Next, you need to consider your computing power budget , because if you use different basic models to train the same image, the results will be very different, and the computing power consumption will also be different. Also, can you use it together with the commonly used LoRa?
+For the trigger word part, you can input the most important elements of this lora. You can choose not to input them first and wait until you see the training results.
+The prompt word part seems to affect the training results. If you have a clear goal, you can enter it. The default is 1girl. If your element is not a girl, you can change it or leave it blank.
+OK, next click on training, wait in line and check the training time.
+After the training is finished, I will look at the training results. There are ten training results in total. I usually choose one from the sixth to the tenth one that looks closer to the result I want and press publish.
+Select Create Project at the top.
+Enter the project name (be careful, this cannot be changed)
+Select Lora Type
+Add lora tag
+parameter
+I usually choose 500 for the number of iterations.
+Type the trigger word and description
+Selecting a base model
+Reverse prompt word
+Upload files unless they are the result of previous training
+Otherwise, I usually adjust the precision to fp32 .
+Showcases (Image/Video)
+If you are uploading the results of a previous training, you need to upload the workbench image and cover image
+OK, press Publish
+Adjust the details again, update and wait for the system to be deployed, then you can try it out and see your results!😁😁😁

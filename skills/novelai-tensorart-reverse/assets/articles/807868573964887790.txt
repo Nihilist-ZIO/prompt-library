@@ -1,0 +1,42 @@
+My Journey: Training a LoRA Model for Game Art Design
+What is LoRA?
+LoRA (Low-Rank Adaptation) is a powerful technique to create custom AI art models, perfect for game designers looking to develop unique visual styles.
+My Training Setup for Adrar Games Art Style
+Preparing Your Training Dataset
+Technical Specifications
+Base Model : FLUX.1 - dev-fp8
+Training Approach : LoRA (Low-Rank Adaptation)
+Trigger Words : Adrr-Gmz
+Epochs : 5
+Learning Rate : 0.0005 (UNet)
+Key Training Parameters
+Network Configuration
+Dimension: 2
+Alpha: 16
+Optimizer: AdamW 8bit
+LR Scheduler: Cosine with Restarts
+Advanced Techniques
+Noise Offset: 0.1
+Multires Noise Discount: 0.1
+Multires Noise Iterations: 10
+Sample Prompt
+"A game art poster of a Hero standing in a fantastic ancient city in the background, and in the top a title in a bold stylized font 'Adrar Games'"
+My Learning Process
+Challenges
+Creating a consistent game art style
+Capturing the essence of "Adrar Games" visual identity
+Balancing technical parameters with creative vision
+Insights
+LoRA allows precise control over art generation
+Careful parameter tuning is crucial
+Small adjustments can significantly impact results
+Practical Takeaways
+Start with a clear artistic vision
+Experiment with different settings
+Don't be afraid to iterate and refine
+Recommended Next Steps
+Generate multiple sample images
+Analyze and compare results
+Adjust parameters incrementally
+Build a library of unique game art assets
+Would you like me to elaborate on any part of my LoRA training experience?

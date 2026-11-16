@@ -16,3 +16,9 @@ local_config*
 # ---- 归档批次源文件不进仓库（见 归档日志.md 五、同步到 GitHub）----
 _batches/
 _new_*.py
+
+# ---- 永久禁令：历史 MJ 提示词候选 92 组（用户 2026-11-15 明确「永远不入 GitHub」）----
+# 文件名级兜底：即便文件被移出 _batches/ 也不会误提交
+mj_history_candidates.md
+*mj_history_candidates*
+*.mj-never-push.*

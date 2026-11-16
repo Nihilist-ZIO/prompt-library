@@ -1,0 +1,2 @@
+Hey all! Today I bring you an article about prompting for eyes. As always, keep in mind that results may vary depending on the models you use.
+Models and settings used to generate these images:

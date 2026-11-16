@@ -9,7 +9,7 @@ MASTER = os.path.join(BASE, "PROMPT_MASTER.md")
 
 cat_map = {
     "renwu": "人物", "changjing": "场景", "goutu": "构图",
-    "texiao": "特效", "zhoubian": "周边", "yishu": "艺术",
+    "texiao": "特效", "zhoubian": "周边", "yishu": "艺术", "novelai": "NovelAI", "midjourney": "Midjourney",
 }
 fallback = {
     "人物": "角色设定 / 人像精修 / 人物渲染",
@@ -18,6 +18,8 @@ fallback = {
     "特效": "光效 / 能量 / 法术特技",
     "周边": "商品化 / 纪念品 / 周边",
     "艺术": "插画风 / 艺术字 / 艺术海报",
+    "NovelAI": "NovelAI / Danbooru tag 系 · 日系插画逆向",
+    "Midjourney": "Midjourney 专用 · --ar / --hd / --raw / --p 参数后缀",
 }
 
 text = open(MASTER, encoding="utf-8").read()
@@ -78,7 +80,7 @@ idx = wb.active
 idx.title = "索引"
 idx["A1"] = "提示词库总表（Excel 导出）"
 idx["A1"].font = Font(bold=True, size=14)
-idx["A2"] = "共 6 大类。点击「前往」可跳转到「提示词」页对应大类；「提示词」页可按列筛选。"
+idx["A2"] = "共 8 大类。点击「前往」可跳转到「提示词」页对应大类；「提示词」页可按列筛选。"
 idx["A2"].font = Font(italic=True, color="555555")
 idx.append([])
 idx.append(["大类", "条目数", "前往"])
@@ -105,7 +107,7 @@ row = 2
 seq = 1
 first_row = {}
 counts = {}
-for cname in ["人物", "场景", "构图", "特效", "周边", "艺术"]:
+for cname in ["人物", "场景", "构图", "特效", "周边", "艺术", "NovelAI", "Midjourney"]:
     first_row[cname] = row
     cnt = 0
     for (ecat, etitle, eusage, ebody, esrc) in entries:
@@ -128,7 +130,7 @@ for cname in ["人物", "场景", "构图", "特效", "周边", "艺术"]:
     ws.auto_filter.ref = f"A1:F{row-1}"
 
 link_font = Font(color="0563C1", underline="single")
-for cname in ["人物", "场景", "构图", "特效", "周边", "艺术"]:
+for cname in ["人物", "场景", "构图", "特效", "周边", "艺术", "NovelAI", "Midjourney"]:
     r = idx.max_row + 1
     idx.cell(row=r, column=1, value=cname)
     idx.cell(row=r, column=2, value=counts[cname])

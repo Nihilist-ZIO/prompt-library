@@ -1,0 +1,25 @@
+Z- image Online Training - First Time FREE! & 50% OFF
+By anchoring in the SFT stage , Z-Image achieves a superior balance between visual fidelity, generative diversity, and precise instruction following .
+It's your go-to choice due to its rapid training speeds and minimal dataset requirements.
+🔥 Limited Time Offer
+To celebrate our launch and empower creators, we are offering
+50% OFF on all online training
+your FIRST session is on us!
+Note: We will rebate up to 1,000 credits to your account upon the successful completion of your first training.
+Don’t miss out!
+📌 Go to Training 👉 https://tensor.art/train
+Training Tutorial
+1. Online Training Workbench
+In the online training workbench, select Custom as the model type, then choose z-image as the base foundation model for training.
+2. Training Samples
+Select high-quality samples according to the training task. The recommended number of samples is approximately 30–300 , and the more, the better .
+In our internal testing, the Base model uses a relatively high proportion of photorealistic style data during the SFT (Supervised Fine-Tuning) stage , which results in excellent image quality for realistic styles.
+3. Data Processing & Labeling
+The workbench provides multiple advanced multimodal models for Labeling, including the latest Gemini-3-Flash model.
+You can use the default caption prompt for labeling, or customize your own prompt. After annotation is completed, add a trigger word and a training sample preview prompt . For example, jzxdda_style can be used as a trigger token — it carries no inherent semantic meaning and is used solely to activate the learned style.
+4. Start Training
+Click the “Start Training” button to launch the training task.
+The training details page will display the estimated remaining time , which typically ranges from 10 minutes to 1 hour , depending on the number of training samples and training steps.
+During training, you can monitor real-time loss curves and accuracy changes . The task can be stopped early at an appropriate epoch to prevent overfitting.
+5. Testing & Publishing
+Click “Publish” to create a project and deploy the trained model.

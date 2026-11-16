@@ -1,0 +1,14 @@
+This is a guide for beginners it's very very basic, I'll showcase emotions and how the AI portrays them (or doesn't)
+The style I'll be using to test is Anime. The seed of the neutral expression would be used as a base and only the " neutral expression" of the prompt would be changed.
+Prompt: masterpiece, best quality, aesthetic, , 4k, hd, amazing quality, very aesthetic, volumetric lighting, perfect lighting, detailed eyes, perfect anatomy, perfect proportions, high definition, masterpiece, best quality, very awa, newest, highres, absurdres, year 2024, extremely detailed, highres,detailed beautiful face, high resolution, good colors, bright skin, Dynamic lighting, countershading, depth of field, ambient occlusion, raytracing, bara, face up close, face, eyes, nose, neck, chest, toned neck, adam apple, looking at viewer, head_tilt, slice-of-life style, focus face, male_only, neutral expression
+1boy, toned boy. handsome, ikemen, dynamic angle,, multi color hair, blue school_uniform, idol costume, (Glittering background), outdoor, school, blue sky, heart, hair ribbon, head rest, blue glitter hair streaks,shoulder-length_hair, Black hair, cyan eyes, warm-ivory_skin.
+Expressions:
+Neutral, Happy, Angry, Sad, Pout, Bored
+Smug, Naughty, Grimace (don't ask), Excited, Hopeful, Joyful
+Nervous, Pensive, Relaxed, Shy, Shocked, Sleepy
+Worried, Mischievous, Embarrassed, Seductive, Inawe, Ahegao
+Lastly. Emotionless, Scared, Disgust,
+At the bottom is an example of how to enhance the emotion, is to describe the expression through tags.
+I did the Smug expression but added more details of how it should look. Search for Inspo learn from other creators, check their prompts, try to verbalize a picture's expression, it'll help your gens look more lively.
+Emotions that didn't show up:
+Jealous, hurt, proud, suspicious, thoughtful, stressed, tired, troubled, wary, embarrassed. Romantic, frustrated, fearful confused , curious, troubled, worried, sulking, melancholic, disappointed, disgusted

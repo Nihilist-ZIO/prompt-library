@@ -1,0 +1,2 @@
+tutorial how to find any model you need
+Go to https://tensorhub.art Log in to the same account this is for nsfw Go to the search button and try to find the model if you got it open it and click on star the model go back to tensor.art click Create Creation Add LoRA My Starred and done 👍 if you didn't find the model try to upload it at https://tensorhub.art If it exists, they will tell you with a blue button to find it if not just upload it but put a safe images this will make everyone can find it don't forget the tags

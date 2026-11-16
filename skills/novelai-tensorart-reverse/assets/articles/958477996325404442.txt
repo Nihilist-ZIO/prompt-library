@@ -1,0 +1,38 @@
+小さいモデルと大きなモデルが両方出てしまうときの対処法のオススメ
+なぜ「小さいモデル＋大きいモデル」が同時に出るの？
+① 「chibi（チビ）」がサイズじゃなく“作風”として解釈される。
+生成AIは
+chibi = デフォルメされた可愛いキャラ
+small / tiny = 物理的に小さい
+と別物として理解することが多い。
+👉 だから
+「チビキャラ」＝頭が大きい可愛いキャラ
+「通常サイズの人物」
+この両方を同時に描こうとすることがある。
+② 人物指定が曖昧だと「複数人」と解釈される
+プロンプトに
+a girl
+character
+model
+みたいな単数指定が弱いと、
+「通常キャラ1人 ＋ chibiキャラ1人」
+という共存構図を作ることがある。
+③ 「style」と「subject」が分離されてしまう
+例えば👇
+chibi style, cute character, full body
+この場合AIは
+主役：通常キャラ
+付加要素：chibiスタイルの別キャラ
+と分けて解釈することがある。
+防ぐための超重要ポイント ✅
+🔹 1. 物理サイズを明示する。2. 人数を明確に。3. 通常サイズを否定する。4. 「style」じゃなく「form」として指定。
+安定する黄金フレーズ（例）
+One single chibi character only, super deformed proportions, very small body with an oversized head, no normal-sized humans, no realistic anatomy.
+補足：それでも出る場合
+モデルやLoRAによっては
+chibi LoRA + 通常人物ベースが同時に働くこともある。
+その場合は
+ネガティブに
+normal body, realistic human, adult proportions
+or 「illustration, cartoon」強調
+が効く。

@@ -1,0 +1,8 @@
+Z-Image is a powerful and useful model, but the current Turbo version is not very friendly to training LoRa. Here are a few points to note, shared for those who need them:
+1. When training with TA, be sure to use the official version released by @通义万相, ( Z-Image-Turbo ), which allows De-distilled mode.
+2. Do not use Add Dataset Normalization, as it is not yet supported.
+3. Regarding the issue of the learning rate not increasing after the loss reaches 0.37, you can control the number of steps to avoid wasting computational resources. Around 5000-6000 steps should reach approximately 0.37; adjust according to your situation and training set.
+4. I mostly use the default settings for other configurations. Adjust them based on your experience.
+5. After LoRa is set up, test it with 20 steps and CGF: 1.5-2. Due to the distillation of the model, 9 steps and CGF: 1 may not have any effect.
+These are some of my experiences training the Z-Image Turbo model LoRa; I hope they are helpful.
+My Z-IMAGE LoRa link, feel free to test it.

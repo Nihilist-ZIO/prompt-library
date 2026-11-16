@@ -1,0 +1,269 @@
+Avoid unwanted artifacts!
+Did you know using negative prompts can benefit your image?
+Here is a short list with some good negative prompts i have collected over one year of being a tensor user
+(SD1.5, 3.0 and XL compatible) .
+Negatives for landscapes
+blurry
+boring
+close-up
+dark (optional)
+details are low
+distorted details
+eerie
+foggy (optional)
+gloomy (optional)
+grains
+grainy
+grayscale (optional)
+homogenous
+low contrast
+low quality
+lowres
+macro
+monochrome (optional)
+multiple angles
+multiple views
+opaque
+overexposed
+oversaturated
+plain
+plain background
+portrait
+simple background
+standard
+surreal
+unattractive
+uncreative
+underexposed
+Negatives for street views
+animals (optional)
+asymmetrical buildings
+blurry
+cars (optional)
+close-up
+creepy
+deformed structures
+grainy
+jpeg artifacts
+low contrast
+low quality
+lowres
+macro
+multiple angles
+multiple views
+overexposed
+oversaturated
+people (optional)
+pets (optional)
+plain background
+scary
+solid background
+surreal
+underexposed
+unreal architecture
+unreal sky
+weird colors
+Negatives for people
+3D
+absent limbs
+age spot
+additional appendages
+additional digits
+additional limbs
+altered appendages
+amputee
+asymmetric
+asymmetric ears
+bad anatomy
+bad ears
+bad eyes
+bad face
+bad proportions
+beard (optional)
+broken finger
+broken hand
+broken leg
+broken wrist
+cartoon
+childish (optional)
+cloned face
+cloned head
+collapsed eyeshadow
+combined appendages
+conjoined
+copied visage
+corpse
+cripple
+cropped head
+cross-eyed
+depressed
+desiccated
+disconnected limb
+disfigured
+dismembered
+disproportionate
+double face
+duplicated features
+eerie
+elongated throat
+excess appendages
+excess body parts
+excess extremities
+extended cervical region
+extra limb
+fat
+flawed structure
+floating hair (optional)
+floating limb
+four fingers per hand
+fused hand
+group of people
+gruesome
+high depth of field
+immature
+imperfect eyes
+incorrect physiology
+kitsch
+lacking appendages
+lacking body
+long body
+macabre
+malformed hands
+malformed limbs
+mangled
+mangled visage
+merged phalanges
+missing arm
+missing leg
+missing limb
+mustache (optional)
+nonexistent extremities
+old
+out of focus
+out of frame
+parched
+plastic
+poor facial details
+poor morphology
+poorly drawn face
+poorly drawn feet
+poorly drawn hands
+poorly rendered face
+poorly rendered hands
+six fingers per hand
+skewed eyes
+skin blemishes
+squint
+stiff face
+stretched nape
+stuffed animal
+surplus appendages
+surplus phalanges
+surreal
+ugly
+unbalanced body
+unnatural
+unnatural body
+unnatural skin
+unnatural skin tone
+weird colors
+Negatives for photorealism
+3D render
+aberrations
+abstract
+anime
+black and white (optional)
+cartoon
+collapsed
+conjoined
+creative
+drawing
+extra windows
+harsh lighting
+illustration
+jpeg artifacts
+low saturation
+monochrome (optional)
+multiple levels
+overexposed
+oversaturated
+painting
+photoshop
+rotten
+sketches
+surreal
+twisted
+UI
+underexposed
+unnatural
+unreal engine
+unrealistic
+video game
+Negatives for drawings and paintings
+3d
+bad art
+bad artist
+bad fan art
+CGI
+grainy
+human (optional)
+inaccurate sky
+inaccurate trees
+kitsch
+lazy art
+less creative
+lowres
+noise
+photorealistic
+poor detailing
+realism
+realistic
+render
+stacked background
+stock image
+stock photo
+text
+unprofessional
+unsmooth
+Additional negatives
+Bad anatomy: flawed structure, incorrect physiology, poor morphology, misshaped body
+Bad proportions: improper scale, incorrect ratio, disproportionate
+Blurry: unfocused, hazy, indistinct
+Cloned face: duplicated features, replicated countenance, copied visage
+Cropped: trimmed, cut, shortened
+Dark images: dark theme, underexposed, dark colors
+Deformed: distorted, misshapen, malformed
+Dehydrated: dried out, desiccated, parched
+Disfigured: mangled, dismembered, mutilated
+Duplicate: copy, replicate, reproduce
+Error: mistake, flaw, fault
+Extra arms: additional limbs, surplus appendages, excess extremities
+Extra fingers: additional digits, surplus phalanges, excess appendages
+Extra legs: additional limbs, surplus appendages, excess extremities
+Extra limbs: additional appendages, surplus extremities, excess body parts
+Fingers: conjoined fingers, crooked fingers, merged fingers, fused fingers, fading fingers
+Fused fingers: joined digits, merged phalanges, combined appendages
+Gross proportions: disgusting scale, repulsive ratio, revolting dimensions
+JPEG artifacts: compression artifacts, digital noise, pixelation
+Long neck: extended cervical region, elongated throat, stretched nape
+Low quality: poor resolution, inferior standard, subpar grade
+Lowres: low resolution, inadequate quality, deficient definition
+Malformed limbs: deformed appendages, misshapen extremities, malformed body parts
+Missing arms: absent limbs, lacking appendages, nonexistent extremities
+Missing legs: absent limbs, lacking appendages, nonexistent extremities
+Morbid: gruesome, macabre, eerie
+Mutated hands: altered appendages, changed extremities, transformed body parts
+Mutation: genetic variation, aberration, deviation
+Mutilated: disfigured, dismembered, butchered
+Out of frame: outside the picture, beyond the borders, off-screen
+Poorly drawn face: badly illustrated countenance, inadequately depicted visage, incompetently sketched features
+Poorly drawn hands: badly illustrated appendages, inadequately depicted extremities, incompetently sketched digits
+Signature: autograph, sign, mark
+Text: written language, printed words, script
+Too many fingers: excessive digits, surplus phalanges, extra appendages
+Ugly: unattractive, unsightly, repellent
+Username: screen name, login, handle
+Watermark: identifying mark, branding, logo
+Worst quality: lowest standard, poorest grade, worst resolution
+Do not forget to set this article as favorite if you found it useful.
+Happy generations!

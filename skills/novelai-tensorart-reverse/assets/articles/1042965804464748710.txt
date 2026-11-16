@@ -1,0 +1,42 @@
+Hi, This guild for help user how Tool work and which one better for them.
+Tool 1 — COS🎭Real image edit
+What it can do
+Takes any image — anime, hentai, 2.5D, painted, whatever — and restyles it toward realistic / photoreal .
+It is an edit , not a new generation. Pose, framing, and the girl stay from your source. Lighting, skin, cloth, and camera look get pushed real.
+Pick:
+COS Real (LA1 / COSv1) → hard photoreal / cosplay-real
+Adapt Mix → softer mix, less face-kill on very stylized sources
+No LoRA slot. One image in, realistic version out. ~7.1 tokens.
+How best to run
+Upload a clean source. Face visible. Pose readable. Don’t feed it a blurry mess.
+Pick Real LA1 if you want photo. Pick Adapt Mix if Real is melting identity.
+Write a short edit instruction , not a full prompt novel.
+Hard NSFW poses need the pose said out loud in the instruction.
+One good pass. Then ADetailer / enhancer LoRA after if you want extra skin/detail. Don’t loop the same image 3 times.
+That’s it. Don’t rewrite the whole scene.
+Tool 2 — COS 🎭 edit with lora
+What it can do
+Same Cos edit engine, but you can load LoRAs .
+Use this when you want:
+any style → realistic
+or any style → another style
+and your character / style LoRA has to stay in the picture
+Best bases: COS Real and Adapt Mix .
+Adapt Mix is safer when stacking LoRAs. Real is for when the target is clearly photo.
+How best to run
+Upload a clean source.
+Base: Adapt Mix for LoRA-heavy jobs. Real LA1 for photoreal + character lock.
+Style / character LoRA at 1.0 or higher. Low weight = Cos ignores it.
+Prompt Pose Enhancer only at 0.1 or 0.2 in this tool. Higher and it restyles the source instead of holding it.
+Keep the instruction short. Say the target look + “same pose, same girl.”
+Nasty / complex poses: put the pose in the text.
+If she turns into a different girl, don’t raise Enhancer. Raise the style/character LoRA or use a tighter crop.
+Tools
+Real edit: https://tensorhub.art/template/1037853512408543706
+Edit + LoRA: https://tensorhub.art/template/1039647840223159380
+Models
+COS Real LA1: https://tensor.art/models/1038931272174458113/Krea2COS-Real-LA1
+Adapt Mix: https://tensor.art/models/1038921733052054064/COS-Adapt-Mix-CosMix-v1
+Prompt Pose Enhancer: https://tensor.art/models/1026045393181363749/PromptPose-Enhancer-NUKE-v1
+NukeAI: X @NukeAi78321
+Discord https://discord.gg/KW5XqYdGTu

@@ -1,0 +1,9 @@
+First, let's open the online training
+The first step is to upload the training set. Since the Kontext Dev model is a bit special, the training data needs to be in pairs each pair includes a “before editing” and “after editing” image. Upload the “before” images in the red section and the “after” ones in the green section.
+We recommend uploading around 10 to 20 pairs.
+Similarly, for Kontext Dev, what you need isn’t “image captions” you should enter simple editing instructions in the red box instead. Just a short phrase or a single sentence is enough. You can also add trigger words in the green box to help improve the LoRA’s performance after training.
+In the green box, fill in the preview settings for checking how your model will perform this includes uploading an original image and adding an editing prompt. That way, once training is done, you can easily see how well it worked.
+As for the settings, we recommend using the “Basic Mode” with the default values. But if you want more advanced control, you can switch to “Pro Mode” by clicking the red box in the top right corner.
+The "Start Image" is the one used to show comparison previews during each training epoch. Here, I uploaded an image that's part of the training set, but I actually recommend using one that’s not in the training set it gives you a better sense of how well the model generalizes.
+Once everything’s ready, just click “Start Training Now” to get things going.
+Remember, once the training is done and your model is published, make sure to use it in Image2Image mode here.

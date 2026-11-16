@@ -1,0 +1,23 @@
+Hello! Today we're looking into how to prompt different types of eyes. Let's go~
+Summary:
+Danbooru Reference
+Model + Quality prompts
+Iris
+Pupils
+Around the eyes
+Sclera
+Danbooru Reference
+The list is long, and some of the eyes did not work for my model, but it might work for yours.
+Update: For some reason, Tensor is not letting me post a link of danbooru. But if you go to their site, just append this to the url: wiki_pages/tag_group%3Aeyes_tags
+Model + Quality Prompts
+Using Diviling-Illustrious Anime: https://tensor.art/models/897826979653397911
+Positive prompt : (masterpiece, best quality, absurdres, highres), amazing quality, very aesthetic, (volumetric lighting), digital art style, drawn aesthetic, concept painting, ultrahigh definition,
+Negative prompt : worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly
+Example prompt : 1girl, short black hair, bangs, bob cut, red and yellow heterochromia, close up, front view, looking at viewer, focus face, simple white background,
+Iris
+Just add the color followed by "eyes" for most colors. See other styles below:
+Pupils
+That's the small circle inside the iris.
+Around the eyes
+Sclera
+The white part of the eye.

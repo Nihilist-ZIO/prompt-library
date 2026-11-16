@@ -10,7 +10,9 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 WRITE = "--write" in sys.argv
 
 CAT_KEY = {"人物": "renwu", "场景": "changjing", "构图": "goutu",
-           "特效": "texiao", "周边": "zhoubian", "艺术": "yishu"}
+           "特效": "texiao", "周边": "zhoubian", "艺术": "yishu",
+           "NovelAI": "novelai",
+           "Midjourney": "midjourney"}
 
 ENTRIES = []
 import glob
@@ -101,9 +103,9 @@ for cat, items in by_cat.items():
     print("写入", p, "+%d 条" % len(items))
 
 # ---- 写入 PROMPT_MASTER.md（必须插进对应大类章节内，不能一律追加到文末）----
-CAT_ORDER = ["人物", "场景", "构图", "特效", "周边", "艺术"]
+CAT_ORDER = ["人物", "场景", "构图", "特效", "周边", "艺术", "NovelAI", "Midjourney"]
 NEXT_KEY = {"人物": "changjing", "场景": "goutu", "构图": "texiao",
-            "特效": "zhoubian", "周边": "yishu"}
+            "特效": "zhoubian", "周边": "yishu", "艺术": "novelai", "NovelAI": "midjourney"}
 
 add_by_cat = {}
 for ne in ENTRIES:
@@ -117,7 +119,7 @@ for cat in CAT_ORDER:
     if cat not in add_by_cat:
         continue
     blk = add_by_cat[cat]
-    if cat == "艺术":                      # 末类，直接追加
+    if cat == "Midjourney":                # 末类，直接追加
         master = master.rstrip() + "\n" + blk
     else:                                  # 其余插到下一个大类锚点之前
         marker = '<a id="%s"></a>' % NEXT_KEY[cat]

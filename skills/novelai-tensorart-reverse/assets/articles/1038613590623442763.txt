@@ -1,0 +1,41 @@
+GameECG NUKE v1 — Unlock Cinematic Game-CGI
+This is not another flat checkpoint. GameECG is a Krea2 model built to look like a triple-A cutscene — Unreal Engine skin, cinematic light, premium 3DCG bodies you can almost touch.
+Load it once. The first good gen usually converts people. If you want that high-end game-character look — clothed splash or full explicit — this is the stack.
+1. What it does
+• Ultra-detailed 3DCG / Unreal Engine 5 character renders
+• Mature, thick, heroine-level bodies
+• Cinematic indoor and window light
+• Sharp materials: skin, cloth, hair • Strong explicit close-ups when you ask for them
+2. Base settings
+Model: GameECG-NUKE-v1
+Steps: 8 CFG: 1
+Sampler: er_sde
+Scheduler: simple
+Resolution: 1024×1536 or 1536×1024
+Adetailer: ON when a face is in frame. OFF on rear close-ups with no face.
+3. The two LoRAs
+Prompt🍀Pose Enhancer
+Locks pose and follows the prompt.
+Strength: 0.35–0.45 Default: 0.40
+Keep this on.
+GameECG Enhancer Pose & NSFW
+Pushes GameECG body language and explicit detail.
+Strength: 0.35–0.50 Default: 0.40
+Raise it for nude / panty-pull / sex poses. Ease it down for clothed portraits. These two are the official pair. Start here before adding anything else.
+4. How to prompt it
+Write a short render brief. Identity, pose, clothes, light, skin, then one line that locks the game-CGI finish.
+• Render style + camera
+• Who she is
+• What her body is doing
+• What she is wearing
+• Where the light comes from
+• How the skin should look
+• Final “premium video game cinematic” line
+5. Main example
+Prompt:- A cinematic 35mm film photograph of Tifa Lockhart standing in Gold Saucer, looking at the viewer with a playful wink and a grin. Black evening dress. Neon carnival lights behind her. Epic theatrical composition, colorful night lighting, authentic skin and fabric textures, realistic skin pores, shallow depth of field, heavy analog film grain. Shot on 35mm film, cinematic live-action.
+6. Second example
+Prompt:- hyper-realistic full-body cinematic portrait of Aerith Gainsborough, rendered in ultra-detailed 3DCG with high-end game CGI quality (Unreal Engine 5). She lies on her side in a bed of yellow flowers, propped on one elbow, looking at the viewer with a soft, alluring smile. Simple white sundress with thin straps. Warm sunlight. Realistic skin texture, keep skin mostly dry and clean. Clean composition.
+7. Hit generate. That’s the look. :)
+X: @NukeAi78321
+Discord: https://discord.gg/KW5XqYdGTu
+Ko-fi: ko-fi.com/nukea

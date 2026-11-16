@@ -1,0 +1,9 @@
+After a long break, I’m back in fine-tuning! 🎉
+My new project: “Realistic Vision Z Image”
+This model is built on a realistic foundation and—importantly— trained with uncensored content . I’m pushing the boundaries to preserve authentic details while maintaining high-quality, natural-looking results. How far it goes will depend on training stability, but uncensored generation is a core part of the process !
+So far, training has passed 10k+ steps , and it still needs more time to mature for results that truly outperform the original Z Image.
+Due to limited resources, training is taking longer than expected, but I’m pushing through.
+I’ll be releasing a beta version soon —first as early access here on Tensor.art , and later on CivitAI too.
+🔔 If you haven’t joined my Discord server yet, please do! That’s where I share progress updates, sneak peeks, and early downloads:
+👉 Discord
+Stay tuned—and happy generating! 🚀

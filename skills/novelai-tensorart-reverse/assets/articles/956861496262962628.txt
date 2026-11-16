@@ -1,0 +1,23 @@
+We’re excited to announce a major set of updates designed to make your training workflow more powerful, flexible, and easier to manage!
+🔹 1. Library now supports Labeling
+You can now create folders in the Library and label your own images / videos directly inside them.
+Folders can be imported into online training with one click , or downloaded for local training .
+Easily organize, manage, and back up all your training assets in one place!
+You can now edit labeling directly from the left panel in a more intuitive way.
+We’ve also upgraded the labeling component in Model Training, bringing the same convenience to the training page.
+🔹 2. New Labeling Models Added
+We’ve introduced 3 new labeling models :
+gemini-3-flash
+gemini-2.5-flash
+qwen-3-vl
+✨ These models support style preference prompts , allowing you to precisely control labeling results.
+👉 We've prepared preset templates for you. You can also freely configure your exclusive Labeling Prompt based on your training set.
+📌 Note: Labeling with these three models will consume small amount of credits
+You can always switch back to the previous free models if needed.
+🔹 3. Upload Local Labeled Datasets Directly to Library
+You can now upload your locally labeled training dataset directly to the Library.
+Simply make sure your images and corresponding labeling .txt files share the same filename .
+Once uploaded, they will be automatically paired and stored in the Library for easy management.
+Here is a short video illustration: https://tensor.art/posts/956859563527662579
+🔥 This update is a huge boost for model trainers — better organization, smarter labeling, and smoother training workflows.
+Try it out now and let us know what you think!

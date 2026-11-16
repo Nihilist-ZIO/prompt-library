@@ -1,0 +1,236 @@
+Hi everyone, in this guide I will try to explain the correct way to create a full body image using Flux (other models will most likely be able to do this too). You may have experienced the difficulty of creating full-body images, as the results are usually cropped, usually with a 2:3 image ratio (768x1152) and other variations. One effective way is to change the image ratio to be larger in height and smaller in width (e.g., 800x2048). But actually, that's unnecessary because Flux is very " stubborn. "
+Why is Flux so “ stubborn ” about full body?
+1️⃣ Data bias: Flux “likes face & torso”
+The Flux model is heavily biased towards the face, chest and waist because:
+The training dataset is full of portrait, half-body, fashion crop
+Face = high detail = high aesthetic value according to the model
+When you write:
+full body shot , wide angle shot
+The model reads it, but its internal priority remains the face . So the camera “ zooms in ” on its own.
+2️⃣ The term “wide angle” ≠ camera distance
+This is a classic trap.
+Prompt → What the model understands
+wide angle → lens distortion
+full body → intention, not a guarantee
+cinematic → lighting & mood
+❌ It doesn't mean: the camera is far away
+✔️ Models can still use wide lenses but close up
+3️⃣ Human = main object → auto crop
+For human subjects, Flux automatically:
+Zoom in on the subject
+Sacrifice leg first
+focus on expression & top clothing
+That's why the background is rarely "used".
+The RIGHT way to force full body in Flux
+This isn't one trick. It's a combination of techniques.
+🧠 Main principles
+Don't just say "full body" Force it with physical context and framing.
+✅ Technique 1: Use a physical anchor (THIS IS IMPORTANT)
+The model adheres more to object relations than to camera terms.
+❌ Bad:
+full body shot, wide angle ✅ Good:
+standing on the ground, feet visible, head to toe visible, shoes touching the floor Models cannot crop the feet if "feet touching the ground".
+✅ Technique 2: Use “distance language”
+Replace camera language with physical distance .
+Effective example:
+camera placed far away, subject small in frame, full height visible Or:
+long distance shot, entire body visible within the frame ✅ Technique 3: Use “environment dominance”
+Make the background more important than the human .
+large environment, vast background, subject occupying small portion of the frame Flux will “move the camera away”.
+✅ Technique 4: Add anti-crop instruction
+Flux is quite responsive to explicit prohibitions.
+no cropped body, no half body, no close up This isn't an official negative prompt, but it's still influential.
+🔥 Examples of prompts that are PROVEN to be more compliant
+Simple example:
+a young woman standing on a street,
+full height visible from head to toe,
+feet clearly visible touching the ground,
+camera placed far away,
+subject small in frame,
+wide environment background,
+entire body inside the frame,
+no cropped body,
+natural daylight Or a more “Flux-friendly” version:
+long distance shot of a woman,
+standing upright,
+head to toe visible,
+shoes visible on the ground,
+wide environment,
+camera far away,
+subject centered but small in frame ⚠️ Things to AVOID
+🚫 Don't just rely on:
+full body shot
+wide angle
+cinematic
+fashion photography
+That's a cosmetic prompt , not a structural instruction.
+The summary 🎯
+Flux naturally cuts through the human body
+“full body” is not enough
+Object + camera distance + environment relation is key
+Force models with physical logic, not photographic terms.
+👩 FULL BODY TEMPLATE IMAGE OF A WOMAN (Or Man if you want to change it)
+Flux is more aggressive in zooming in on women, so this template is tighter on the legs & framing. Example:
+a young adult woman,
+standing upright on the ground,
+full height visible from head to toe,
+legs fully visible,
+feet clearly visible touching the ground,
+entire body fully inside the frame,
+no cropped body, no half body, no close up,
+camera placed far away,
+long distance shot,
+subject small in frame,
+wide environment surrounding the subject,
+wearing a summer dress and flat sandals,
+full outfit visible including footwear,
+located in a wide park with trees and open space,
+background dominates the scene,
+large scale background,
+natural body proportions,
+realistic female anatomy,
+balanced natural standing pose,
+soft daylight, high detail, realistic, flux dev style
+🧠 Why this template works
+“feet touching the ground” = Flux dare not cut
+“subject small in frame” = camera moves away slightly
+Environment dominance = background priority > face
+Explicit crop ban = suppress portrait bias
+This isn't magic. It's stubborn negotiation with a model. 😄
+🔧 Additional tips (optional but powerful)
+If it's still cut off → add:
+full body framed with extra space above head and below feet
+For an establishing backdrop:
+vast environment, large scale scene
+For safe poses:
+standing straight, arms relaxed at sides
+Will " camera placed far away " make the impression that the human object in the photo is too far away / zoomed-out?
+Short answer:
+Maybe yes, maybe not.
+It depends on the combination, not the phrase alone.
+Now we dissect it with the Flux version of camera logic.
+Why does “camera placed far away” feel scary?
+Because if it stands alone, Flux reads it as:
+small subject
+dominant environment
+extreme distance
+The result could be something like:
+🧍‍♂️ ➝ human dot in the background ocean
+But… in the template above, why is it safe?
+Because the phrase is CLIPPED by another instruction.
+Safe combination:
+camera placed far away,
+subject centered,
+full height visible,
+natural body proportions It means:
+camera back away ➝ so that the feet are in
+but the subject remains the center of the frame
+not an extreme wide establishing shot
+How to set a “safe distance” (sweet spot)
+🔧 Opt 1: Safe version (RECOMMENDED)
+Change far away ➝ moderate distance
+camera placed at a moderate distance,
+full body visible,
+subject clearly visible This is the most stable for Flux.
+🔧 Opt 2: Stay “far away” but locked
+camera placed far away,
+subject clearly visible,
+subject occupying medium portion of the frame The prompt medium portion holds back excessive zoom-out.
+🔧 Opt 3: Framing language, not distance
+Flux is more compliant to this:
+full body framed with space above the head and below the feet Without mentioning the distance at all.
+Quick table: distance word effects in Flux
+camera placed far away ➝ safe for feet, risky too small
+moderate distance ➝ most balanced
+l ong distance shot ➝ dominant environment
+small subject in frame ➝ very far away
+medium subject in frame ➝ clear full body
+My final recommendation 🎯
+For 90% of human full body cases:
+camera placed at a moderate distance,
+full body framed from head to toe,
+subject centered and clearly visible It's far enough for feet, close enough for details.
+Conclusion:
+❌ “far away” is not poison
+⚠️ But it must be clamped
+✅ “moderate distance + framing language” = most stable
+🧠 Think of Flux like a stabborn photographer, not a passive camera.
+Below are 3 camera distances templates.
+I wrote the core template and then a ready-to-use example so it's easy to copy.
+🧍‍♀️ CLOSE FULL BODY
+Impression: dominant subject, clear clothing details, secure feet
+full body framed tightly from head to toe,
+subject occupying large portion of the frame,
+camera placed at a close but full-body distance,
+space visible above the head and below the feet,
+entire body inside the frame,
+feet clearly visible touching the ground,
+no cropped body, no close up 🧍 MEDIUM FULL BODY
+Impression: most balanced, safe for 80% of use cases
+full body clearly visible from head to toe,
+subject occupying medium portion of the frame,
+camera placed at a moderate distance,
+balanced framing,
+wide environment visible but not dominant,
+feet clearly visible touching the ground,
+no cropped body 🌆 WIDE / ESTABLISHING SHOT (BUT FULL BODY IS SAFE)
+Impression: strong location, small but intact human
+establishing shot,
+wide environment dominating the scene,
+subject occupying small portion of the frame,
+full body visible from head to toe,
+entire body inside the frame,
+feet visible touching the ground,
+subject clearly identifiable Important for Flux:
+Don't mix small subjects in frame with close full body shots.
+Always repeat head to toe + feet touching ground
+For women, repeating the leg 2× is normal
+Does the prompt fit at the beginning of the prompt before the subject and details or at the end of the prompt after the subject and other details?
+Answer:
+Place it at the BEGINNING of the prompt.
+NOT at the end. NOT in the middle. IN FRONT.
+Now a really useful explanation for Flux
+How Flux “reads” prompts (practical version)
+Flux doesn't read like a human reads a sentence. It works like this:
+Beginning = framing & composition
+Middle = subject & pose
+End = cosmetics (style, lighting, mood)
+It means:
+What you write in the first 25–30% of the prompt determines the camera.
+If “ full body ” and “ feet visible ” appear later, Flux has often already “ decided ” on the portrait framing.
+IDEAL sequence for full body (must follow)
+[1] Framing & Camera (FRONT)
+[2] Main subject (human)
+[3] Pose & physical
+[4] Clothing & visual details
+[5] Environment & background
+[6] Lighting & style Hard rules (brief but important)
+✅ MANDATORY at the beginning
+full body / head to toe
+feet touching ground
+framing (close / medium / wide)
+subject portion in frame
+no cropped body
+⚠️ CAN be in the middle
+pose
+gender
+age
+expression
+🎨 AT THE END
+cinematic
+fashion
+street
+lighting
+mood
+realism
+Why does it often fail if it is placed at the end?
+Because Flux:
+Determine the crop early
+Don't “repeat” framing unless you force it.
+Trust initial instructions more than final revisions
+Conclusion 🎯
+Framing = front
+Detail = back
+Full body fails → almost always because the framing comes too late
+Final note: This is just a guide, you don't need to 100% copy the prompt I made, you can modify it according to your own taste as long as you stick to the prompt placement rules. ✌👍👌
+That's all, folks. Hopefully, this guide helps you create text2image with Flux, especially full-body images, with satisfying results. 😁✨🤩

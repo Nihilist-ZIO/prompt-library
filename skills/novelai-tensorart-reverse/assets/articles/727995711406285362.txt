@@ -1,0 +1,152 @@
+风格提示词——Stylization
+Infographic drawing, The concept character sheet 信息图表，概念字符
+character sheet style 人物表
+character sheet ilustration 人物表插画
+Realistic 真实感
+bokeh 背景散焦
+Ethereal 空灵 幽雅
+Warm tones 暖色调
+The lighting is soft 灯光柔和
+natural light 自然光
+ink wash 水墨
+Splash pigment effect 飞溅颜料
+cybernetic illuminations 科技光
+Neo-Pop 新波普艺术风格
+Art nouveau 新艺术
+Grandparentcore 复古老派风格
+Cleancore 简约风格
+red theme 红色主题
+sticker 贴纸
+Reflection 反射
+Backlit 逆光
+depth of field 景深
+A digital double exposure photo 双重曝光
+blurry foreground 模糊前景
+blurry background 模糊背景
+motion_blur 动作模糊
+split theme 分裂主题
+Paisley patterns 佩斯利图案(花纹）
+lineart 线条画
+silhouette art 剪影艺术
+concept art 概念艺术
+graffiti art 涂鸦艺术
+Gothic art 哥特式艺术
+Goblincore 地精自然风格
+ukiyo-e 浮世绘
+sumi-e 墨绘
+magazine cover 杂志封面
+commercial poster 商业海报
+视角提示词——View
+Perspective view 透视视角
+Three-quarter view 三分之一视角
+Thigh-level perspective 大腿水平视角
+close-up 特写
+Macro photo 微距图像
+Headshot 头像
+portrait 肖像
+low angle shot 低视角
+front and back view 前视图和后视图（正反面）
+various views 各种视角（多视角）
+Panoramic view 全景
+Mid-shot/Medium shot 中景
+cowboy_shot 牛仔镜头
+Waist-up view 腰部以上视图
+Bust shot 半身照
+Torso shot 躯干照
+foot focus 足部焦点
+looking at viewer 看着观众
+from above 俯视
+from below 仰视
+full body 全身像
+sideways/profile view 侧面
+fisheye lens 鱼眼镜头
+Environmental portrait 环境人像
+表情提示词——Facial expression
+Smile 微笑
+grin 咧嘴笑
+biting lip 咬嘴唇
+adorable 萌
+tearing up/crying_tears 泪目
+tearful 含泪
+wave mouth 波浪嘴
+spiral_eyes 螺旋眼
+Cheerful 乐观
+nose blush 潮红
+running mascara 流动睫毛膏
+发型提示词——Hairstyle
+smooth 柔顺
+hair over one eye 刘海遮住一只眼睛
+twintails 双马尾
+ponytail 马尾辫
+diagonal bangs 斜刘海
+Dynamic hair 飘发
+hanging hair 垂发
+ahoge 呆毛
+braid 辫子
+braided bun 包子头
+Undercut 剃鬓发型
+装饰提示词——Ornament
+forehead mark 额头痣
+mole under eye 泪痣
+Skindentation 勒痕
+eyepatch 单眼罩
+blindfold 眼罩
+hairpin 发卡
+hairclip 发圈
+headband 发箍
+hair holder 束发
+hair ribbon 发带
+Ribbon 缎带 蝴蝶结
+maid headdress 女仆头饰
+headveil 头纱
+tassel 流苏
+thigh strap 大腿带
+服装提示词——Clothing
+jkseifuku jk 日本女子校服
+miko 女巫
+idol clothes 偶像服
+competition swimsuit 竞速泳装
+Rococo 洛可可
+pelvic curtain 盆骨帘
+midriff 分体式
+halterneck 露背装
+enmaided 女仆装
+backless sweater 露背毛衣
+turtleneck sweater 高领毛衣
+French-style suspender skirt 法式吊带裙
+winter coat 冬大衣
+Trench Coat 风衣
+race queen 赛车女郎
+Highleg/Leotard 高叉紧身衣
+slit skirt 分衩裙
+Stirrup legwear 踩脚裤
+fishnet stockings 渔网袜
+thighhighs/thigh-high socks 大腿袜
+kneehighs 过膝袜
+toeless legwear 无指袜
+yoga pants 瑜伽裤
+frilled 荷叶边(花边)
+动作提示词——Action
+(crossed_legs_(sitting)/crossed legs 二郎腿坐
+cross-legged sitting 盘腿坐
+semireclining position 半卧姿势
+head tilt 头部倾斜
+leaning forward 向前俯身
+planted sword 种植剑
+heart hand duo 双人心形手
+double thumbs up 点赞
+peace sign 比耶
+Salute (≧ω≦)/
+Energetic Pose 活力姿态
+sitting on seiza 正坐
+身体提示词——Body
+thick eyebrows 浓眉
+Abs 腹肌
+toned 强壮
+navel 露脐
+off-shoulder 露肩
+tsurime 吊梢眼
+cyborg 半机械人
+tan skin 日晒肤色
+cocoa skin 可可肤色
+fit physique 健美体态

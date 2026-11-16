@@ -1,0 +1,34 @@
+At TensorArt, we believe creativity thrives best in environments that are both free and responsible.
+As we evolve into a fully SFW (Safe For Work) platform, this policy outlines what content we restrict—and more importantly, why—to ensure our community remains vibrant, legally compliant, and welcoming to creators of all backgrounds.
+What Content Is Restricted on TensorArt
+1. NSFW Content
+Any content depicting explicit sexual acts, nudity, or pornographic material is not permitted for public visibility & Generation. This includes:
+Images, models, or posts with explicit sexual themes
+Prompts and generations that produce NSFW outputs
+2. Child Pornography and Exploitation
+We maintain absolute zero tolerance for: Child pornography or any sexual content involving minors
+Enforcement: We reserve the right to delete any content involving child pornography, and accounts posting such content will be permanently banned.
+3. Celebrity Content
+Models, images, or content depicting real celebrities are prohibited across TensorArt.
+"celebrity" includes: entertainment stars, influencers , athletes, political leaders, business executives, and historically recognizable figures.
+Enforcement: Celebrity content will be immediately hidden. Repeated violations may result in account termination.
+4. Illegal Content
+Criminal or unlawful material
+Content promoting extreme violence, hate speech, or harassment
+Other Regulated Content
+1. Child Safety Related Content
+Models based on real, identifiable children will be hidden. Even if non-pornographic to protect children's privacy and safety.
+Any content that exploits, endangers, or depicts minors in inappropriate contexts will also be hidden.
+2. Real Person Models
+Models of specific, identifiable individuals are regulated to protect personal portrait rights. Distribution may be restricted if the model:
+Produces insulting, degrading, or harassing content
+Generates pornographic or overly revealing imagery
+Violates an individual's right to control their own likeness
+If you encounter a model depicting you or a loved one that you find offensive, please contact us for removal.
+3. Protected Intellectual Property
+Content featuring certain corporate IPs may face restrictions, including select properties from Nintendo and Disney. Related models and posts may experience reduced visibility as we navigate copyright protection while preserving creative freedom.
+Thank You
+Thank you for your understanding and for being part of our creative community. These policies help ensure TensorArt remains a safe, sustainable platform where everyone can create freely and responsibly.
+Have questions about how these changes affect your work? Contact us on Discord —our team is ready to assist.
+Create boldly,
+The Tensor Team

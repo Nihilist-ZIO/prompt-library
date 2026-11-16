@@ -1,0 +1,25 @@
+Dear Creators,
+Thank you for being a vital part of the TensorArt community.
+To foster innovation and long-term ecosystem health, we’re refining our resource focus. Starting July 22, 2026 (UTC) , creator incentives will be restructured into three parallel earning tracks :
+🔄 Key Updates: Three Earning Tracks
+Moving forward, your daily incentive earnings will be calculated as: TenStar Fund + Pro Model Incentives + Pro Tools Incentives .
+1️⃣ TenStar Fund (EXCLUSIVE / EARLY ACCESS)
+Threshold Adjustments: Standard TenStar Fund incentives will now only apply to New Base Models , and revenue is counted only from Pro user usage .
+The current eligible New Base Models are limited to Anima and Krea2 (subject to dynamic updates; we will announce any additions promptly via Discord—please stay tuned!).
+The rules and interactions for "EXCLUSIVE / EARLY ACCESS" on other non-currently-defined New Base Models remain unchanged, but they will no longer generate TenStar Fund revenue.
+2️⃣ Pro Model Incentives
+Regardless of whether it is a New Base Model, approved Pro Models will retain member incentives and referral bonuses ($3 per referral).
+Only revenue from Pro user usage is counted, with the coefficient consistent with TenStar Fund .
+3️⃣ Pro Tools Incentives
+Approved Pro Tools will retain member incentives and referral bonuses ($3 per referral).
+Only revenue from Pro user usage is counted, with the coefficient consistent with TenStar Fund .
+Standard Tools without Pro segment enabled will no longer receive incentives.
+⚠️ Impact on You
+This adjustment applies only to the main TensorArt site .
+🌱 Hub 🌱 remains unchanged — All existing Hub rules and features continue as before.
+✅ What Stays the Same
+Buffet Plan Settings: You can still enable paid access for your models or tools via the Buffet Plan.
+Open Applications: Submissions for EXCLUSIVE / EARLY ACCESS / Pro Models and Pro Tools remain open with full benefits intact.
+🔮 What’s Next
+This shift accelerates our next-gen model ecosystem. Soon, we’ll roll out enhanced Forge Agents , new templates, and a dedicated Forge Creator Incentive Program —ensuring your creativity earns more direct, sustainable rewards.
+💬 Questions? We’re here to help! Reach out anytime on 👉 Discord 👈.

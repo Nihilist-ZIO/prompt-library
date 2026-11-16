@@ -1,0 +1,31 @@
+[ Updated on October 26th ]
+Hello everyone, this time I will briefly explain his LoRA creation feature in TensorArt. This feature allows you to create your own learning files.
+⚠️As I am self-studying, I would appreciate it if you could read this for reference only⚠️
+overview:
+LoRA (low rank adaptation) is an efficient method for fine-tuning AI models. TensorArt allows you to easily create your own training files with specific styles and characteristics using LoRA. This allows you to generate images for individual projects and creative needs.
+process :
+1. Login and menu selection:
+First, log into TensorArt and select the Online Training option from the menu.
+2. Upload images:
+Add the images you want to train to the upload area on the left. To do this, prepare multiple images with specific characteristics, such as the character's expression or pose.
+3. Set model and trigger word:
+Select the model theme to be used, the base model (select from first, anime, reality, 2.5D, standard, custom), and set the trigger word etc.
+🌸 If you select Custom, you can now train using your favorite base model (SDXL, SD3, Hanyuan, FLUX). 🌸
+Trigger words do not necessarily need to be set depending on the purpose.
+4. About tags:
+Tags are automatically generated for each image when you upload it. Click on the uploaded image to check, delete, or add the generated tags. By deleting the tags of the features you want to learn, you can learn the features more accurately. Adjusting the tags will improve the quality of the images produced.
+(If this is your first time, feel free to ignore it.)
+5. Run the training:
+Once the settings are complete, click the "Train Now" button at the bottom right. Training can take minutes to hours, and you can track your progress on a dedicated page. The amount of credits consumed will vary depending on the number of images you prepare, the number of training sessions, and the number of epochs, so please proceed in a planned manner.
+6. Download the file:
+Once training is complete, download the generated LoRA file and use it for actual image generation.
+7. Host the model:
+Proceed to create a project from "Host my model", enter the necessary information and click the create button.
+Completion and testing:
+Let's try image generation using the trained LoRA file. Although features can be learned sufficiently with a small number of images, similar compositions and poses are more likely to be generated if there are fewer reference images.
+Completed: "Shizuku-chan" general-purpose XL
+Credit consumption:
+Creating LoRA consumes credits. The number of credits consumed varies depending on the number of images you prepare, the number of training sessions, and the number of epochs, so it is important to check the number of credits you need in advance and proceed accordingly. If you don't have enough credits, we recommend purchasing more or considering a Pro plan.
+summary:
+By using TensorArt's LoRA creation function, you can create illustrations with a higher degree of freedom. Please try out the features that are easy to use even for beginners. By using LoRA, your creative projects will be even more fulfilling.
+Let's create! !

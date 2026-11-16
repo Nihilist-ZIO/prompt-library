@@ -1,0 +1,20 @@
+Embeddings is what you actually feed to the AI models , its a buncha numbers
+Normally the tokenizer converts the prompt text to an embedding
+But its possible to keep embeddings as .safetensor files . Being numbers , they do not have to correspond to written text
+One can train by adjusting an embedding to create specific images for a given AI model. This is called textual inversion
+Embeddings are not used alot with the natural language models , but were popular for SD1.5 and SDXL / Illustrious models
+If the image output is y ,
+the the checkpoint is like a square matrix A , multiply a matrix with a vector x , and you get another vector y , which is the output
+Ax = y
+The embedding is the vector x you multiply the matrix with.
+The LoRa , is a matrix delta_A which you add to the matrix A in the model
+so with LoRa , its
+(A + delta_A) * x = y
+//---//
+LoRas are more popular , as the prompt x can be anything you want it to be
+//---//
+With embeddings , one can combine it into a written prompt , so if the keyword to trigger the embedding is 'beckham' , them I can write in prompt 'a beckham on a football field'
+The 'beckham' is no longer a single token word , but is replaced by the 8x716 embedding , or however large it is
+Embeddings are usually 8-16 token positions long
+//---//
+In summary , you can use LoRa and embeddings in combination . They act separately on the output
