@@ -33,6 +33,7 @@
 - [水汽镜面窄窗艺术人像（9:10）](#renwu-16)
 - [《明日方舟》Q 版涂鸦插画（铅笔水彩）](#renwu-17)
 - [日系Cosplay影棚写真｜哥特修女·暗黑圣女（9:16半身胸像·真人实拍）](#renwu-18)
+- [动漫角色三视图提取·重绘模板（中文结构化 · 16:9 版式规范）](#renwu-19)
 
 <a id="renwu-1"></a>
 ### 脸模 ×4（原 ai_face_prompts.md）
@@ -536,6 +537,34 @@ a small red seal stamp is visible in the lower left corner.
 【文本】画面中不出现任何文字、字母、水印、logo 或字幕；十字架与刺绣纹样仅为图形符号。
 【参考图作用】上传的参考图仅用于锁定人物造型、黑白配色、头纱剪裁、荷叶边结构与半身构图；不得照搬参考图中的具体人物身份，不指向任何特定动漫或游戏角色名称，按上述视觉特征复现即可。
 negative prompt: 动漫脸, 二次元, 游戏 CG 感, 3D 渲染, 塑料皮肤, 蜡像, 过度磨皮, 五官变形, 眼睛过大, 头纱变形或缺失, 扇贝裁边糊成一团, 镂空刺绣消失, 黑色荷叶边缺失或糊成一片, 纽扣错位或数量错乱, 灯笼袖变普通窄袖, 手套缺失, 畸形手指, 多手, 发色变纯白或纯黑, 刘海变空气刘海, 十字架缺失, 背景杂乱, 强硬阴影, 棚拍冷光过曝, HDR, 高对比, 多人, 低分辨率, 拼接, 文字, 水印。
+
+<a id="renwu-19"></a>
+### 动漫角色三视图提取·重绘模板（中文结构化 · 16:9 版式规范）
+
+> 模型：通用文生图模板（中文结构化指令，未绑定具体模型；无负面段）
+> 用途：从参考图提取角色并重绘；16:9 横版左侧 2/3 放正面 / 侧面 / 背面三视图，右侧 1/3 放上半身特写（右上）与 3–4 个关键细节（右下），含 FRONT / SIDE / BACK / PORTRAIT / DETAILS 英文标注规范与一致性检查项。
+> ✅ 入库状态：2026-11-18 用户提供并确认归档，正文原样保留。
+> ⚠ 用法边界：模板第 7 节的【】为待填空位，需填入角色名与身份注释；直接照搬会输出空占位。
+> 版式说明：原文的二级小节在总表内降为四级标题以适配层级，文字未改。
+> 来源：2026-11-18 用户提供，正文原样保留，不翻译不改写。
+
+#### 1. 核心任务｜角色提取与三视图重绘
+提取参考图1中的目标人物，综合分析全部截图与分镜，绘制角色全身正面、侧面、背面三视图，以及上半身正面特写（完整头部与肩部，自然中性表情），并展示3–4个关键局部细节，如眼睛、发型、鞋袜、服装结构或标志性装饰。
+#### 2. 角色还原｜设计特征与风格一致性
+准确提取并保留角色原有的视觉特征与艺术风格。学习参考图的绘画风格、色彩体系、线条粗细、笔触质感与光影处理，保持面部特征、发型、妆容、服饰、眼睛和整体气质的一致性。
+综合不同角度与场景的信息，区分角色设计与临时姿势、透视。对未展示的部分进行合理、协调且不过度复杂的补全，不擅自改变原有设计。
+#### 3. 画面质量｜线条、细节与背景
+线条清晰、连贯，细节细腻而不过度刻画，保留必要的轮廓、服装层次和关键设计特征。 对于漫画中的网点、扫描颗粒，以及重复线条和草稿痕迹，适当清理与简化，避免噪点、杂乱排线、随机笔触及光斑。清理画面时仍须保留原作风格与角色特征。 使用纯白背景，保持高清晰度与整洁的画面效果。
+#### 4. 版式布局｜三视图、特写与细节
+采用16:9横向构图。左侧约**三分之二**画幅展示全身正面、侧面、背面三视图；右侧约**三分之一**展示上半身正面特写（右上）与3–4个关键细节（右下）。 细节图在空白处灵活、紧凑地排列，以清晰展示重要特征为优先。根据角色实际设计选择展示项目，避免重复内容，并确保各视图与局部细节之间具有清晰的视觉层级。
+#### 5. 视图标注｜简洁、清晰、对应准确
+为主要视图和关键细节添加简短、清晰的英文标签： - 三视图：FRONT、SIDE、BACK - 上半身特写：PORTRAIT - 局部细节区域：DETAILS，并根据实际内容使用简短标签，如 EYE、HAIRSTYLE、FOOTWEAR、ORNAMENT 标签应靠近对应区域，不遮挡人物或细节，保持清晰整齐。可添加简短的角色姓名或必要标题，但避免冗长的说明文字。
+#### 6. 最终检查｜一致性与成图完整度
+禁止直接复制参考图中的原始画面、姿势或构图，应提取角色特征后重新绘制。上半身特写采用不同于参考图的姿势与神态。 检查人物头身比例及人体结构是否自然合理，三视图之间的造型是否一致，服装与配件结构是否协调，关键细节是否清晰可辨。
+默认不添加表情差分、人物介绍或格言。最终结果应完整、协调、清晰，适合作为后续图像与视频生成的角色参考素材。
+#### 7. 其他提示：该角色为【】（仅为身份注释，角色具体特征和气质参考图片，不影响其他输出）
+标注角色姓名【】
+注意【】
 
 <a id="changjing"></a>
 ## 二、场景
@@ -1824,6 +1853,8 @@ S形视线构图：借助弯曲步道等形成S形视线路径，引导目光流
 - [日式手绘漫画风对照海报（少色印刷 · 3:4）](#yishu-40)
 - [明日方舟 SideStory「时间啊，向前！」塔露拉极简剧情海报（16:9）](#yishu-41)
 - [ABOVE THE GRID｜电力线路检修海报（英文 · 包豪斯 × 半调拼贴）](#yishu-42)
+- [画风转译母版｜二维图 → 日式 3D CG 重打光（保版式·保角色·只改光照与材质）](#yishu-43)
+- [《女神异闻录5》总攻击胜利定格·动漫海报版式（中文结构化 · 角色替换模板）](#yishu-44)
 
 <a id="yishu-1"></a>
 ### 浮世绘双联海报（原 illustration_prompt.md）
@@ -2862,6 +2893,56 @@ Add sparse infrastructure graphics: fine crossarm alignment marks, a few insulat
 
 Finish with fibrous gray paper, fine speckles, uneven blue ink, restrained photocopy abrasion, and slightly degraded photographic edges. Preserve the clean negative-space intersections. No horizon, frontal face, oblique camera view, falling pose, detached harness, extra workers, lightning effects, surrounding frame, or watermark.
 
+<a id="yishu-43"></a>
+### 画风转译母版｜二维图 → 日式 3D CG 重打光（保版式·保角色·只改光照与材质）
+
+> 模型：通用图生图 / 图像编辑模型（英文指令，**未绑定** MJ 参数；若在 Midjourney 里用，需把 `no ...` 一类否定句改写成 `--no` 段）
+> 用途：把一张已经画完的二维插画（本例是左右双联版式）当成「构图已定稿」，只做**重打光 + 材质重写**，不重绘、不重排、不加件。
+> 核心手法：先「锁」再「改」——第一段锁死版式 / 脸 / 发型 / 耳形 / 姿势 / 饰品数量 / 飘带路径 / 蝶位 / 衣褶 / 背景元素；第二段才允许改光照行为与材质物理（厚度、边缘透光、体积光、SSS、景深）。
+> 适用：动漫截图、平面插画、早期 AI 出图的二次提亮；想要「像日本 3D 动画电影的一帧」而不是「像一张画」。
+> 不适用：需要改构图、换角色、补画缺失部件时——那已经不是 pass，是重绘，用它会两边都不像。
+> 来源：2026-11-24 用户提供，正文原样保留，不翻译不改写。
+
+Treat this as a re-shading and re-lighting pass over the existing image, not a redraw. Keep the two-panel layout, the character's face, hairstyle, ear shape, pose and every ornament exactly as they are: the same number of beads, the same ribbon paths, the same butterfly placements, the same fabric folds and the same background elements, with no element added, removed or simplified. Then change only how light and materials behave: give the chiffon real physical thickness and edge translucency so light passes through each layer, turn the silver hair into fine 3D strands with individual specular breakup, replace painted highlight bands with genuine volumetric light and soft bloom, give the skin subsurface scattering with a warm inner glow, and rebuild the background as a real 3D forest with atmospheric depth layers instead of painted bokeh. Light everything with soft daylight global illumination and a low golden backlight leaving a luminous rim, shoot it with creamy Cooke lens rendering, a large aperture and gentle focal falloff, add sparkling circular bokeh only in the far distance and a soft colourful lens flare at one corner, grade with a desaturated cinematic pastel palette of pearl white, blush pink, pale blue and warm gold. The result must look like a frame from a Japanese 3D animated film, with real geometry and physically consistent light -- not a painting, not an illustration, no visible brush strokes, no flat painted highlights.
+
+<a id="yishu-44"></a>
+### 《女神异闻录5》总攻击胜利定格·动漫海报版式（中文结构化 · 角色替换模板）
+
+> 模型：通用文生图 / 图生图模板（中文结构化指令，未绑定具体模型；无负面段）
+> 用途：沿用 P5「总攻击胜利定格」的平面版式——左上斜挑大字 + 右侧回眸半身像 + 左下斜扫朱红墨迹 + 浅灰防滑钢板底纹 + 底部斜切纯黑块，只替换主体，不改版式语言。
+> 参考图分工：**角色参考图**只负责外貌 / 服装 / 配饰 / 原始配色；**版式参考图**只负责站位、回望动作、裁切、文字排布、背景图形与粗黑边缘 / 硬切阴影的画法。冲突时外貌服装服从角色参考，位置动作明暗服从版式参考。
+> 画法：两阶硬边赛璐璐 + 粗细变化的墨线 + 成片实黑阴影；钢板低对比平面化；墨迹断边用粗半调网点，标题与眼睛保持干净。
+> ⚠ 用法边界：本次**未提供标题文案**，按模板规则保留左上排版空间、不生成占位字或乱码；若后续给标题，严格按文字 / 大小写 / 标点 / 断行排，不自行翻译或补角色名。
+> 来源：2026-11-24 用户提供，正文原样保留，不翻译不改写。
+
+根据上传的参考图，创作一张动漫海报。沿用《女神异闻录5》总攻击胜利定格的平面版式：左上斜挑的大字、右侧回眸半身像、左下斜扫的墨迹、浅灰底纹与底部黑色切块。
+这是在既定版式中替换主体。只改变取景、姿势和绘画方式，不重新设计角色，也不根据角色背景增添道具、场景或特效。
+【参考图分工】
+角色参考图是人物外貌、服装、配饰和原始配色的唯一依据。按图还原脸型、五官比例、发型、标志性轮廓，以及服装的剪裁、层次、开口、纹样和装饰位置。只画参考图中实际存在的特征；看不清的细节从简，不自行补设计。
+若提供多张角色参考，以指定的主参考图为准；未指定时，以第一张角色参考图为准。其余图片只辅助核对，不混搭不同造型。
+版式参考图只决定人物站位、回望动作、裁切、文字排布、背景图形，以及粗黑边缘与硬切阴影的画法。不复制版式参考图中原人物的外貌、服装、配件或文案。
+角色参考与版式参考发生冲突时，外貌和服装服从角色参考，位置、动作和明暗风格服从版式参考。
+【构图与取景】
+保持左上是字、右侧是人、左下是墨的不对称布局。将参考构图重新适配为竖幅，不拉伸，不将人物移到正中央。
+人物位于画面右侧，取景从头部最高点至胸腰之间。身体略朝画面右侧，头向左越过肩部回望。保留自然可见的一侧脸颊、近侧眼睛、肩线与部分服装结构。右肩或上臂可以被画框截断，但回望的眼睛与辨认角色所需的头部轮廓保持清楚。
+不要为展示全身服装或道具而拉远镜头，也不为了露出更多细节把人物扭成正面。只画这个角度应当看见的部分。左上预留独立标题区，人物轮廓不遮挡关键字形。
+【人物画法：粗黑边缘与成片实黑阴影】
+使用高反差、以两阶为主的硬边赛璐璐上色。角色受光面保留参考图中的固有色；背光面合并为纯黑或近黑的大块形状。亮面与黑面直接相接，无渐变、柔光或灰色过渡。缩为缩略图后，头部、脸侧与肩部的明暗仍然清楚。
+外轮廓采用粗细变化明显的黑色墨线。背光侧的头发、颈侧和肩部轮廓加重，直接并入相邻的实黑阴影；鼻尖、嘴唇和受光侧下颌保留较细的线。发梢、衣缘和配饰轮廓依原图造型切出清晰边缘，不做等宽描边，也不加全身白色外框。
+头发以几块明确的本色亮面和连贯的黑影表现体积，不用密集发丝代替大形。根据角色实际发型安排额角、眉骨或眼窝投影，不为制造阴影新增刘海。近侧眼睛从阴影边缘清楚露出，黑影顺着脸部结构走，不形成遮眼黑条或面具。
+衣服的背光侧概括为连贯黑块，受光侧保留足以辨认原服装剪裁的硬边色面。不要用阴影抹掉所有身份特征，也不要为分隔黑块新增装饰、配色或裁片。
+【左上标题：两行胜利宣言】
+若提供标题，严格按指定文字、大小写、标点与断行排版。不自行翻译、补写角色名或添加副标题。未提供标题时，保留左上排版空间，不生成占位文字或乱码。
+将标题组成一块向右上斜挑的黑色大字，直接印在浅灰底板上。默认第一行稍收紧，第二行以更厚的字重形成落点；若第二行较长，用更紧凑的字宽和字距收进标题区，不横向拉伸，不挤到人物脸上。
+使用超粗、紧凑的剪贴式展示字形。字面厚重、字腔清楚，允许少数字母轻微旋转或错开基线，保留正常词间空格。两行之间可放一条同方向斜挑的尖头黑色切带，不穿过字母或标点。只在个别笔画外缘加入干墨崩口，主笔画保持实黑完整。狂野感来自倾斜、错位和挤压，不来自重影或大面积破损。
+【背景、墨迹与半调网点】
+沿用版式参考中的浅灰防滑钢板底纹、从左下斜扫至人物肩后的暗朱红墨迹，以及底部一整块斜切纯黑。钢板纹理低对比、平面化，不画成写实金属反光。墨迹保持为印刷图形，不转换成火焰、法术、血迹或角色专属特效。
+墨迹断边使用醒目的粗半调网点；背景切块交界使用中等点阵；细网点只出现在少量次要色面。所有点阵裁在明确的硬边区域内，与大片实色交替。标题、眼睛和人物主要黑影保持干净，不让网点削弱黑白对比。
+若版式参考中有偏移的黑色投影，保留它作为背景图形，并用少量浅灰间隔把投影与人物头部轮廓分开，不形成第二个人形。
+【最终效果】
+远看先读到斜挑标题与右侧人物的回望，再沿朱红墨迹和黑色切块向下移动。即使替换任何角色，构图、硬黑阴影和印刷图形仍像同一套胜利定格；人物辨识度来自其原有外貌和服装，而不是新增的主题符号。
+不添加参考图之外的服饰、配件、道具、人物、场景或特效。不加星级、界面按钮、额外文字、帧率数字或水印。不使用渐变、柔光、等宽白描边、全屏均匀网点、写实渲染或三维质感。
+
 <a id="novelai"></a>
 ## 七、NovelAI
 
@@ -2874,6 +2955,7 @@ Finish with fibrous gray paper, fine speckles, uneven blue ink, restrained photo
 - [Rossi｜高级时装杂志封面·先锋编辑设计（NovelAI tag 串）](#novelai-7)
 - [Rossi｜万圣节幽灵装·平面图形插画（NovelAI 长文本分段）](#novelai-8)
 - [半脸枝叶遮挡·单眼特写（NovelAI · 局部人脸）](#novelai-9)
+- [Arcane 修女装·庭院石阶侧坐抽烟（NovelAI · 多画师加权）](#novelai-10)
 
 <a id="novelai-1"></a>
 ### 晨雾林间·叶影光斑俯视特写（NovelAI · Undesired content）
@@ -3026,6 +3108,27 @@ No text, no watermark, no additional characters, no photorealism, no rough textu
 masterpiece, best quality, ultra-detailed, extremely detailed, absurdres, highres, delicate face, highly detailed eyes, intricate iris, multiple eye highlights, glossy hair, individual hair strands, fine lineart, soft painterly gradients, 1girl, close-up, half of the face hidden by leaves, foreground branch crossing the frame, one eye visible, partial face, cropped face, hair over one eye, {backlighting}, {volumetric lighting}, dappled sunlight filtering through leaves, leaf shadows across the forehead, rim light along the hair edge, lens flare, rainbow flare, sparkling particles, floating light dots, high-key lighting, cyan and white color grading, pastel accents, soft contrast, foreground foliage out of focus, depth of field, bokeh, cinematic composition
 Undesired content: lowres, bad anatomy, extra limbs, text, watermark, jpeg artifacts, worst quality
 
+<a id="novelai-10"></a>
+### Arcane 修女装·庭院石阶侧坐抽烟（NovelAI · 多画师加权）
+
+> 模型：NovelAI（`0.4::artist:q_azieru::` 多画师加权语法，正面 + 负面两段）
+> 用途：日系半写实厚涂；《明日方舟》Arcane 修女装，废弃欧式庭院石阶侧坐、叼烟、午后斜光透过树影；低饱和鼠尾草绿 / 风化灰 / 象牙白 / 纯黑四色。
+> ✅ 入库状态：2026-11-18 用户提供并确认归档，正文原样保留。
+> ⚠ 用法边界：多画师加权对底模敏感，换底模需重新配比；`very aesthetic` 为 NAI v4 质量词，混入 Illustrious / Pony 会污染画面。
+> 来源：2026-11-18 用户提供，正文原样保留，不翻译不改写。
+
+正面：
+0.4::artist:q_azieru::, 0.5::artist:monicanc::, 1::artist:yoneyama_mai::, 1.5::artist:quuni::, 0.9::artist:moritan::, 0.6::artist:asortofcolorfag::, 1.2::girl_focus::, very aesthetic, masterpiece, no text,  best quality, very aesthetic, absurdres
+
+girl, solo, Arcane (Arknights), nun, black and white nun habit, white wimple, black veil, side-slit outfit, high heels, garter straps, white thighhighs, knee up, holding cigarette, smoking, thin wisps of smoke drifting upward, calm aloof expression, half-lidded eyes, relaxed posture,
+sitting sideways on an old weathered stone step outside an aged European building, one knee raised and bent, the other leg extended diagonally downward into the grass, elegant relaxed pose, one hand holding a cigarette near her lips, the other hand casually supporting her body against the stone step, black habit draped naturally over her hips and legs, subtle fabric folds,
+a tall weathered wooden doorway behind her, faded gray wooden door panels, aged off-white plaster walls, peeling paint, cracked and chipped plaster, exposed stone near the base of the wall, old architectural columns and doorframe, uneven stone steps, wild grass and small weeds growing between cracks in the foreground, overgrown greenery surrounding the steps,
+a quiet abandoned courtyard, rustic European architecture, natural outdoor setting, late afternoon sunlight filtering through nearby trees, dappled shadows cast across the wall and ground, soft directional sunlight illuminating her pale stockings and blonde hair, gentle highlights on the black fabric, muted earthy colors, desaturated sage green, weathered gray, ivory white and deep black palette,
+full-body composition, vertical portrait, eye-level to slightly low camera angle, subject positioned in the center-right, architectural background filling the upper frame, lush grass filling the lower foreground, natural perspective, candid editorial photography composition, cinematic stillness, vintage film atmosphere, realistic textures, subtle film grain, soft natural lighting, highly detailed environment, atmospheric realism, no text, no watermark
+
+负面：
+blurry, lowres, error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, logo, dated, signature, multiple views, gigantic breasts, nsfw, lowres, bad, error, fewer, extra, nsfw, lowres, bad, error, fewer, extra, missing, worst quality, jpeg artifacts, bad quality, watermark, unfinished, displeasing, chromatic aberration, signature, extra digits, artistic error, username, scan, abstract
+
 <a id="midjourney"></a>
 ## 八、Midjourney
 
@@ -3048,6 +3151,16 @@ Undesired content: lowres, bad anatomy, extra limbs, text, watermark, jpeg artif
 - [林中男孩与浅蓝巨熊｜童话写实（Midjourney · 俄语原文）](#midjourney-17)
 - [宋代宫装女帝｜湖心亭听政·极致留白（Midjourney · 中文长提示词）](#midjourney-18)
 - [电影级 3D CGI 半身像｜象牙白丝衬衫·侧逆光（Midjourney · 9:16）](#midjourney-19)
+- [风格码合集｜--profile 个人风格（10 组）](#midjourney-20)
+- [风格码合集｜--sref 风格参考（Color 分类 30 组）](#midjourney-21)
+- [超真实AIGC 21:9-A 晨露少女·湿园珠镜（Midjourney）](#midjourney-22)
+- [超真实AIGC 21:9-B 紫藤少女·花棚垂帘（Midjourney）](#midjourney-23)
+- [超真实AIGC 21:9-C 萤火少女·夏夜溪园（Midjourney）](#midjourney-24)
+- [超真实AIGC 21:9-D 贝壳少女·浅滩珠光（Midjourney）](#midjourney-25)
+- [超真实AIGC 21:9-E 蝶翼少女·樱林落英（Midjourney）](#midjourney-26)
+- [超真实AIGC 21:9-F 水母少女·深水光柱（Midjourney）](#midjourney-27)
+- [超真实AIGC 21:9-G 琥珀少女·秋林金径（Midjourney）](#midjourney-28)
+- [风格码｜--sref 2678648359（用户提供 · 单码）](#midjourney-29)
 
 <a id="midjourney-1"></a>
 ### 超真实AIGC-A 室内窗边捧杯·午后树影（Midjourney）
@@ -3252,3 +3365,169 @@ The girl rides a horse chasing a flock of sheep, her hair flowing in the wind. T
 > 来源：2026-11-16 用户直接提供，正文原样保留，不翻译不改写。
 
 cinematic 3D CGI portrait of a beautiful young woman, busty, photorealistic detailed face, natural symmetrical facial features, soft skin texture with subtle pores and fine fuzz, dark long hair falling over one shoulder, wearing a loose ivory silk blouse, soft side-back lighting, warm golden rim light outlining hair, volumetric atmospheric light, delicate soft shadows on face, subsurface scattering for skin, shallow depth of field, blurred dark studio background, movie-level cinematography, ultra realistic skin material, octane render, VFX grade, 8k, ultra detailed --chaos 5 --ar 9:16 --raw --profile h9ajbv4 7imd4r5 mr5wjr3 --v 8.2
+
+<a id="midjourney-20"></a>
+### 风格码合集｜--profile 个人风格（10 组）
+
+> 模型：Midjourney（`--profile` Personalization 个人风格码，非 `--sref` 风格参考）
+> 用途：一键套用他人训练好的审美配置；10 组覆盖复古胶片、旅行摄影、卡通、插画、速写等方向，适合做「整组图统一观感」的底子。
+> 来源：Medium「10 Handcrafted Style Codes to Make Your Midjourney Images Pop」（作者 roblaughter），2026-11-18 抓取整理。**本条目为策展整理，非单一原文，码值与风格名照录。**
+> ⚠ 未验证声明：风格码由他人训练生成，可能失效或被回收；本库未逐条在 Midjourney 后台验证。失效即弃用，不要当固定参数写死。
+> 用法：`[你的提示词] --v 8.2 --ar 9:16 --s 320 --profile <码>`。多个码可叠加写在 `--profile` 后；`--s` 控制风格强度（0 最弱、1000 最强），300–500 常用。
+
+| 码 | 英文风格名 | 中文简述 |
+|---|---|---|
+| `6pkc93r` | 60s Space Sci-Fi | 60 年代太空科幻，红紫色调、低重力浮尘 |
+| `uyqqja9` | Animated Cartoon Style | 动画卡通，暖调柔光、秋日公园 |
+| `5e6pvsm` | Ferrania Solaris (Vintage Film) | Ferrania Solaris 复古胶片，暖调浅景深 |
+| `wjkwyzz` | Fisheye Lens | 鱼眼镜头，近距夸张透视 |
+| `fdjmh19` | Awkward Yearbook Photos | 80 年代毕业照，闪光灯直打、僵硬摆姿 |
+| `urv6e6j` | Travel Photography | 旅行摄影，广角、晨光长影 |
+| `89bdin7` | Vintage Polaroid | 复古宝丽来，暖黄偏色、边缘虚化 |
+| `3g3baot` | Courtroom Sketch | 法庭速写，彩色铅笔、现场记录感 |
+| `nt3q2ft` | AGFA B&W (Vintage Film) | 爱克发黑白胶片，低调高反差 |
+| `ad7olsz` | Children's Book Illustration | 童书插画，明亮欢快、色块干净 |
+
+<a id="midjourney-21"></a>
+### 风格码合集｜--sref 风格参考（Color 分类 30 组）
+
+> 模型：Midjourney（`--sref` Style Reference 数值码）
+> 用途：按色彩与画风检索的风格参考码，覆盖水墨、水彩、绘本、漫画、复古电影、极简色块等方向；适合快速试出「同一画风的多种落点」。
+> 来源：DreamPrompts「Midjourney Style Reference Codes」Color 分类页（dreamprompts.ai/stylecodes/color），2026-11-18 抓取整理。**本条目为策展整理，非单一原文。**
+> ⚠ 版本与验证声明：`--sref` 码有版本依赖，v6 时期的码在 v7 下通常需显式加 `--v 6.1`；本库未逐条验证有效性。`--sref` 与 `--profile` 是两套机制，不要混用参数名。
+> 用法：`[你的提示词] --sref <码> --v 6.1 --ar 9:16 --hd --raw --p`；可多条 `--sref` 叠加，权重用 `--sref <码>::<权重>`。
+
+| 码 | 英文风格名 | 中文简述 |
+|---|---|---|
+| `2712672056` | Dreamy Blue Storybook Painting | 梦蓝绘本厚涂 |
+| `3791115911` | Ink Wash Horizons | 水墨地平线 |
+| `2666219871` | Minimalist Ink Landscapes | 极简水墨山水 |
+| `2069890884` | Golden Oriental Romanticism | 金色东方浪漫主义 |
+| `1940772214` | Luminous Storybook Realms | 发光绘本世界 |
+| `1957111469` | Romantic Symbolist Portraiture | 浪漫象征主义肖像 |
+| `1300938524` | Noir Graphic Novel | 黑色电影图像小说 |
+| `920490872` | Contemporary Travel Illustration | 当代旅行插画 |
+| `572466913` | Stained Glass Fantasy Epic | 彩绘玻璃奇幻史诗 |
+| `2366710454` | Retro Cinematic Realism | 复古电影写实 |
+| `71648622` | Atmospheric Watercolor Realism | 氛围水彩写实 |
+| `4236787206` | Cosmic Lightscapes | 宇宙光景 |
+| `4063036770` | Traditional Chinese Ink Landscape | 传统中国水墨山水 |
+| `2312921671` | Folklore Botanical Illustration | 民俗植物插画 |
+| `1745231029` | Art Nouveau Warrior Elegance | 新艺术战士优雅 |
+| `1654954215` | Manga Adventure Panels | 漫画冒险分格 |
+| `124050122` | Folk Art Fantasy | 民间艺术奇幻 |
+| `4141883984` | Dreamlike Mist Photography | 梦幻薄雾摄影 |
+| `3569589872` | Golden Horizon Minimalism | 金色地平线极简 |
+| `2224964824` | Dreamlike Pastoral Illustration | 梦幻田园插画 |
+| `778663451` | Cinematic Graphic Novel Noir | 电影感图像小说黑色 |
+| `650660828` | Retro Space Epic Realism | 复古太空史诗写实 |
+| `3639490112` | Mystic Sunlit Realism | 神秘日光写实 |
+| `1006248981` | Surreal Botanical Cosmos | 超现实植物宇宙 |
+| `218045757` | Illustrated Character Companions | 插画角色伙伴 |
+| `3905614988` | Digital Character Cartooning | 数字角色卡通化 |
+| `2824513201` | Symbolist Realism | 象征主义写实 |
+| `1488340546` | Playful Asian Cartoon Style | 俏皮亚洲卡通 |
+| `754467978` | Pixelated Rainy Streets | 像素雨夜街道 |
+| `3493696734` | Minimalist Color Block Realism | 极简色块写实 |
+
+<a id="midjourney-22"></a>
+### 超真实AIGC 21:9-A 晨露少女·湿园珠镜（Midjourney）
+
+> 模型：Midjourney｜后缀：`--ar 21:9 --hd --raw --p`
+> 系列：超真实AIGC 21:9 材质母题（A–G）——同一套骨架换母题、换色盘、换站位，单条可用，也可整组出同系列横幅壁纸。
+> 骨架：右或左「三分之一」站人 + 另「三分之二」全部让给景（水珠 / 花棚 / 溪面 / 浅滩 / 樱林 / 深水 / 枫径），人物只露半身、不占满画面。
+> 光法：日光全局照明 + 每一个透光边缘给高光 + Cooke 镜头 + 大光圈缓落 + 远处才起圆点散景 + 角落一道柔眩光。
+> 色盘：一律低饱和，主色不超过三色（母题色 / 珍珠白 / 冷灰或午夜蓝）。
+> 用途：黎明湿园，几十颗悬空水珠各当一枚透镜、各含一枚朝阳亮点；薄纱吸水贴身、发丝带虹彩。
+> 要点：水珠必须「有焦点、有高光、有体积」，不是白点；左侧三分之二全部给湿叶与水线蛛网。
+
+cinematic Japanese 3D CG animation still, semi-realistic stylized CG, ultra-wide 21:9 composition, a dew-themed girl standing on the right third at dawn in a wet garden, dozens of small water droplets suspended in the air around her, each one a tiny lens holding a bright point of the rising sun, her sheer dress damp and clinging with fine droplets beaded on the surface, long wet dark hair with iridescent strands, pale grey-green eyes with layered reflections, cool blush on the cheeks, quiet expression. Layered translucent chiffon in pale mint and pearl white. The left two thirds open across a wet garden with dew-covered leaves and spider threads holding water, low sun near the horizon creating long shafts through the morning mist. Soft daylight global illumination through moisture, luminous highlights on every droplet, creamy Cooke lens rendering, large aperture with gentle falloff, sparkling bokeh in the mist, soft cool lens flare, subsurface scattering on skin, palette of pale mint, pearl and soft grey, fresh and quiet --ar 21:9 --hd --raw --p
+
+<a id="midjourney-23"></a>
+### 超真实AIGC 21:9-B 紫藤少女·花棚垂帘（Midjourney）
+
+> 模型：Midjourney｜后缀：`--ar 21:9 --hd --raw --p`
+> 系列：超真实AIGC 21:9 材质母题（A–G）——同一套骨架换母题、换色盘、换站位，单条可用，也可整组出同系列横幅壁纸。
+> 骨架：右或左「三分之一」站人 + 另「三分之二」全部让给景（水珠 / 花棚 / 溪面 / 浅滩 / 樱林 / 深水 / 枫径），人物只露半身、不占满画面。
+> 光法：日光全局照明 + 每一个透光边缘给高光 + Cooke 镜头 + 大光圈缓落 + 远处才起圆点散景 + 角落一道柔眩光。
+> 色盘：一律低饱和，主色不超过三色（母题色 / 珍珠白 / 冷灰或午夜蓝）。
+> 用途：紫藤花棚下，垂落花串当帘幕，人物站左三分之一；右侧三分之二让花串一路虚化、留一条下午光带。
+> 要点：花瓣「尖端透光」是这张的命门，写清 tip 近乎透明才不糊成紫团；落瓣要飘过空白区，别堆在人身上。
+
+cinematic Japanese 3D CG animation still, semi-realistic stylized CG, ultra-wide 21:9 composition, a wisteria-themed girl standing on the left third beneath a wisteria trellis, long cascading clusters of translucent violet blossoms hanging around her like a curtain, individual petals catching light and turning almost transparent at the tips, long pale lilac hair with iridescent strands, violet eyes with layered reflections, soft blush across the cheeks, quiet upward gaze. Layered sheer fabric in lilac and pearl white, small blossoms caught in the folds. The right two thirds open along the trellis, clusters receding into soft focus with a wide band of afternoon light falling through them, petals drifting down across the empty space. Soft daylight global illumination filtered through blossoms, luminous highlights along every petal edge, creamy Cooke lens rendering, large aperture with gentle falloff, sparkling bokeh deep in the trellis, soft violet lens flare, subsurface scattering on skin, palette of lilac, pearl and pale green, languid and fragrant --ar 21:9 --hd --raw --p
+
+<a id="midjourney-24"></a>
+### 超真实AIGC 21:9-C 萤火少女·夏夜溪园（Midjourney）
+
+> 模型：Midjourney｜后缀：`--ar 21:9 --hd --raw --p`
+> 系列：超真实AIGC 21:9 材质母题（A–G）——同一套骨架换母题、换色盘、换站位，单条可用，也可整组出同系列横幅壁纸。
+> 骨架：右或左「三分之一」站人 + 另「三分之二」全部让给景（水珠 / 花棚 / 溪面 / 浅滩 / 樱林 / 深水 / 枫径），人物只露半身、不占满画面。
+> 光法：日光全局照明 + 每一个透光边缘给高光 + Cooke 镜头 + 大光圈缓落 + 远处才起圆点散景 + 角落一道柔眩光。
+> 色盘：一律低饱和，主色不超过三色（母题色 / 珍珠白 / 冷灰或午夜蓝）。
+> 用途：夏夜庭园，萤火落在薄纱上、把布料从里面点亮；左侧三分之二给一条溪水的长倒影与远树入蓝夜。
+> 要点：夜戏靠「冷月光全局 + 暖点光源」两层光，萤火要带 bloom 光晕，不是贴图亮点；流水必须留长条反射。
+
+cinematic Japanese 3D CG animation still, semi-realistic stylized CG, ultra-wide 21:9 composition, a firefly-themed girl standing on the right third in a summer night garden, dozens of warm glowing points drifting slowly around her, some settling on the sheer fabric of her dress and lighting it from within, long dark hair with iridescent strands, warm amber eyes with layered reflections, soft blush on the cheeks, gentle expression. Layered translucent chiffon in deep teal and pale gold, faint glowing speckles caught in the cloth. The left two thirds open into a dark garden with a single stream holding long soft reflections, distant trees fading into blue night, fireflies scattered across the empty width. Soft moonlight global illumination with warm point glows, luminous highlights blooming around each firefly, creamy Cooke lens rendering, large aperture with gentle falloff, sparkling bokeh across the water, soft warm lens flare, subsurface scattering on skin, palette of deep teal, warm amber and midnight blue, still summer night --ar 21:9 --hd --raw --p
+
+<a id="midjourney-25"></a>
+### 超真实AIGC 21:9-D 贝壳少女·浅滩珠光（Midjourney）
+
+> 模型：Midjourney｜后缀：`--ar 21:9 --hd --raw --p`
+> 系列：超真实AIGC 21:9 材质母题（A–G）——同一套骨架换母题、换色盘、换站位，单条可用，也可整组出同系列横幅壁纸。
+> 骨架：右或左「三分之一」站人 + 另「三分之二」全部让给景（水珠 / 花棚 / 溪面 / 浅滩 / 樱林 / 深水 / 枫径），人物只露半身、不占满画面。
+> 光法：日光全局照明 + 每一个透光边缘给高光 + Cooke 镜头 + 大光圈缓落 + 远处才起圆点散景 + 角落一道柔眩光。
+> 色盘：一律低饱和，主色不超过三色（母题色 / 珍珠白 / 冷灰或午夜蓝）。
+> 用途：浅清水中，母贝甲片胸衣每道边都折出彩虹；右侧三分之二给低平海平线与软镜面。
+> 要点：写清 nacre 的「厚度 + 边缘折射」才不变成塑料亮片；水面倒影要「软、碎、有断口」，别做成镜面玻璃。
+
+cinematic Japanese 3D CG animation still, semi-realistic stylized CG, ultra-wide 21:9 composition, a shell-themed girl standing on the left third in shallow clear water, a bodice of layered nacre plates with visible thickness and rainbow refraction along every edge, iridescent pearl strands draped over her shoulders, long pale rose hair wet and clinging, aqua eyes with layered reflections, warm blush on the cheeks, salt water beading on her skin. Layered translucent fabric in pearl and pale pink, thin gold wire and tiny shell fragments caught in the cloth. The right two thirds open across shallow water toward a low horizon, the surface holding a soft mirror of the sky, gentle ripples catching broken highlights, distant breakers fading into haze. Soft daylight global illumination off the water, luminous highlights on every nacre edge and ripple, creamy Cooke lens rendering, large aperture with gentle falloff, sparkling bokeh across the far water, soft warm lens flare upper right, subsurface scattering on skin, desaturated palette of pearl, blush and pale turquoise, airy and open --ar 21:9 --hd --raw --p
+
+<a id="midjourney-26"></a>
+### 超真实AIGC 21:9-E 蝶翼少女·樱林落英（Midjourney）
+
+> 模型：Midjourney｜后缀：`--ar 21:9 --hd --raw --p`
+> 系列：超真实AIGC 21:9 材质母题（A–G）——同一套骨架换母题、换色盘、换站位，单条可用，也可整组出同系列横幅壁纸。
+> 骨架：右或左「三分之一」站人 + 另「三分之二」全部让给景（水珠 / 花棚 / 溪面 / 浅滩 / 樱林 / 深水 / 枫径），人物只露半身、不占满画面。
+> 光法：日光全局照明 + 每一个透光边缘给高光 + Cooke 镜头 + 大光圈缓落 + 远处才起圆点散景 + 角落一道柔眩光。
+> 色盘：一律低饱和，主色不超过三色（母题色 / 珍珠白 / 冷灰或午夜蓝）。
+> 用途：巨大半透明蝶翼自背后展开如叠层披风，逆光时每片翼都发亮；右侧三分之二给樱林落瓣与一道低阳穿枝。
+> 要点：翼面要有「脉络 + 鳞粉」两级结构，只写 translucent 会变成果冻片；边缘必须交代虹彩鳞粉。
+
+cinematic Japanese 3D CG animation still, semi-realistic stylized CG, ultra-wide 21:9 composition, a butterfly-themed girl standing on the left third, enormous translucent butterfly wings rising from her back like a layered cape, each wing panel thin enough to glow when backlit, fine vein structure and iridescent scale dust along the edges, long rose-tinted silver hair with pearlescent strands, violet-blue eyes with layered reflections, warm blush across the cheeks, lips slightly parted. Layered chiffon in blush pink and pearl white, tiny crystal beads, trailing silk ribbons catching the wind. The right two thirds open into a cherry grove shedding petals, a wide band of low sun pouring through the branches, petals drifting across the empty width. Soft daylight global illumination, luminous highlights along every wing edge and hair strand, creamy Cooke lens rendering, large aperture with gentle falloff, sparkling bokeh deep in the grove, soft pink lens flare at the right edge, subsurface scattering on skin, desaturated palette of blush, pearl and pale gold, light and transient --ar 21:9 --hd --raw --p
+
+<a id="midjourney-27"></a>
+### 超真实AIGC 21:9-F 水母少女·深水光柱（Midjourney）
+
+> 模型：Midjourney｜后缀：`--ar 21:9 --hd --raw --p`
+> 系列：超真实AIGC 21:9 材质母题（A–G）——同一套骨架换母题、换色盘、换站位，单条可用，也可整组出同系列横幅壁纸。
+> 骨架：右或左「三分之一」站人 + 另「三分之二」全部让给景（水珠 / 花棚 / 溪面 / 浅滩 / 樱林 / 深水 / 枫径），人物只露半身、不占满画面。
+> 光法：日光全局照明 + 每一个透光边缘给高光 + Cooke 镜头 + 大光圈缓落 + 远处才起圆点散景 + 角落一道柔眩光。
+> 色盘：一律低饱和，主色不超过三色（母题色 / 珍珠白 / 冷灰或午夜蓝）。
+> 用途：钟形半透明披篷罩肩、拖出发光触丝；人物略偏左，画面右侧开进深水与一道宽阔焦散光柱。
+> 要点：这组是唯一「站位略偏左」而非贴三分之一，为的是让光柱在右侧完整落下；水下粒子与气泡负责补满空宽。
+
+cinematic Japanese 3D CG animation still, semi-realistic stylized CG, ultra-wide 21:9 composition, a jellyfish-themed girl standing slightly left of centre, a translucent bell-shaped cape floating around her shoulders like a jellyfish dome with glowing trailing filaments, long deep violet hair drifting as if underwater, luminous aqua eyes with layered reflections, pale skin with a soft pink blush, faint bioluminescent freckles along her cheekbones. Layered sheer fabric in lilac and deep indigo, glass beads and tiny bubbles suspended inside the cloth. The right side of the frame opens into deep dark water with a single wide shaft of caustic light descending from above, drifting particles and rising bubbles filling the empty width, the bell cape glowing from within. Soft global illumination filtered through water, luminous highlights on every translucent edge, creamy Cooke lens rendering, large aperture, sparkling bokeh in the depths, soft violet lens flare, subsurface scattering on skin, desaturated palette of lilac, indigo and pale aqua, weightless and vast --ar 21:9 --hd --raw --p
+
+<a id="midjourney-28"></a>
+### 超真实AIGC 21:9-G 琥珀少女·秋林金径（Midjourney）
+
+> 模型：Midjourney｜后缀：`--ar 21:9 --hd --raw --p`
+> 系列：超真实AIGC 21:9 材质母题（A–G）——同一套骨架换母题、换色盘、换站位，单条可用，也可整组出同系列横幅壁纸。
+> 骨架：右或左「三分之一」站人 + 另「三分之二」全部让给景（水珠 / 花棚 / 溪面 / 浅滩 / 樱林 / 深水 / 枫径），人物只露半身、不占满画面。
+> 光法：日光全局照明 + 每一个透光边缘给高光 + Cooke 镜头 + 大光圈缓落 + 远处才起圆点散景 + 角落一道柔眩光。
+> 色盘：一律低饱和，主色不超过三色（母题色 / 珍珠白 / 冷灰或午夜蓝）。
+> 用途：本组是「无母题件」的纯净版——不挂水珠、不披花帘、不添光点，只靠蜂蜜金发、雀斑与琥珀色透纱压住画面，用来验证骨架本身成不成立。
+> 要点：左侧三分之二给枫林小径向光里退远、落叶片片穿过金色光带；暖调但不许过饱和。
+
+cinematic Japanese 3D CG animation still, semi-realistic stylized CG, ultra-wide 21:9 composition, a girl standing on the right third in an autumn forest, long warm honey-blonde hair with iridescent strands, amber eyes with layered golden reflections, warm blush across the cheeks, a small smile, freckles catching the light. Layered translucent chiffon in amber and pale gold, thin silk ribbons, tiny amber beads and dried petals caught in the fabric. The left two thirds open into a maple grove receding down a sunlit path, falling leaves drifting through a wide band of low golden light, warm bokeh filling the distance. Soft daylight global illumination, luminous highlights blooming along every lit edge, creamy Cooke lens rendering, large aperture with gentle focal falloff, sparkling circular bokeh across the far background, soft warm lens flare crossing the left corner, subsurface scattering on skin, desaturated palette of amber, honey and dusty gold, warm and expansive --ar 21:9 --hd --raw --p
+
+<a id="midjourney-29"></a>
+### 风格码｜--sref 2678648359（用户提供 · 单码）
+
+> 模型：Midjourney｜`--sref` 风格参考码（**不是** `--profile` / `--p` 个人风格码，两套参数名不可混用）
+> 用途：单码风格参考，与本次《女神异闻录5》总攻击定格版式配套使用；主要作用是把画面压成一套平面印刷感 + 高反差色块的调子。
+> 用法：`<主体描述> --sref 2678648359 --sw 100 --ar 16:9`；风格强度用 `--sw`（0–1000，默认 100）调，想更淡就降到 50–70，想更狠就 150–200。
+> 版本依赖：同一码在不同 MJ 版本间会漂移；v6 时代的码在 v7 下建议加 `--v 6.1` 复现，出图再微调 `--sw`。
+> ⚠ 状态：用户提供，只有码值、无官方风格名，**未做多版本对照验证**；本条的「风格描述」是按配套版式推断的用途说明，不是官方定义，实际出图后可按观感修订。
+
+--sref 2678648359

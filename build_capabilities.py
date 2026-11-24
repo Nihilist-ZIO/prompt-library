@@ -77,6 +77,21 @@ RULES = {
 }
 
 OVERRIDES = {
+    # 2026-11-24 批次 K：21:9 材质母题系列——人只占三分之一、景占三分之二，
+    # 规则词表抓不到「人像 + 环境」双栖属性，手写补齐；打光/材质/光效是本系列的核心手法。
+    **{"midjourney-%d" % i: {"用途": ["人像写真", "场景氛围"],
+                             "质感": ["半写实CG", "电影感"],
+                             "能力": ["打光增强", "材质重渲", "光效营造"]}
+       for i in range(22, 29)},
+    # 重打光母版：正文里的「版式」是描述对象不是产出（它出的是图，不是海报），故整组替换用途。
+    "yishu-43": {"用途": {"tags": ["人像写真"], "replace": True},
+                 "质感": ["半写实CG", "电影感"],
+                 "能力": ["打光增强", "材质重渲", "光效营造"],
+                 # 正文提到「若在 Midjourney 里用」会被模型识别误判，本条实际是通用指令
+                 "模型": ["通用"]},
+    "yishu-44": {"用途": {"tags": ["海报版式"], "replace": True},
+                 "能力": ["排版文字", "构图重构"]},
+    "midjourney-29": {"用途": ["海报版式"]},
     "renwu-1": {"用途": ["脸模角色"]},
     "renwu-3": {"用途": ["人像写真"], "能力": ["局部精修", "换背景"], "质感": ["真实摄影"]},
     "renwu-9": {"用途": ["人像写真"], "质感": ["真实摄影", "电影感"]},
@@ -218,6 +233,8 @@ def tag_entry(e):
     for group, tags in OVERRIDES.get(e["id"], {}).items():
         if group == "模型":
             result[group] = tags
+        elif isinstance(tags, dict):          # {"tags": [...], "replace": True} 整组替换
+            result[group] = list(tags["tags"])
         else:
             for t in tags:
                 if t not in result[group]:

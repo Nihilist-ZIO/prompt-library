@@ -1,6 +1,6 @@
 # 能力索引（Capabilities Index）
 
-> 由 `build_capabilities.py` 从 `PROMPT_MASTER.md` 自动生成，共 **124 条**。
+> 由 `build_capabilities.py` 从 `PROMPT_MASTER.md` 自动生成，共 **138 条**。
 > 作用：把「库里有几条提示词」变成「库里能干什么」，让 Agent 按**能力**而不是按标题关键词选条目。
 > 机读版：`capabilities.json`；检索：`python -X utf8 find.py "商品主图 真实"`
 
@@ -38,15 +38,15 @@
 
 | 大类 | 条目数 |
 |---|---|
-| 人物 | 18 |
+| 人物 | 19 |
 | 场景 | 8 |
 | 构图 | 5 |
 | 特效 | 1 |
 | 周边 | 22 |
-| 艺术 | 42 |
-| NovelAI | 9 |
-| Midjourney | 19 |
-| **合计** | **124** |
+| 艺术 | 44 |
+| NovelAI | 10 |
+| Midjourney | 29 |
+| **合计** | **138** |
 
 ---
 
@@ -72,6 +72,7 @@
 | `renwu-16` | 水汽镜面窄窗艺术人像（9:10） | 通用 | 人像写真 | 真实摄影、平面图形、电影感 | 排版文字、构图重构 |
 | `renwu-17` | 《明日方舟》Q 版涂鸦插画（铅笔水彩） | 通用 | — | 电影感、水彩手绘 | 构图重构 |
 | `renwu-18` | 日系Cosplay影棚写真｜哥特修女·暗黑圣女（9:16半身胸像·真人实拍） | Midjourney | 人像写真 | 真实摄影、日系厚涂、电影感、3D渲染 | 材质重渲 |
+| `renwu-19` | 动漫角色三视图提取·重绘模板（中文结构化 · 16:9 版式规范） | 通用 | 角色设定、海报版式、局部特写 | 平面图形 | 排版文字 |
 | `changjing-1` | 卧室随手拍（原 realistic_snapshot_prompt.md） | 通用 | 人像写真、建筑空间 | 真实摄影、电影感 | 打光增强、模特换装、构图重构、光效营造 |
 | `changjing-2` | 汴京全景（原 bianjing_panorama_prompt.md） | 通用 | 场景氛围 | 真实摄影、日系厚涂、电影感 | 打光增强、构图重构、光效营造 |
 | `changjing-3` | 汴京一镜到底（原 bianjing_one_shot_video_prompt.md） | 通用 | 分镜叙事 | 日系厚涂、电影感 | 打光增强、构图重构、光效营造 |
@@ -150,6 +151,8 @@
 | `yishu-40` | 日式手绘漫画风对照海报（少色印刷 · 3:4） | 通用 | 海报版式、场景氛围 | 真实摄影、平面图形、水彩手绘 | 换背景、排版文字、风格迁移 |
 | `yishu-41` | 明日方舟 SideStory「时间啊，向前！」塔露拉极简剧情海报（16:9） | 通用 | 海报版式、场景氛围 | 真实摄影、平面图形、工艺材质 | 构图重构 |
 | `yishu-42` | ABOVE THE GRID｜电力线路检修海报（英文 · 包豪斯 × 半调拼贴） | 通用 | 海报版式、场景氛围 | 平面图形 | 排版文字 |
+| `yishu-43` | 画风转译母版｜二维图 → 日式 3D CG 重打光（保版式·保角色·只改光照与材质） | 通用 | 人像写真 | 半写实CG、平面图形、电影感 | 换背景、打光增强、材质重渲、排版文字、构图重构、风格迁移、光效营造 |
+| `yishu-44` | 《女神异闻录5》总攻击胜利定格·动漫海报版式（中文结构化 · 角色替换模板） | 通用 | 海报版式 | 平面图形 | 排版文字、构图重构 |
 | `novelai-1` | 晨雾林间·叶影光斑俯视特写（NovelAI · Undesired content） | NovelAI | 局部特写、场景氛围 | 真实摄影、半写实CG、日系厚涂 | 打光增强、光效营造 |
 | `novelai-2` | 雨后玻璃窗·水珠折射侧脸（NovelAI · Undesired content） | NovelAI | — | 真实摄影、半写实CG、日系厚涂 | 打光增强、光效营造 |
 | `novelai-3` | 暖橙红舞狮·迎光特写（negative prompt 版） | NovelAI | 局部特写 | — | 打光增强 |
@@ -159,6 +162,7 @@
 | `novelai-7` | Rossi｜高级时装杂志封面·先锋编辑设计（NovelAI tag 串） | NovelAI | 海报版式 | — | — |
 | `novelai-8` | Rossi｜万圣节幽灵装·平面图形插画（NovelAI 长文本分段） | NovelAI | — | 平面图形 | — |
 | `novelai-9` | 半脸枝叶遮挡·单眼特写（NovelAI · 局部人脸） | NovelAI | 局部特写 | 日系厚涂 | 打光增强、材质重渲、构图重构、光效营造 |
+| `novelai-10` | Arcane 修女装·庭院石阶侧坐抽烟（NovelAI · 多画师加权） | NovelAI | — | 真实摄影、半写实CG、日系厚涂 | — |
 | `midjourney-1` | 超真实AIGC-A 室内窗边捧杯·午后树影（Midjourney） | Midjourney | 建筑空间 | 半写实CG、电影感 | 光效营造 |
 | `midjourney-2` | 超真实AIGC-B 蓝紫绣球花丛·俯视捧花（Midjourney） | Midjourney | — | 半写实CG、电影感 | — |
 | `midjourney-3` | 超真实AIGC-C 秋日白桦林·转身回眸（Midjourney） | Midjourney | 场景氛围 | 半写实CG、电影感 | — |
@@ -178,3 +182,13 @@
 | `midjourney-17` | 林中男孩与浅蓝巨熊｜童话写实（Midjourney · 俄语原文） | Midjourney | 场景氛围 | 真实摄影、电影感 | — |
 | `midjourney-18` | 宋代宫装女帝｜湖心亭听政·极致留白（Midjourney · 中文长提示词） | Midjourney | — | 电影感 | 排版文字、构图重构 |
 | `midjourney-19` | 电影级 3D CGI 半身像｜象牙白丝衬衫·侧逆光（Midjourney · 9:16） | Midjourney | 人像写真 | 半写实CG、日系厚涂、电影感、3D渲染 | 打光增强、材质重渲、光效营造 |
+| `midjourney-20` | 风格码合集｜--profile 个人风格（10 组） | Midjourney | — | 真实摄影 | 风格迁移 |
+| `midjourney-21` | 风格码合集｜--sref 风格参考（Color 分类 30 组） | Midjourney | — | 日系厚涂、平面图形、电影感、水彩手绘 | 风格迁移 |
+| `midjourney-22` | 超真实AIGC 21:9-A 晨露少女·湿园珠镜（Midjourney） | Midjourney | 人像写真、场景氛围 | 半写实CG、电影感 | 打光增强、材质重渲、光效营造 |
+| `midjourney-23` | 超真实AIGC 21:9-B 紫藤少女·花棚垂帘（Midjourney） | Midjourney | 人像写真、场景氛围 | 半写实CG、电影感 | 打光增强、材质重渲、光效营造 |
+| `midjourney-24` | 超真实AIGC 21:9-C 萤火少女·夏夜溪园（Midjourney） | Midjourney | 人像写真、场景氛围 | 半写实CG、电影感 | 打光增强、材质重渲、光效营造 |
+| `midjourney-25` | 超真实AIGC 21:9-D 贝壳少女·浅滩珠光（Midjourney） | Midjourney | 人像写真、场景氛围 | 半写实CG、工艺材质、电影感 | 打光增强、材质重渲、光效营造 |
+| `midjourney-26` | 超真实AIGC 21:9-E 蝶翼少女·樱林落英（Midjourney） | Midjourney | 人像写真、场景氛围 | 半写实CG、日系厚涂、电影感 | 打光增强、材质重渲、光效营造 |
+| `midjourney-27` | 超真实AIGC 21:9-F 水母少女·深水光柱（Midjourney） | Midjourney | 人像写真、场景氛围 | 半写实CG、电影感 | 打光增强、材质重渲、光效营造 |
+| `midjourney-28` | 超真实AIGC 21:9-G 琥珀少女·秋林金径（Midjourney） | Midjourney | 人像写真、场景氛围 | 半写实CG、电影感 | 打光增强、材质重渲、光效营造 |
+| `midjourney-29` | 风格码｜--sref 2678648359（用户提供 · 单码） | Midjourney | 海报版式 | 平面图形 | 排版文字、风格迁移 |

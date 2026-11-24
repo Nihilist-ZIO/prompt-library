@@ -1023,5 +1023,59 @@ Finish with fibrous gray paper, fine speckles, uneven blue ink, restrained photo
 
 ---
 
+## 画风转译母版｜二维图 → 日式 3D CG 重打光（保版式·保角色·只改光照与材质）
+
+> 模型：通用图生图 / 图像编辑模型（英文指令，**未绑定** MJ 参数；若在 Midjourney 里用，需把 `no ...` 一类否定句改写成 `--no` 段）
+> 用途：把一张已经画完的二维插画（本例是左右双联版式）当成「构图已定稿」，只做**重打光 + 材质重写**，不重绘、不重排、不加件。
+> 核心手法：先「锁」再「改」——第一段锁死版式 / 脸 / 发型 / 耳形 / 姿势 / 饰品数量 / 飘带路径 / 蝶位 / 衣褶 / 背景元素；第二段才允许改光照行为与材质物理（厚度、边缘透光、体积光、SSS、景深）。
+> 适用：动漫截图、平面插画、早期 AI 出图的二次提亮；想要「像日本 3D 动画电影的一帧」而不是「像一张画」。
+> 不适用：需要改构图、换角色、补画缺失部件时——那已经不是 pass，是重绘，用它会两边都不像。
+> 来源：2026-11-24 用户提供，正文原样保留，不翻译不改写。
+
+Treat this as a re-shading and re-lighting pass over the existing image, not a redraw. Keep the two-panel layout, the character's face, hairstyle, ear shape, pose and every ornament exactly as they are: the same number of beads, the same ribbon paths, the same butterfly placements, the same fabric folds and the same background elements, with no element added, removed or simplified. Then change only how light and materials behave: give the chiffon real physical thickness and edge translucency so light passes through each layer, turn the silver hair into fine 3D strands with individual specular breakup, replace painted highlight bands with genuine volumetric light and soft bloom, give the skin subsurface scattering with a warm inner glow, and rebuild the background as a real 3D forest with atmospheric depth layers instead of painted bokeh. Light everything with soft daylight global illumination and a low golden backlight leaving a luminous rim, shoot it with creamy Cooke lens rendering, a large aperture and gentle focal falloff, add sparkling circular bokeh only in the far distance and a soft colourful lens flare at one corner, grade with a desaturated cinematic pastel palette of pearl white, blush pink, pale blue and warm gold. The result must look like a frame from a Japanese 3D animated film, with real geometry and physically consistent light -- not a painting, not an illustration, no visible brush strokes, no flat painted highlights.
+
+---
+
+## 《女神异闻录5》总攻击胜利定格·动漫海报版式（中文结构化 · 角色替换模板）
+
+> 模型：通用文生图 / 图生图模板（中文结构化指令，未绑定具体模型；无负面段）
+> 用途：沿用 P5「总攻击胜利定格」的平面版式——左上斜挑大字 + 右侧回眸半身像 + 左下斜扫朱红墨迹 + 浅灰防滑钢板底纹 + 底部斜切纯黑块，只替换主体，不改版式语言。
+> 参考图分工：**角色参考图**只负责外貌 / 服装 / 配饰 / 原始配色；**版式参考图**只负责站位、回望动作、裁切、文字排布、背景图形与粗黑边缘 / 硬切阴影的画法。冲突时外貌服装服从角色参考，位置动作明暗服从版式参考。
+> 画法：两阶硬边赛璐璐 + 粗细变化的墨线 + 成片实黑阴影；钢板低对比平面化；墨迹断边用粗半调网点，标题与眼睛保持干净。
+> ⚠ 用法边界：本次**未提供标题文案**，按模板规则保留左上排版空间、不生成占位字或乱码；若后续给标题，严格按文字 / 大小写 / 标点 / 断行排，不自行翻译或补角色名。
+> 来源：2026-11-24 用户提供，正文原样保留，不翻译不改写。
+
+根据上传的参考图，创作一张动漫海报。沿用《女神异闻录5》总攻击胜利定格的平面版式：左上斜挑的大字、右侧回眸半身像、左下斜扫的墨迹、浅灰底纹与底部黑色切块。
+这是在既定版式中替换主体。只改变取景、姿势和绘画方式，不重新设计角色，也不根据角色背景增添道具、场景或特效。
+【参考图分工】
+角色参考图是人物外貌、服装、配饰和原始配色的唯一依据。按图还原脸型、五官比例、发型、标志性轮廓，以及服装的剪裁、层次、开口、纹样和装饰位置。只画参考图中实际存在的特征；看不清的细节从简，不自行补设计。
+若提供多张角色参考，以指定的主参考图为准；未指定时，以第一张角色参考图为准。其余图片只辅助核对，不混搭不同造型。
+版式参考图只决定人物站位、回望动作、裁切、文字排布、背景图形，以及粗黑边缘与硬切阴影的画法。不复制版式参考图中原人物的外貌、服装、配件或文案。
+角色参考与版式参考发生冲突时，外貌和服装服从角色参考，位置、动作和明暗风格服从版式参考。
+【构图与取景】
+保持左上是字、右侧是人、左下是墨的不对称布局。将参考构图重新适配为竖幅，不拉伸，不将人物移到正中央。
+人物位于画面右侧，取景从头部最高点至胸腰之间。身体略朝画面右侧，头向左越过肩部回望。保留自然可见的一侧脸颊、近侧眼睛、肩线与部分服装结构。右肩或上臂可以被画框截断，但回望的眼睛与辨认角色所需的头部轮廓保持清楚。
+不要为展示全身服装或道具而拉远镜头，也不为了露出更多细节把人物扭成正面。只画这个角度应当看见的部分。左上预留独立标题区，人物轮廓不遮挡关键字形。
+【人物画法：粗黑边缘与成片实黑阴影】
+使用高反差、以两阶为主的硬边赛璐璐上色。角色受光面保留参考图中的固有色；背光面合并为纯黑或近黑的大块形状。亮面与黑面直接相接，无渐变、柔光或灰色过渡。缩为缩略图后，头部、脸侧与肩部的明暗仍然清楚。
+外轮廓采用粗细变化明显的黑色墨线。背光侧的头发、颈侧和肩部轮廓加重，直接并入相邻的实黑阴影；鼻尖、嘴唇和受光侧下颌保留较细的线。发梢、衣缘和配饰轮廓依原图造型切出清晰边缘，不做等宽描边，也不加全身白色外框。
+头发以几块明确的本色亮面和连贯的黑影表现体积，不用密集发丝代替大形。根据角色实际发型安排额角、眉骨或眼窝投影，不为制造阴影新增刘海。近侧眼睛从阴影边缘清楚露出，黑影顺着脸部结构走，不形成遮眼黑条或面具。
+衣服的背光侧概括为连贯黑块，受光侧保留足以辨认原服装剪裁的硬边色面。不要用阴影抹掉所有身份特征，也不要为分隔黑块新增装饰、配色或裁片。
+【左上标题：两行胜利宣言】
+若提供标题，严格按指定文字、大小写、标点与断行排版。不自行翻译、补写角色名或添加副标题。未提供标题时，保留左上排版空间，不生成占位文字或乱码。
+将标题组成一块向右上斜挑的黑色大字，直接印在浅灰底板上。默认第一行稍收紧，第二行以更厚的字重形成落点；若第二行较长，用更紧凑的字宽和字距收进标题区，不横向拉伸，不挤到人物脸上。
+使用超粗、紧凑的剪贴式展示字形。字面厚重、字腔清楚，允许少数字母轻微旋转或错开基线，保留正常词间空格。两行之间可放一条同方向斜挑的尖头黑色切带，不穿过字母或标点。只在个别笔画外缘加入干墨崩口，主笔画保持实黑完整。狂野感来自倾斜、错位和挤压，不来自重影或大面积破损。
+【背景、墨迹与半调网点】
+沿用版式参考中的浅灰防滑钢板底纹、从左下斜扫至人物肩后的暗朱红墨迹，以及底部一整块斜切纯黑。钢板纹理低对比、平面化，不画成写实金属反光。墨迹保持为印刷图形，不转换成火焰、法术、血迹或角色专属特效。
+墨迹断边使用醒目的粗半调网点；背景切块交界使用中等点阵；细网点只出现在少量次要色面。所有点阵裁在明确的硬边区域内，与大片实色交替。标题、眼睛和人物主要黑影保持干净，不让网点削弱黑白对比。
+若版式参考中有偏移的黑色投影，保留它作为背景图形，并用少量浅灰间隔把投影与人物头部轮廓分开，不形成第二个人形。
+【最终效果】
+远看先读到斜挑标题与右侧人物的回望，再沿朱红墨迹和黑色切块向下移动。即使替换任何角色，构图、硬黑阴影和印刷图形仍像同一套胜利定格；人物辨识度来自其原有外貌和服装，而不是新增的主题符号。
+不添加参考图之外的服饰、配件、道具、人物、场景或特效。不加星级、界面按钮、额外文字、帧率数字或水印。不使用渐变、柔光、等宽白描边、全屏均匀网点、写实渲染或三维质感。
+
+---
+
 ## 跨引用说明
 - ↳ `anime_poster_blackchuan_prompt.md`（日系二次元动画电影海报）也含二次元艺术风，已归入「人物」类：见 `cat_人物.md` 中「二次元动画海报 黑川茜」一节。本文件不再重复全文。
+- ↳ `yishu-43`（重打光母版）本身不产新画面，是**对已有图做二次提亮**的编辑指令，与同类「海报转译」条目的关系是：那些条目负责把照片变成某种平面风格，这一条负责把平面画变成 3D CG 电影帧，方向相反，可接在任一条转译条目之后当第二道工序。
+- ↳ `yishu-44`（P5 总攻击定格版式）与 `midjourney-29`（`--sref 2678648359`）配套：一个管版式与画法，一个管整体调子，两条一起用才是完整效果；单用版式条目也能出图，但会缺那层印刷高反差。

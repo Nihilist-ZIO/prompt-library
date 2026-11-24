@@ -165,6 +165,28 @@ Undesired content: lowres, bad anatomy, extra limbs, text, watermark, jpeg artif
 
 ---
 
+## Arcane 修女装·庭院石阶侧坐抽烟（NovelAI · 多画师加权）
+
+> 模型：NovelAI（`0.4::artist:q_azieru::` 多画师加权语法，正面 + 负面两段）
+> 用途：日系半写实厚涂；《明日方舟》Arcane 修女装，废弃欧式庭院石阶侧坐、叼烟、午后斜光透过树影；低饱和鼠尾草绿 / 风化灰 / 象牙白 / 纯黑四色。
+> ✅ 入库状态：2026-11-18 用户提供并确认归档，正文原样保留。
+> ⚠ 用法边界：多画师加权对底模敏感，换底模需重新配比；`very aesthetic` 为 NAI v4 质量词，混入 Illustrious / Pony 会污染画面。
+> 来源：2026-11-18 用户提供，正文原样保留，不翻译不改写。
+
+正面：
+0.4::artist:q_azieru::, 0.5::artist:monicanc::, 1::artist:yoneyama_mai::, 1.5::artist:quuni::, 0.9::artist:moritan::, 0.6::artist:asortofcolorfag::, 1.2::girl_focus::, very aesthetic, masterpiece, no text,  best quality, very aesthetic, absurdres
+
+girl, solo, Arcane (Arknights), nun, black and white nun habit, white wimple, black veil, side-slit outfit, high heels, garter straps, white thighhighs, knee up, holding cigarette, smoking, thin wisps of smoke drifting upward, calm aloof expression, half-lidded eyes, relaxed posture,
+sitting sideways on an old weathered stone step outside an aged European building, one knee raised and bent, the other leg extended diagonally downward into the grass, elegant relaxed pose, one hand holding a cigarette near her lips, the other hand casually supporting her body against the stone step, black habit draped naturally over her hips and legs, subtle fabric folds,
+a tall weathered wooden doorway behind her, faded gray wooden door panels, aged off-white plaster walls, peeling paint, cracked and chipped plaster, exposed stone near the base of the wall, old architectural columns and doorframe, uneven stone steps, wild grass and small weeds growing between cracks in the foreground, overgrown greenery surrounding the steps,
+a quiet abandoned courtyard, rustic European architecture, natural outdoor setting, late afternoon sunlight filtering through nearby trees, dappled shadows cast across the wall and ground, soft directional sunlight illuminating her pale stockings and blonde hair, gentle highlights on the black fabric, muted earthy colors, desaturated sage green, weathered gray, ivory white and deep black palette,
+full-body composition, vertical portrait, eye-level to slightly low camera angle, subject positioned in the center-right, architectural background filling the upper frame, lush grass filling the lower foreground, natural perspective, candid editorial photography composition, cinematic stillness, vintage film atmosphere, realistic textures, subtle film grain, soft natural lighting, highly detailed environment, atmospheric realism, no text, no watermark
+
+负面：
+blurry, lowres, error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, logo, dated, signature, multiple views, gigantic breasts, nsfw, lowres, bad, error, fewer, extra, nsfw, lowres, bad, error, fewer, extra, missing, worst quality, jpeg artifacts, bad quality, watermark, unfinished, displeasing, chromatic aberration, signature, extra digits, artistic error, username, scan, abstract
+
+---
+
 ## 跨引用说明
 - ↳ `novelai-7`、`novelai-8` 两条 Rossi 提示词原属「人物」类 `renwu-30` / `renwu-31`，2026-11-15 迁入本类，正文未改动。
 - ↳ `novelai-9` 与 `novelai-6` 同源：`novelai-6` 是可复用的风格母版，`novelai-9` 是母版在「局部人脸 + 前景枝叶遮挡」下的完整成图写法。

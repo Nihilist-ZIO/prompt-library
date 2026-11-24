@@ -1,12 +1,12 @@
 # 提示词库 · Prompt Library
 
-![prompts](https://img.shields.io/badge/prompts-124-orange)
+![prompts](https://img.shields.io/badge/prompts-138-orange)
 ![content](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey)
 ![code](https://img.shields.io/badge/code-MIT-blue)
 
 一套 AI 图像 / 视频生成提示词的开源集合。按 **人物 / 场景 / 构图 / 特效 / 周边 / 艺术 / NovelAI / Midjourney** 八大类组织，正文原样保留，不翻译、不总结、不改写。
 
-**共 124 条。**
+**共 138 条。**
 
 ---
 
@@ -26,14 +26,14 @@
 
 | 大类 | 条数 | 里面是什么 |
 |---|---|---|
-| 人物 | 18 | 脸模、人像写真、角色渲染、角色涂鸦、角色资产图、Cosplay 影棚写真 |
+| 人物 | 19 | 脸模、人像写真、角色渲染、角色涂鸦、角色资产图、Cosplay 影棚写真 |
 | 场景 | 8 | 环境、分镜、巨构、视频分镜脚本 |
 | 构图 | 5 | 景别、版式构成、图生提示词 |
 | 特效 | 1 | 仙侠人物特效（35 例） |
 | 周边 | 22 | 电商商品图全体系，白底到各品类专用 |
-| 艺术 | 42 | 插画风、艺术字、海报转译、剧情海报 |
-| NovelAI | 9 | NovelAI / Danbooru tag 系提示词、日系插画逆向产物与风格母版 |
-| Midjourney | 19 | 超真实AIGC 系列、2.5D 三视图、游戏风CG人物资产图、MJ 风格码；2026-11-16 新增螺钿白虎、宋代巨莲、满月修补、策马逐羊、林中蓝熊、宋代女帝、3D CGI 半身像；少数历史原文保留 `negative prompt:` 行，非 MJ 原生语法，使用时需改写 |
+| 艺术 | 44 | 插画风、艺术字、海报转译、剧情海报；2026-11-24 新增画风转译母版（二维 → 日式 3D CG 重打光）与 P5 总攻击胜利定格海报版式 |
+| NovelAI | 10 | NovelAI / Danbooru tag 系提示词、日系插画逆向产物与风格母版 |
+| Midjourney | 29 | 超真实AIGC 系列、2.5D 三视图、游戏风CG人物资产图、MJ 风格码；2026-11-16 新增螺钿白虎、宋代巨莲、满月修补、策马逐羊、林中蓝熊、宋代女帝、3D CGI 半身像；2026-11-24 新增超真实AIGC 21:9 材质母题 A–G（晨露 / 紫藤 / 萤火 / 贝壳 / 蝶翼 / 水母 / 琥珀秋林）与单品 `--sref 2678648359`；少数历史原文保留 `negative prompt:` 行，非 MJ 原生语法，使用时需改写 |
 
 艺术类占得最多，因为它最难标准化：人像和商品图的套路是收敛的，海报每次都得重新搭骨架。
 
@@ -149,16 +149,16 @@ python -X utf8 build_capabilities.py      # 增删条目后重建索引
 ```
 prompt-library/
 ├── PROMPT_INDEX.md        总入口：八大类导航与用法说明
-├── PROMPT_MASTER.md       单文件总表（124 条 · 锚点跳转）
+├── PROMPT_MASTER.md       单文件总表（138 条 · 锚点跳转）
 ├── 提示词库总表.xlsx        Excel 分享版（索引页 + 提示词页 · 可筛选）
-├── cat_人物.md            18 条
+├── cat_人物.md            19 条
 ├── cat_场景.md            8 条
 ├── cat_构图.md            5 条
 ├── cat_特效.md            1 条
 ├── cat_周边.md            22 条
-├── cat_艺术.md            42 条
-├── cat_NovelAI.md         9 条
-├── cat_Midjourney.md     19 条
+├── cat_艺术.md            44 条
+├── cat_NovelAI.md        10 条
+├── cat_Midjourney.md     29 条
 ├── CAPABILITIES.md        能力索引（打标表 + 联动配方）
 ├── capabilities.json      能力索引机读版（find.py 的数据源）
 ├── skills/                AI Agent 技能包（Tensor.Art 语料索引 + 检索脚本 + 逆向规则）
@@ -182,7 +182,7 @@ pip install openpyxl
 python -X utf8 build_xlsx.py
 ```
 
-输出应为 `total entries: 124`。如果对不上，说明某处没同步，别急着提交。
+输出应为 `total entries: 138`。如果对不上，说明某处没同步，别急着提交。
 
 ---
 
@@ -214,7 +214,7 @@ python -X utf8 build_xlsx.py
 - 正文均为原样保留，包含原作者的措辞、标点习惯，甚至有重复逗号这类原文瑕疵，不代为修润。
 - **【永久禁令】** 会话历史里提取的 92 组 Midjourney 提示词候选（本地备查文件 `_batches/20261115/mj_history_candidates.md`）**永远不入库、永远不推送 GitHub**；`.gitignore` 有目录级与文件名级双重兜底。本库收录的 MJ 提示词仅 `cat_Midjourney.md` 中的 12 条。
 - `by-detail/` 是最早整理的 20 个细粒度单文件，未并入八大类，留作备查。
-- 计数以 `build_xlsx.py` 为准（按锚点计 124 条）。同目录的 `PROMPT_MASTER.xlsx` 若存在，是按 `###` 子块计的另一口径，数值更大，两者不要互相参照。
+- 计数以 `build_xlsx.py` 为准（按锚点计 138 条）。同目录的 `PROMPT_MASTER.xlsx` 若存在，是按 `###` 子块计的另一口径，数值更大，两者不要互相参照。
 - `skills/` 内的脚本与索引随仓库版本管理；WorkBuddy 实际加载的是 `~/.workbuddy/skills/` 下的同名副本。
 
 ## 许可
